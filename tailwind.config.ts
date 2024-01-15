@@ -32,11 +32,13 @@ const config: Config = {
           'sectionCardHover': "url('/sbvr-bg-grey.webp')",
           'sectionCard2': "url('/influencer.webp')",
           'sectionCard2Hover': "url('/influencer-hover.webp')",
-          'mesh-gradient': "url('/mesh-gradient.webp')"
+          'mesh-gradient': "url('/mesh-gradient.webp')",
+          'btn-gradient': 'linear-gradient(320deg, #A6519A 0%, #57BFC7 100%)'
       },
       boxShadow: {
         'cardxl': '1px -1px 10px 10px rgba(0, 0, 0, 0.28)',
         'cardXl2': '0px 0px 10px 0px rgba(0,0,0,0.5)',
+        'shadowxl4': '0px 0px 22px 3px rgba(255,255,255,0.9)',
       }
     },
   },
