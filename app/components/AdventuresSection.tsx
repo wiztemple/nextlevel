@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AdventuresSection = () => {
   return (
-    <section className="bg-mesh-gradient sm:h-[856px] bg-cover bg-no-repeat sm:px-[150px] sm:pt-[150px] sm:pb-[110px]">
+    <section className="bg-mesh-gradient sm:h-[856px] bg-cover bg-no-repeat bg-fixed sm:px-[150px] sm:pt-[150px] sm:pb-[110px]">
       <Image
         className="-rotate-6"
         src="/NextLevel.webp"

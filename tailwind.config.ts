@@ -11,12 +11,15 @@ const config: Config = {
       colors: {
         gray: {
           '1': '#7A7A7A',
-          '8': '#EFF3F7'
+          '8': '#EFF3F7',
+          '9': '#f7f7f7',
         },
         dark: {
-          '1': '#1B242F'
+          '1': '#1B242F',
+          '2': '#1c1c1c'
         },
-        appblue: '#0076FF'
+        appblue: '#0076FF',
+        appred: '#C54245',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

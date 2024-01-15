@@ -29,14 +29,14 @@ export default function Home() {
                 <div className="flex sm:gap-24">
                   <a
                     href="https://nextlevel-erlebnisse.de/sandboxvr/gutschein"
-                    className="block transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110 py-5 px-10 leading-5 tracking-[7px] rounded-md text-white bg-[#C54245] border-2 border-[#C54245]"
+                    className="block transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110 py-5 px-10 leading-5 tracking-[7px] rounded-md text-white bg-appblue border-2 border-appblue"
                   >
                     BUCHEN
                   </a>
 
                   <a
                     href="https://nextlevel-erlebnisse.de/sandboxvr/gutschein"
-                    className="block transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110 py-5 px-10 leading-5 tracking-[7px] rounded-md text-white bg-[#C54245] border-2 border-[#C54245]"
+                    className="block transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110 py-5 px-10 leading-5 tracking-[7px] rounded-md text-white bg-appred border-2 border-appred"
                   >
                     GUTSCHEINE
                   </a>
