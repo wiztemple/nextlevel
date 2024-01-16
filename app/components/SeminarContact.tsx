@@ -1,11 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 const SeminarContact = () => {
   return (
-    <section className="bg-mesh-gradient bg-fixed sm:pt-[70px]">
-      <h1 className="uppercase tracking-[10px] leading-5 font-medium text-[30px] text-center text-white">
+    <section className="bg-mesh-gradient bg-fixed pt-[70px]">
+      <h1 className="uppercase hidden sm:block tracking-[10px] leading-5 font-medium text-[30px] text-center text-white">
         TEAMWORK, ACTION, SPASS!
       </h1>
-      <div className="grid grid-cols-5 bg-black sm:mt-[70px] sm:px-[150px]">
+      <h1 className="uppercase tracking-[10px] sm:hidden block leading-[50px] pb-7 font-bold text-[22px] text-center text-white">
+        TEAMWORK, <br /> ACTION, <br /> SPASS!
+      </h1>
+      <div className="grid sm:grid-cols-5 grid-cols-1 bg-black sm:mt-[70px] sm:px-[150px]">
         <img
           className="object-cover h-[285px] w-full"
           src="/hologate-img.jpg"
@@ -33,10 +36,10 @@ const SeminarContact = () => {
         />
       </div>
       <div>
-        <h1 className="text-center text-[41px] font-medium leading-[54px] uppercase sm:pt-[85px] tracking-[1.8px]">
+        <h1 className="text-center sm:text-[41px] text-[22px] font-medium leading-[54px] uppercase sm:pt-[85px] pt-14 tracking-[1.8px]">
           KONTAKTFORMULAR
         </h1>
-        <div className="flex justify-center">
+        <div className="flex justify-center px-5 sm:px-0">
           <div className="sm:w-[800px] w-full">
             <h2 className="text-white py-[22px] text-[15px] font-bold leading-5">
               Mit Stern(*) gekennzeichnete Felder, sind Pflichtfelder
@@ -52,7 +55,7 @@ const SeminarContact = () => {
                 <input
                   type="text"
                   id=""
-                  className="bg-transparent border border-[#EBEBEB] text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-3.5"
+                  className="bg-transparent border border-[#EBEBEB] text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-4"
                   placeholder=""
                   required
                 />
@@ -67,7 +70,7 @@ const SeminarContact = () => {
                 <input
                   type="text"
                   id=""
-                  className="bg-transparent border border-[#EBEBEB] text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-3.5"
+                  className="bg-transparent border border-[#EBEBEB] text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-4"
                   placeholder=""
                   required
                 />
@@ -82,7 +85,7 @@ const SeminarContact = () => {
                 <input
                   type="text"
                   id=""
-                  className="bg-transparent border border-[#EBEBEB] text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-3.5"
+                  className="bg-transparent border border-[#EBEBEB] text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-4"
                   placeholder=""
                   required
                 />
@@ -97,7 +100,7 @@ const SeminarContact = () => {
                 <input
                   type="text"
                   id=""
-                  className="bg-transparent border border-[#EBEBEB] text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-3.5"
+                  className="bg-transparent border border-[#EBEBEB] text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-4"
                   placeholder=""
                   required
                 />
@@ -112,7 +115,7 @@ const SeminarContact = () => {
                 <input
                   type="text"
                   id=""
-                  className="bg-transparent border border-[#EBEBEB] text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-3.5"
+                  className="bg-transparent border border-[#EBEBEB] text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-4"
                   placeholder=""
                   required
                 />
@@ -127,7 +130,7 @@ const SeminarContact = () => {
                 <input
                   type="date"
                   id=""
-                  className="bg-transparent border border-[#EBEBEB] text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-3.5 placeholder:text-[#666666]"
+                  className="bg-transparent border border-[#EBEBEB] text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-4 placeholder:text-[#666666]"
                   placeholder=""
                   required
                 />
@@ -141,7 +144,7 @@ const SeminarContact = () => {
                 </label>
                 <textarea id="" className="bg-transparent border border-[#EBEBEB] text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-3.5" rows={12} />
               </div>
-              <button type="button" className="block w-full bg-[#EAA647] border border-[#EAA647] uppercase text-xs font-semibold leading-5 text-white rounded-full py-4 mt-[50px] mb-[62px]">Senden</button>
+              <button type="button" className="block w-full bg-[#EAA647] border-2 hover:bg-transparent hover:text-black border-[#EAA647] uppercase text-xs font-semibold leading-5 text-white rounded-full py-4 mt-[50px] mb-[62px]">Senden</button>
             </form>
           </div>
         </div>

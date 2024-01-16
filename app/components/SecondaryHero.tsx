@@ -2,7 +2,7 @@ import React from "react";
 
 const SecondaryHero = ({ children }: { children: React.ReactNode }) => {
   return (
-    <section className="sm:h-[501px] bg-mesh-gradient bg-cover bg-no-repeat bg-fixed">
+    <section className="bg-mesh-gradient bg-cover bg-no-repeat bg-fixed">
       <svg
         width="1440"
         height="63"
@@ -16,7 +16,7 @@ const SecondaryHero = ({ children }: { children: React.ReactNode }) => {
           fill="black"
         />
       </svg>
-      <div className="sm:px-[150px] sm:pt-[80px] sm:pb-[62px]">{children}</div>
+      <div className="sm:px-[150px] sm:pt-[80px] sm:pb-[76px]">{children}</div>
     </section>
   );
 };

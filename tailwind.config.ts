@@ -20,6 +20,7 @@ const config: Config = {
         },
         appblue: '#0076FF',
         appred: '#C54245',
+        aquagreen: '#57BFC7'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

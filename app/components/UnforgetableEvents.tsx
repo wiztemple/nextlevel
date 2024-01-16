@@ -56,7 +56,7 @@ const UnforgetableEvents = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-5">
+      <div className="grid sm:grid-cols-5 grid-cols-1">
         <img
           className="object-cover h-[288px] w-full"
           src="/hologate_event.jpg"

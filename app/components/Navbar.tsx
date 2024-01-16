@@ -1,10 +1,18 @@
+'use client'
+
 import Image from "next/image";
-import Link from 'next/link'
+import Link from "next/link";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+  };
   return (
-    <nav className="h-[72px] fixed z-50 min-h-[72px] w-full top-0 left-0 right-0 bg-transparent border-b border-b-white/10">
-      <div className="flex justify-between items-center h-full sm:px-[75px]">
+    <nav className="h-[72px] sm:fixed z-[100] min-h-[72px] w-full top-0 left-0 right-0 sm:bg-transparent bg-black border-b border-b-white/10">
+      <div className="sm:flex z-50 hidden justify-between items-center h-full sm:px-[75px]">
         <a href="/">
           <Image
             className=""
@@ -46,12 +54,12 @@ const Navbar = () => {
                   >
                     BACHELOR PARTY
                   </a>
-                  <a
-                    href="/careers"
+                  <Link
+                    href="/corporate-events"
                     className="py-3 text-[13px] uppercase px-3 block text-dark-2 border-b border-[#ebebeb]"
                   >
                     COMPANY EVENT
-                  </a>
+                  </Link>
                   <a
                     href="/careers"
                     className="py-3 text-[13px] uppercase px-3 block text-dark-2 border-b border-[#ebebeb]"
@@ -87,6 +95,40 @@ const Navbar = () => {
             Buchen
           </a>
         </div>
+      </div>
+      <div className="sm:hidden flex justify-between items-center h-full w-full px-5">
+        <a href="/">
+          <Image
+            className="block"
+            src="/applogo.svg"
+            alt="Sponsor"
+            width={70}
+            height={27.6}
+            priority
+          />
+        </a>
+        {/* <button
+          onClick={handleClick}
+          className="flex flex-col justify-center items-center bg-white w-5 h-5 relative z-50"
+        >
+          <span
+            className={`bg-white block transition-all duration-300 ease-out 
+                    h-0.5 w-6 rounded-sm ${
+                      isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
+                    }`}
+          ></span>
+          <span
+            className={`bg-white block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${
+              isOpen ? "opacity-0" : "opacity-100"
+            }`}
+          ></span>
+          <span
+            className={`bg-white block transition-all duration-300 ease-out 
+                    h-0.5 w-6 rounded-sm ${
+                      isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
+                    }`}
+          ></span>
+        </button> */}
       </div>
     </nav>
   );

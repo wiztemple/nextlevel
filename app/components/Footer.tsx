@@ -2,14 +2,17 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="w-full bg-black border-t border-t-[#EBEBEB] sm:pb-20">
-      <div className="sm:pt-24 sm:px-32">
+      <div className="pt-28 sm:pt-24 sm:px-32 px-5">
         <div>
           <span className="block text-center text-[#999999] text-lg tracking-widest">
             FOLGE UNS
           </span>
-          <div className="flex justify-center">
-            <div className="flex gap-8 pt-3">
-              <a href="https://www.instagram.com/nextlevel.erlebnisse/" target="_blank">
+          <div className="flex justify-center sm:w-full social-links flex-wrap">
+            <div className="flex sm:gap-8 gap-4 pt-3">
+              <a
+                href="https://www.instagram.com/nextlevel.erlebnisse/"
+                target="_blank"
+              >
                 <svg
                   width="29"
                   height="29"
@@ -109,9 +112,9 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="w-full flex justify-between sm:pt-16">
+          <div className="w-full flex sm:flex-row flex-col sm:justify-between sm:items-start items-center sm:pt-16">
             <div>
-              <h1 className="uppercase text-lg tracking-widest text-[#999999]">
+              <h1 className="uppercase text-lg sm:text-start text-center tracking-widest text-[#999999] sm:pt-0 pt-10">
                 KONTAKT
               </h1>
               <a href="" className="flex gap-1 items-center pt-1">
@@ -127,23 +130,29 @@ const Footer = () => {
                     fill="white"
                   />
                 </svg>
-                <span> buchung@nextlevel-erlebnisse.de</span>
+                <span className="sm:text-start text-center">
+                  {" "}
+                  buchung@nextlevel-erlebnisse.de
+                </span>
               </a>
-              <a href="" className="flex gap-1 items-center pt-1">
-                <svg
-                  width="15"
-                  height="15"
-                  viewBox="0 0 15 15"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M13.2998 0.969727C14.1123 0.969727 14.7998 1.65723 14.7998 2.46973V13.4697C14.7998 14.3135 14.1123 14.9697 13.2998 14.9697H2.2998C1.45605 14.9697 0.799805 14.3135 0.799805 13.4697V2.46973C0.799805 1.65723 1.45605 0.969727 2.2998 0.969727H13.2998ZM3.7373 12.9697C8.7373 12.9697 12.7998 8.93848 12.7998 3.90723C12.7998 3.68848 12.6436 3.50098 12.4248 3.46973L10.3936 3.00098C10.3623 3.00098 10.3311 2.96973 10.2998 2.96973C10.0811 2.96973 9.9248 3.09473 9.8623 3.28223L8.9248 5.46973C8.89355 5.50098 8.8623 5.56348 8.8623 5.62598C8.8623 5.78223 8.95605 5.90723 9.0498 6.00098L10.2373 6.96973C9.51855 8.46973 8.2998 9.71973 6.76855 10.4385L5.7998 9.25098C5.70605 9.15723 5.58105 9.09473 5.4248 9.09473C5.3623 9.09473 5.2998 9.09473 5.26855 9.12598L3.08105 10.0635C2.89355 10.126 2.7998 10.2822 2.7998 10.4697C2.7998 10.5322 2.7998 10.5635 2.7998 10.5947L3.26855 12.626C3.2998 12.8447 3.4873 12.9697 3.7373 12.9697Z"
-                    fill="white"
-                  />
-                </svg>
-                <span> 06631 7882663</span>
-              </a>
+              <div className="flex sm:justify-start justify-center">
+                <a href="" className="flex gap-1 items-center pt-1">
+                  <svg
+                    width="15"
+                    height="15"
+                    viewBox="0 0 15 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.2998 0.969727C14.1123 0.969727 14.7998 1.65723 14.7998 2.46973V13.4697C14.7998 14.3135 14.1123 14.9697 13.2998 14.9697H2.2998C1.45605 14.9697 0.799805 14.3135 0.799805 13.4697V2.46973C0.799805 1.65723 1.45605 0.969727 2.2998 0.969727H13.2998ZM3.7373 12.9697C8.7373 12.9697 12.7998 8.93848 12.7998 3.90723C12.7998 3.68848 12.6436 3.50098 12.4248 3.46973L10.3936 3.00098C10.3623 3.00098 10.3311 2.96973 10.2998 2.96973C10.0811 2.96973 9.9248 3.09473 9.8623 3.28223L8.9248 5.46973C8.89355 5.50098 8.8623 5.56348 8.8623 5.62598C8.8623 5.78223 8.95605 5.90723 9.0498 6.00098L10.2373 6.96973C9.51855 8.46973 8.2998 9.71973 6.76855 10.4385L5.7998 9.25098C5.70605 9.15723 5.58105 9.09473 5.4248 9.09473C5.3623 9.09473 5.2998 9.09473 5.26855 9.12598L3.08105 10.0635C2.89355 10.126 2.7998 10.2822 2.7998 10.4697C2.7998 10.5322 2.7998 10.5635 2.7998 10.5947L3.26855 12.626C3.2998 12.8447 3.4873 12.9697 3.7373 12.9697Z"
+                      fill="white"
+                    />
+                  </svg>
+                  <span> 06631 7882663</span>
+                </a>
+              </div>
+              <div className="flex sm:justify-start justify-center">
               <a href="" className="flex gap-1 items-center pt-1">
                 <svg
                   width="15"
@@ -159,23 +168,24 @@ const Footer = () => {
                 </svg>
                 <span> 06631 7882663</span>
               </a>
+              </div>
               <div className="pt-3">
                 <a
                   href=""
-                  className="block text-[15px] text-left font-bold pt-1"
+                  className="block text-[15px] sm:text-left text-center font-bold pt-1"
                 >
                   Impressum
                 </a>
                 <a
                   href=""
-                  className="block text-[15px] text-left font-bold pt-1"
+                  className="block text-[15px] sm:text-left text-center font-bold pt-1"
                 >
                   Datenschutzerklärung
                 </a>
               </div>
             </div>
             <div>
-              <h1 className="uppercase text-lg tracking-widest text-[#999999]">
+              <h1 className="uppercase text-lg tracking-widest text-[#999999] sm:pt-0 pt-10">
                 Next Level Erlebnisse
               </h1>
               <a
@@ -186,33 +196,33 @@ const Footer = () => {
               </a>
             </div>
             <div>
-              <h1 className="uppercase text-lg tracking-widest text-[#999999]">
+              <h1 className="uppercase text-lg tracking-widest text-[#999999] sm:pt-0 pt-10">
                 Eventangebote
               </h1>
               <a
                 href=""
-                className="block text-[15px] text-right font-bold pt-1"
+                className="block text-[15px] sm:text-right text-center font-bold pt-1"
               >
                 Firmenevents
               </a>
-              <a href="" className="block text-[15px] text-right font-bold">
+              <a href="" className="block text-[15px] sm:text-right text-center font-bold">
                 Kindergeburtstage
               </a>
-              <a href="" className="block text-[15px] text-right font-bold">
+              <a href="" className="block text-[15px] sm:text-right text-center font-bold">
                 Teamevents
               </a>
-              <a href="" className="block text-[15px] text-right font-bold">
+              <a href="" className="block text-[15px] sm:text-right text-center font-bold">
                 Junggesellenabschiede
               </a>
-              <a href="" className="block text-[15px] text-right font-bold">
+              <a href="" className="block text-[15px] sm:text-right text-center font-bold">
                 Weihnachtsfeiern
               </a>
-              <a href="" className="block text-[15px] text-right font-bold">
+              <a href="" className="block text-[15px] sm:text-right text-center font-bold">
                 Seminare
               </a>
             </div>
           </div>
-          <div className="w-full flex justify-center sm:pt-44 sm:pb-20">
+          <div className="w-full flex justify-center sm:pt-44 pt-36 pb-20">
             <div className="flex items-center">
               <a
                 href="http://ec.europa.eu/agriculture/index_de.htm"
@@ -228,7 +238,11 @@ const Footer = () => {
                   priority
                 />
               </a>
-              <a href="http://www.eler.hessen.de/" target="_blank" className="block -ml-1">
+              <a
+                href="http://www.eler.hessen.de/"
+                target="_blank"
+                className="block -ml-1"
+              >
                 <Image
                   className=""
                   src="/logos2.png"
@@ -238,7 +252,11 @@ const Footer = () => {
                   priority
                 />
               </a>
-              <a href="https://lasertag-alsfeld.de/das-spiel/" target="_blank" className="block -ml-1">
+              <a
+                href="https://lasertag-alsfeld.de/das-spiel/"
+                target="_blank"
+                className="block -ml-1"
+              >
                 <Image
                   className="mt-[1px]"
                   src="/logos3.jpeg"
