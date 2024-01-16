@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import SecondaryHero from "../components/SecondaryHero";
+import CorporateContact from "../components/CorporateContact";
 
 const CorporateEvents = () => {
   return (
@@ -197,6 +198,7 @@ const CorporateEvents = () => {
           </div>
         </div>
       </section>
+      <CorporateContact />
       <Footer />
     </main>
   );
