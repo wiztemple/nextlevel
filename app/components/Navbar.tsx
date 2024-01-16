@@ -58,12 +58,12 @@ const Navbar = () => {
                   >
                     CLUBS & GROUPS
                   </a>
-                  <a
-                    href="/careers"
+                  <Link
+                    href="/seminar"
                     className="py-3 text-[13px] uppercase px-3 block text-dark-2 border-b border-[#ebebeb]"
                   >
                     VR SEMINARS
-                  </a>
+                  </Link>
                   <a
                     href="/careers"
                     className="py-3 text-[13px] uppercase px-3 block text-dark-2 border-b border-[#ebebeb]"
