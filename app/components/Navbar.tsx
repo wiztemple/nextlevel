@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -107,28 +107,28 @@ const Navbar = () => {
             priority
           />
         </a>
-        {/* <button
+        <button
+          className="w-14 h-14 relative focus:outline-none bg-transparent rounded"
           onClick={handleClick}
-          className="flex flex-col justify-center items-center bg-white w-5 h-5 relative z-50"
         >
-          <span
-            className={`bg-white block transition-all duration-300 ease-out 
-                    h-0.5 w-6 rounded-sm ${
-                      isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
-                    }`}
-          ></span>
-          <span
-            className={`bg-white block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${
-              isOpen ? "opacity-0" : "opacity-100"
-            }`}
-          ></span>
-          <span
-            className={`bg-white block transition-all duration-300 ease-out 
-                    h-0.5 w-6 rounded-sm ${
-                      isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
-                    }`}
-          ></span>
-        </button> */}
+          <div className="block w-5 absolute left-6 top-1/2   transform  -translate-x-1/2 -translate-y-1/2">
+            <span
+              className={`block absolute h-0.5 w-7 text-white bg-current transform transition duration-500 ease-in-out ${
+                isOpen ? "rotate-45" : "-translate-y-1.5"
+              }`}
+            ></span>
+            <span
+              className={`block absolute  h-0.5 w-5 text-white bg-current   transform transition duration-500 ease-in-out ${
+                isOpen ? "opacity-0" : ""
+              }`}
+            ></span>
+            <span
+              className={`block absolute  h-0.5 w-7 text-white bg-current transform  transition duration-500 ease-in-out ${
+                isOpen ? "-rotate-45" : "translate-y-1.5"
+              }`}
+            ></span>
+          </div>
+        </button>
       </div>
     </nav>
   );
