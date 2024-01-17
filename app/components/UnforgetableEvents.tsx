@@ -1,25 +1,24 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
 import BasicCard from "./BasicCard";
 
 const UnforgetableEvents = () => {
   return (
-    <section className="bg-black sm:pt-[100px]">
-      <div className="sm:px-[150px] sm:pb-[105px]">
+    <section className="bg-black sm:pt-[100px] pt-20">
+      <div className="sm:px-[150px] px-5 sm:pb-[105px]">
         <h1 className="text-white text-lg font-medium uppercase tracking-[2.5px] leading-5">
           Das Passende Angebot
         </h1>
-        <h2 className="pt-5 uppercase tracking-[2px] text-[40px] leading-[54px]">
+        <h2 className="pt-5 uppercase tracking-[2px] sm:text-[40px] text-[24px] sm:leading-[54px]">
           Unvergessliche Events
         </h2>
-        <p className="leading-5 text-[15px] pt-[22px] text-white">
+        <p className="leading-5 text-[15px] pt-[22px] sm:pb-0 pb-10 text-white">
           Erfolgreiches Teambuilding, unvergessliche Firmenevents,
           JGA-Highlights und Geburtstagsfeiern der Extraklasse. Ob eins unserer
           Pakete zum Buchen, oder ein individuelles Angebot für dein
           maßgeschneidertes Event – wir haben immer das passende Angebot zu
           jedem Anlass.
         </p>
-        <div className="grid grid-cols-4 gap-[10px] sm:pt-[52px]">
+        <div className="grid sm:grid-cols-4 grid-cols-1 gap-[10px] sm:gap-y-0 gap-y-10 sm:pt-[52px]">
           <BasicCard
             className=""
             img="cardimage-1.jpg"
@@ -83,18 +82,18 @@ const UnforgetableEvents = () => {
           alt="VR Book"
         />
       </div>
-      <div className="sm:px-[150px] sm:pb-16">
-        <h2 className="pt-[125px] uppercase tracking-[2px] text-[40px] leading-[54px]">
+      <div className="sm:px-[150px] px-5 pb-16">
+        <h2 className="sm:pt-[125px] pt-14 uppercase tracking-[2px] sm:text-[40px] text-[22px] sm:leading-[54px]">
           Events für Firmen und Vereine
         </h2>
-        <p className="leading-5 text-[15px] pt-[22px] text-white">
+        <p className="leading-5 text-[15px] pt-[22px] sm:pb-0 pb-8 text-white">
           Wir stellen für deine Firmenfeier oder Teambuildings gerne ein tolles
           Programm zusammen, bei dem jeder Spaß hat! Dafür füllst du uns am
           besten das Kontaktformular aus oder rufst uns direkt an, damit wir mit
           dir zusammen ein Programm erstellen können. Grundsätzlich haben wir
           auch Platz für große Event mit bis zu 500 Personen. 
         </p>
-        <div className="grid grid-cols-3 gap-[30px] sm:pt-[52px]">
+        <div className="grid sm:grid-cols-3 grid-cols-1 gap-[30px] sm:pt-[52px]">
           <BasicCard
             className=""
             img="cardimage-1.jpg"

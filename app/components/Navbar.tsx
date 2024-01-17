@@ -48,36 +48,36 @@ const Navbar = () => {
                   >
                     {`CHILDREN'S BIRTHDAY`}
                   </Link>
-                  <a
-                    href="/careers"
+                  <Link
+                    href="/events/bachelor-party"
                     className="py-3 text-[13px] uppercase px-3 block text-dark-2 border-b border-[#191919]/5"
                   >
                     BACHELOR PARTY
-                  </a>
+                  </Link>
                   <Link
                     href="/corporate-events"
                     className="py-3 text-[13px] uppercase px-3 block text-dark-2 border-b border-[#ebebeb]"
                   >
                     COMPANY EVENT
                   </Link>
-                  <a
-                    href="/careers"
+                  <Link
+                    href="/events/clubs-and-groups"
                     className="py-3 text-[13px] uppercase px-3 block text-dark-2 border-b border-[#ebebeb]"
                   >
                     CLUBS & GROUPS
-                  </a>
+                  </Link>
                   <Link
                     href="/seminar"
                     className="py-3 text-[13px] uppercase px-3 block text-dark-2 border-b border-[#ebebeb]"
                   >
                     VR SEMINARS
                   </Link>
-                  <a
-                    href="/careers"
+                  <Link
+                    href="/events/school-classes"
                     className="py-3 text-[13px] uppercase px-3 block text-dark-2 border-b border-[#ebebeb]"
                   >
                     SCHOOL CLASSES
-                  </a>
+                  </Link>
                   <a
                     href="/careers"
                     className="py-3 text-[13px] uppercase px-3 block text-dark-2 border-b border-[#ebebeb]"
