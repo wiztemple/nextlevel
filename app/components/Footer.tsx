@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="w-full bg-black border-t border-t-[#EBEBEB] sm:pb-20">
@@ -170,12 +171,12 @@ const Footer = () => {
               </a>
               </div>
               <div className="pt-3">
-                <a
-                  href=""
+                <Link
+                  href="/imprint"
                   className="block text-[15px] sm:text-left text-center font-bold pt-1"
                 >
                   Impressum
-                </a>
+                </Link>
                 <a
                   href=""
                   className="block text-[15px] sm:text-left text-center font-bold pt-1"

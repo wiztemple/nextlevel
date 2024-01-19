@@ -35,7 +35,9 @@ const config: Config = {
           'sectionCard2': "url('/influencer.webp')",
           'sectionCard2Hover': "url('/influencer-hover.webp')",
           'mesh-gradient': "url('/mesh-gradient.webp')",
-          'btn-gradient': 'linear-gradient(320deg, #A6519A 0%, #57BFC7 100%)'
+          'btn-gradient': 'linear-gradient(320deg, #A6519A 0%, #57BFC7 100%)',
+          'angle-svg': "url('/SVGAnimatedAngle.svg')",
+          'bg-pattern': "url('data:image/svg+xml,%3Csvg xmlns='http://www.w3.org…Cpolyline points='0,18 12,6 24,18 '/%3E%3C/svg%3E')"
       },
       boxShadow: {
         'cardxl': '1px -1px 10px 10px rgba(0, 0, 0, 0.28)',

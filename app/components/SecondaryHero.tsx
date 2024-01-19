@@ -2,8 +2,8 @@ import React from "react";
 
 const SecondaryHero = ({ children }: { children: React.ReactNode }) => {
   return (
-    <section className="bg-mesh-gradient bg-cover bg-no-repeat bg-fixed relative">
-      <div className="absolute left-0 w-full sm:-top-2 -top-6 overflow-hidden h-80">
+    <section className="bg-mesh-gradient bg-cover bg-center bg-no-repeat sm:bg-fixed relative">
+      {/* <div className="w-screen h-80" style={{ clipPath: 'polygon(50% 49%, 100% 50%, 51% 74%, 0% 50%)'}}>
         <svg
           width="1440"
           height="63"
@@ -17,6 +17,8 @@ const SecondaryHero = ({ children }: { children: React.ReactNode }) => {
             fill="black"
           />
         </svg>
+      </div> */}
+       <div className=" bg-black absolute -top-[92px] sm:-top-[125px] sm:h-[250px] h-[180px] w-full" style={{ clipPath: 'polygon(50% 50%, 100% 50%, 50% 80%, 0% 50%)'}}>
       </div>
       <div className="sm:px-[150px] px-5 sm:pt-[140px] pt-20 pb-[100px]">
         {children}

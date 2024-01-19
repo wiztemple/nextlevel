@@ -7,7 +7,7 @@ import SeminarContact from "../components/SeminarContact";
 
 const Seminar = () => {
   return (
-    <main>
+    <main className="over overflow-x-hidden">
       <Navbar />
       <Hero className="h-[605px] sm:px-0 px-5 relative flex justify-center items-center w-screen transition duration-300 ease-in-out  hover:rounded-lg bg-[url('/seminar-vr.jpg')] sm:bg-fixed bg-cover bg-center bg-no-repeat">
         <div className="absolute top-0 bottom-0 right-0 left-0 bg-dark-1/70 flex justify-center items-center">
@@ -242,7 +242,7 @@ Metaverse und Künstliche Intelligenz (KI)"
               <span className="block text-center sm:text-base text-sm tracking-[5px] uppercase leading-5 pt-6">
                 E-MAIL
               </span>
-              <span className="block text-center text-white text-sm font-bold leading-5 pt-[11px]">
+              <span className="block text-center text-white text-sm font-bold leading-5 pt-[11px] break-words">
                 buchung@nextlevel-erlebnisse.de
               </span>
             </div>

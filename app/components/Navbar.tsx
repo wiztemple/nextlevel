@@ -2,16 +2,37 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-const Navbar = () => {
+const Navbar = ({className = "bg-black"}: {className?: string}) => {
+  const [header, setHeader] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
     setIsOpen(!isOpen);
   };
+
+  const scrollHeader = () => {
+    if (window.scrollY >= 20) {
+      setHeader(true);
+    } else {
+      setHeader(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", scrollHeader);
+
+    return () => {
+      window.addEventListener("scroll", scrollHeader);
+    };
+  }, []);
   return (
-    <nav className="h-[72px] sm:fixed z-[100] min-h-[72px] w-full top-0 left-0 right-0 sm:bg-transparent bg-black border-b border-b-white/10">
+    <nav
+      className={`${
+        header ? className : "bg-transparent"
+      } h-[72px] sm:fixed z-[100] min-h-[72px] w-full top-0 left-0 right-0 border-b border-b-white/10`}
+    >
       <div className="sm:flex z-50 hidden justify-between items-center h-full sm:px-[75px]">
         <a href="/">
           <Image
@@ -78,12 +99,12 @@ const Navbar = () => {
                   >
                     SCHOOL CLASSES
                   </Link>
-                  <a
-                    href="/careers"
+                  <Link
+                    href="/nextlevelclub"
                     className="py-3 text-[13px] uppercase px-3 block text-dark-2 border-b border-[#ebebeb]"
                   >
                     NEXTLEVEL CLUB
-                  </a>
+                  </Link>
                 </div>
               </div>
             </Link>
