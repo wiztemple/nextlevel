@@ -16,7 +16,8 @@ const config: Config = {
         },
         dark: {
           '1': '#1B242F',
-          '2': '#1c1c1c'
+          '2': '#1c1c1c',
+          '3': '#191919',
         },
         appblue: '#0076FF',
         appred: '#C54245',

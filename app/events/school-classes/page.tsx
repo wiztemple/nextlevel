@@ -12,15 +12,16 @@ const SchoolClasses = () => {
     <main>
       <Navbar />
       <Hero className="sm:h-[681px] h-[545px] flex justify-center items-center w-screen transition duration-300 ease-in-out  hover:rounded-lg bg-[url('/schulklassen.webp')] bg-cover bg-center bg-no-repeat">
-        <div className="sm:pt-64">
-          <h1 className="text-center sm:text-[19px] text-[15px] leading-6 tracking-[5px] uppercase">
+      <div className="absolute top-0 bottom-0 sm:h-[681px] h-[545px] right-0 z-10 left-0 bg-[#1b1b1b]/30 flex justify-center items-center"></div>
+        <div className="sm:pt-64 pt-36 relative z-50">
+          <h1 className="text-center sm:text-[19px] text-sm leading-6 sm:tracking-[5px] uppercase">
             Unsere Angebote für Schulklassen
           </h1>
-          <h2 className="text-center sm:text-[71px] sm:px-0 px-5 text-[28px] font-medium uppercase tracking-[2.1px] sm:pt-10 pt-5 sm:leading-[80px] text-white">
+          <h2 className="text-center sm:text-[71px] sm:px-0 px-5 text-[28px] font-medium uppercase sm:tracking-[2.1px] sm:pt-10 pt-5 sm:leading-[80px] text-white">
             Ein toller Ausflug für <br />
             deine Schulklasse
           </h2>
-          <p className="pt-[22px] text-[15px] leading-5 text-center sm:px-[160px] px-5">
+          <p className="pt-[22px] sm:text-[15px] text-sm leading-5 text-center sm:px-[160px] px-5">
             Suchst du nach dem perfekten Abenteuer für deine Schulklasse? Bei
             NextLevel Erlebnisse erwartet euch ein unvergesslicher Ausflug
             voller Spaß, Teamwork und aufregender Herausforderungen. Entdeckt
@@ -32,38 +33,38 @@ const SchoolClasses = () => {
         </div>
       </Hero>
       <SecondaryHero>
-        <h1 className="text-xl font-medium leading-5">
+        <h1 className="text-xl font-medium leading-5 sm:pt-0 pt-20 uppercase">
           Raus aus dem Klassenzimmer
         </h1>
-        <h2 className="uppercase sm:text-[40px] text-[30px] font-medium tracking-[2px] text-white sm:leading-[54px] pt-5">
+        <h2 className="uppercase sm:text-[40px] text-2xl font-medium sm:tracking-[2px] text-white sm:leading-[54px] pt-5">
           Hey liebe Lehrerinnen und Lehrer,
         </h2>
-        <p className="pt-[22px] text-white text-base">
+        <p className="pt-[22px] text-white sm:text-base text-sm">
           plant ihr gerade einen spannenden Ausflug für eure Schulklasse? Wie
           wäre es mit einem unvergesslichen Abenteuer bei NextLevel Erlebnisse?
           Wir haben die perfekte Mischung aus Spaß, Teamwork und aufregenden
           Herausforderungen für euch!
         </p>
-        <p className="pt-[29px] text-white text-base">
+        <p className="pt-[29px] text-white sm:text-base text-sm">
           Bei NextLevel Erlebnisse könnt ihr eure Schülerinnen und Schüler aus
           dem Klassenzimmer holen und in die Welt des Abenteuers eintauchen. Ob
           als Kennenlern- Ausflug, zum Teamgeist stärken oder als Abschluss
           eines tollen Schuljahres!
         </p>
-        <p className="pt-[29px] text-white text-base">
+        <p className="pt-[29px] text-white sm:text-base text-sm">
           Unser Ziel ist es, nicht nur das Teamgefühl zu stärken, sondern auch
           den Zusammenhalt in der Klasse zu fördern. Durch unsere interaktiven
           Spiele und Herausforderungen lernen die Schülerinnen und Schüler, wie
           wichtig es ist, gemeinsam als Team zu arbeiten und sich aufeinander zu
           verlassen.
         </p>
-        <p className="pt-[29px] text-white text-base">
+        <p className="pt-[29px] text-white sm:text-base text-sm">
           Und das Beste ist: Bei NextLevel Erlebnisse steht der Spaß immer an
           erster Stelle. Wir sorgen dafür, dass alle Teilnehmerinnen und
           Teilnehmer eine großartige Zeit haben und sich noch lange an diesen
           Ausflug erinnern werden.
         </p>
-        <p className="pt-[29px] text-white text-base">
+        <p className="pt-[29px] text-white sm:text-base text-sm">
           Also, liebe Lehrerinnen und Lehrer, lasst uns gemeinsam einen
           unvergesslichen Tag bei NextLevel Erlebnisse planen! Kontaktiert uns
           noch heute und wir helfen euch dabei, den perfekten Ausflug für eure

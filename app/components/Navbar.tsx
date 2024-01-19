@@ -4,9 +4,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-const Navbar = ({className = "bg-black"}: {className?: string}) => {
+const Navbar = ({ className = "bg-black" }: { className?: string }) => {
   const [header, setHeader] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const [sandbox, setSandbox] = useState(false);
+  const [events, setEvents] = useState(false);
 
   const handleClick = () => {
     setIsOpen(!isOpen);
@@ -31,7 +33,7 @@ const Navbar = ({className = "bg-black"}: {className?: string}) => {
     <nav
       className={`${
         header ? className : "bg-transparent"
-      } h-[72px] sm:fixed z-[100] min-h-[72px] w-full top-0 left-0 right-0 border-b border-b-white/10`}
+      } h-[72px] sm:fixed relative z-[1000] min-h-[72px] w-full top-0 left-0 right-0 border-b border-b-white/10`}
     >
       <div className="sm:flex z-50 hidden justify-between items-center h-full sm:px-[75px]">
         <a href="/">
@@ -50,12 +52,12 @@ const Navbar = ({className = "bg-black"}: {className?: string}) => {
               Erlebnisse
               <div className="absolute hidden group-hover:block z-50 w-56 float-left top-[100%]">
                 <div className="shadow-lg bg-gray-9 mt-4">
-                  <a
-                    href="/about-us"
+                  <Link
+                    href="/"
                     className="text-[13px] py-3.5 uppercase px-3 block text-dark-2 border-b border-[#191919]/5"
                   >
                     SANDBOXVR
-                  </a>
+                  </Link>
                 </div>
               </div>
             </span>
@@ -151,6 +153,86 @@ const Navbar = ({className = "bg-black"}: {className?: string}) => {
           </div>
         </button>
       </div>
+      {isOpen && (
+        <div className="absolute w-full top-16 left-0 right-0 bottom-0 bg-dark-3 h-screen z-50 transition-opacity duration-500 ease-in-out">
+          <button
+            type="button"
+            onClick={() => setSandbox(!sandbox)}
+            className="block w-full text-white text-center bg-dark-3 py-4 border-y border-y-white relative transition-all duration-300 ease-in-out"
+          >
+            Erlebnisse
+            <span className="absolute text-white right-5">{sandbox ? '-':'+'}</span>
+          </button>
+          {sandbox && (
+            <Link
+              href="/"
+              className="text-[13px] py-4 uppercase px-3 text-center block bg-white text-dark-2 my-0.5 mx-auto"
+            >
+              SANDBOXVR
+            </Link>
+          )}
+          <button
+            type="button"
+            onClick={() => setEvents(!events)}
+            className="block w-full text-white text-center bg-dark-3 py-4 border-b border-b-white relative transition-all duration-300 ease-in-out"
+          >
+            Events
+            <span className="absolute text-white right-5">{events ? '-':'+'}</span>
+          </button>
+          {events && (
+            <div>
+              <Link
+                href="/events/children-birthday"
+                className="text-[13px] py-4 uppercase px-3 text-center block bg-white text-dark-2 my-0.5 mx-auto"
+              >
+                {`CHILDREN'S BIRTHDAY`}
+              </Link>
+              <Link
+                href="/events/bachelor-party"
+                className="py-4 text-[13px] text-center uppercase px-3 block bg-white text-dark-2 my-0.5 mx-auto"
+              >
+                BACHELOR PARTY
+              </Link>
+              <Link
+                href="/corporate-events"
+                className="py-4 text-[13px] text-center uppercase px-3 block bg-white text-dark-2 my-0.5 mx-auto"
+              >
+                COMPANY EVENT
+              </Link>
+              <Link
+                href="/events/clubs-and-groups"
+                className="py-4 text-[13px] text-center uppercase px-3 block bg-white text-dark-2 my-0.5 mx-auto"
+              >
+                CLUBS & GROUPS
+              </Link>
+              <Link
+                href="/seminar"
+                className="py-4 text-center text-[13px] uppercase px-3 block bg-white text-dark-2 my-0.5 mx-auto"
+              >
+                VR SEMINARS
+              </Link>
+              <Link
+                href="/events/school-classes"
+                className="py-4 text-[13px] text-center uppercase px-3 block bg-white text-dark-2 my-0.5 mx-auto"
+              >
+                SCHOOL CLASSES
+              </Link>
+              <Link
+                href="/nextlevelclub"
+                className="py-4 text-[13px] text-center uppercase px-3 block bg-white text-dark-2 my-0.5 mx-auto"
+              >
+                NEXTLEVEL CLUB
+              </Link>
+            </div>
+          )}
+          <a
+            href="/"
+            className="bg-[#CB3078] text-white text-center font-medium px-3 py-3.5 block border-b border-b-white"
+          >
+            Buchen
+          </a>
+        </div>
+      )}
     </nav>
   );
 };
