@@ -1,26 +1,30 @@
-const CorporateContact = () => {
+const CorporateContact = ({ headerPosition }: { headerPosition?: boolean }) => {
   return (
     <section className="bg-mesh-gradient w-full bg-cover bg-fixed bg-no-repeat relative">
-      <div className=" bg-black absolute -top-[92px] sm:-top-[125px] sm:h-[250px] h-[180px] w-full" style={{ clipPath: 'polygon(50% 49%, 100% 50%, 51% 80%, 0% 50%)'}}>
-        {/* <svg
-          className="relative w-[calc(100vw+40px)] sm:-top-9 -top-8 z-50 left-0 right-0"
-          width="1778"
-          height="142"
-          viewBox="0 0 1778 142"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path d="M889 142L0 8.75834V0H1778V8.75834L889 142Z" fill="black" />
-        </svg> */}
-
-      </div>
+      <div
+        className=" bg-black absolute -top-[91px] sm:-top-[125px] sm:h-[250px] h-[180px] w-full"
+        style={{ clipPath: "polygon(51% 50%, 100% 50%, 50% 94%, 0% 50%)" }}
+      ></div>
       <div className="sm:px-[150px] px-5 sm:pt-[150px] pt-20 pb-[70px]">
-        <span className="block leading-2px] text-white text-[10px] font-medium uppercase tracking-[10px]">
-          LASS UNS EINE NACHRICHT DA!
-        </span>
-        <h1 className="text-start sm:text-[41px] text-[22px] font-medium leading-[54px] uppercase pt-5 tracking-[1.8px]">
-          KONTAKTFORMULAR
-        </h1>
+        {headerPosition ? (
+          <div>
+          <span className="block leading-2px] sm:text-lg text-center text-white text-[10px] font-medium uppercase tracking-[10px] pt-10">
+            LASS UNS EINE NACHRICHT DA!
+          </span>
+          <h1 className="sm:text-[60px] text-center text-[22px] font-medium leading-[54px] uppercase pt-5 tracking-[1.8px]">
+            KONTAKTFORMULAR
+          </h1>
+        </div>
+        ):(
+          <div>
+          <span className="block leading-2px] text-white text-[10px] font-medium uppercase tracking-[10px]">
+            LASS UNS EINE NACHRICHT DA!
+          </span>
+          <h1 className="text-start sm:text-[41px] text-[22px] font-medium leading-[54px] uppercase pt-5 tracking-[1.8px]">
+            KONTAKTFORMULAR
+          </h1>
+        </div>
+        )}
         <form className="bg-tranparent sm:p-[53px] sm:shadow-shadowForm rounded-[10px] sm:mt-[60px]">
           <p className="text-[15px] text-white leading-5">
             Mit Stern(*) gekennzeichnete Felder, sind Pflichtfelder

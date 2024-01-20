@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const TeamExperience = () => {
   return (
     <section className="bg-section3 sm:h-[718px] bg-cover sm:pt-[200px] sm:pb-[130px] sm:px-[180px]">
@@ -21,12 +23,12 @@ const TeamExperience = () => {
         möglich.
       </p>
       <div className="pt-[44px]">
-        <button
-          type="button"
+        <Link
+          href="/eventrequest"
           className="transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110 py-5 px-10 leading-5 tracking-[7px] rounded-md text-white bg-[#0076FF] border border-[#0076FF]"
         >
           FÜR GRUPPEN BUCHEN
-        </button>
+        </Link>
       </div>
     </section>
   );

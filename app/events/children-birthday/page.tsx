@@ -7,6 +7,43 @@ import SecondaryHero from "@/app/components/SecondaryHero";
 import Image from "next/image";
 
 const ChildrenBirthday = () => {
+  const faqs = [
+    {
+      title: "DIE ARENA NUR FÜR EUCH",
+      text: "Kindergeburtstage in unseren Arenen und im Escaperoom finden immer privat statt – sprich ihr seid unter Euch, ohne fremde Spieler. Daher können Kindergeburtstage mit bis zu 18 Kindern gefeiert werden. Dabei gilt: umso mehr Kinder teilnehmen, umso länger sollte für den Aufenthalt eingeplant werden. Nach unserer Erfahrung sind 1,5 Stunden eine gute Aufenthaltsdauer und die Kids danach ordentlich ausgepowert und glücklich. Ab 12 Kindern sind 2 Stunden eine gute Wahl, da wir mit wechselnden Teams spielen.",
+      active: false,
+    },
+    {
+      title: "LIEBE ELTERN - SPIELT DOCH MIT!",
+      text: "Während die Kinder Lasertag spielen können die Eltern im Wartebereich bei einem Getränke (Kalte Getränke und eine Nespresso-Maschine sind vor Ort) die Spiele  verfolgen – oder sie greifen als Überraschungs-Highlight in die Lasertag-Games ein. Ein “Kinder gegen Eltern Spiel” ist oft der heimliche Höhepunkt des Geburtstags – und macht garantiert auch den Eltern Spaß… 😉",
+      active: false,
+    },
+    {
+      title: "GETRÄNKE & SNACKS",
+      text: "Wir haben kalte Getränke (3€), eine Nespresso-Maschine für Kaffee/Espresso (2€) sowie im Sommer eine Langnese Eistruhe (ab 1€). Zu den Erlebnissen selbst könnt ihr nichts zu Essen mitbringen – dafür haben wir einen coolen Partyraum in den ihr Kuchen/Snacks selbst mitbringen und verzehren könnt. Bitte beachtet, dass ihr die Nutzung des Partyraums separat hinzu buchen müsst. Der Preis liegt inkl. Getränken bei 50 Euro.",
+      active: false,
+    },
+    {
+      title: "EIN RUNDUM-PAKET",
+      text: "Um das Kindergeburtstag-Erlebnis abzurunden, bekommt ihr nach der Buchung coole Einladungskarten zum Ausdrucken (Im Anhang der Buchungsbestätigung) und zum Abschluss und als Erinnerung nach dem Lasertag-Spiel bekommt jedes Kind eine Urkunde mit der besten Platzierung.",
+      active: true,
+    },
+    {
+      title: "FAIRPLAY IST UNS SEHR WICHTIG!",
+      text: "Lasertag ist ein taktisches Spiel, bei dem jegliche Aggressivität verboten ist. Ziel ist es durch cleveres und taktisches Vorgehen das gegnerische Team öfter zu treffen als man selbst getroffen wird. Ganz ähnlich wie bei Völkerball – nur modern und komplett kontakt- und aggressionslos. In unserer Arena ist deshalb sowohl aggressives Verhalten als auch Gewalt-Sprache mit Begriffen wie „erschießen“, „töten“, etc. sowie Beleidigungen absolutes Tabu – sowohl in den Gruppen untereinander als auch in unserer Ansprache. Das Lasertag-System verfügt darüber hinaus über Sensoren, die aggressives Spielen gezielt verhindern, bzw. erst gar nicht ermöglichen.",
+      active: false,
+    },
+    {
+      title: "AUFSICHTSPFLICHT",
+      text: "Unsere Erlebnisse sind geeignet für Kindergeburtstage ab 8 Jahren. Es muss auf jeden Fall zu jedem Zeitpunkt ein Elternteil anwesend sein – wir übernehmen explizit nicht die Aufsicht über die Kinder.",
+      active: false,
+    },
+    {
+      title: "EINLADUNGSKARTEN",
+      text: "Um die Kinder zu Eurem NextLevel Geburtstag einzuladen, haben wir Einladungskarten gestaltet, die ihr zuhause selbst ausdrucken (und anpassen) könnt. Hier sind die Download-Links:",
+      active: false,
+    },
+  ];
   return (
     <main>
       <Navbar />
@@ -263,13 +300,33 @@ hintereinander. Der komplette Aufenthalt bei"
           attraktiven Kombipreis.
         </p>
       </section>
-      <Accordion />
+      <section className="bg-mesh-gradient bg-center sm:pt-[70px] sm:pb-20 sm:bg-fixed bg-no-repeat bg-cover sm:px-[150px] px-5">
+        <h1 className="leading-8 text-[22px] tracking-[1px] uppercase text-white">
+          Wichtiges für eure Planung
+        </h1>
+        <h2 className="py-5 text-[41px] leading-[54px] tracking-[2px] uppercase text-white font-medium">
+          Infos & Hinweise
+        </h2>
+        <div className="divide-y divide-slate-200">
+          {faqs.map((faq, index) => (
+            <Accordion
+              key={index}
+              title={faq.title}
+              id={`faqs-${index}`}
+              active={faq.active}
+            >
+              {faq.text}
+            </Accordion>
+          ))}
+        </div>
+      </section>
       <section className="sm:px-[150px] sm:pt-[70px] sm:pb-[55px]">
         <h2 className="uppercase text-white text-[40px] leading-[72px] font-bold pt-5 tracking-[10px]">
-        Ihr braucht dabei Hilfe?
+          Ihr braucht dabei Hilfe?
         </h2>
         <p className="pt-5 text-[15px] left-5">
-        Natürlich könnt ihr uns auch sehr gerne kontaktieren, falls noch Fragen offen sind oder ihr bei der Planung noch Hilfe braucht.
+          Natürlich könnt ihr uns auch sehr gerne kontaktieren, falls noch
+          Fragen offen sind oder ihr bei der Planung noch Hilfe braucht.
         </p>
         <div className="grid grid-cols-4 sm:pt-[70px]">
           <p className="uppercase leading-6 tracking-[2px] font-medium text-center">

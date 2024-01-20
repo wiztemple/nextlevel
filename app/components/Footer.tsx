@@ -177,12 +177,12 @@ const Footer = () => {
                 >
                   Impressum
                 </Link>
-                <a
-                  href=""
+                <Link
+                  href="/dataprotection"
                   className="block text-[15px] sm:text-left text-center font-bold pt-1"
                 >
                   Datenschutzerklärung
-                </a>
+                </Link>
               </div>
             </div>
             <div>

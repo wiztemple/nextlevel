@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-const Navbar = ({ className = "bg-black" }: { className?: string }) => {
+const Navbar = ({ className = "bg-black", className2 = "bg-transparent" }: { className?: string; className2?: string }) => {
   const [header, setHeader] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [sandbox, setSandbox] = useState(false);
@@ -32,7 +32,7 @@ const Navbar = ({ className = "bg-black" }: { className?: string }) => {
   return (
     <nav
       className={`${
-        header ? className : "bg-transparent"
+        header ? className : className2
       } h-[72px] sm:fixed relative z-[1000] min-h-[72px] w-full top-0 left-0 right-0 border-b border-b-white/10`}
     >
       <div className="sm:flex z-50 hidden justify-between items-center h-full sm:px-[75px]">
@@ -40,7 +40,7 @@ const Navbar = ({ className = "bg-black" }: { className?: string }) => {
           <Image
             className=""
             src="/applogo.svg"
-            alt="Sponsor"
+            alt="Logo"
             width={70}
             height={27.6}
             priority
@@ -161,7 +161,7 @@ const Navbar = ({ className = "bg-black" }: { className?: string }) => {
             className="block w-full text-white text-center bg-dark-3 py-4 border-y border-y-white relative transition-all duration-300 ease-in-out"
           >
             Erlebnisse
-            <span className="absolute text-white right-5">{sandbox ? '-':'+'}</span>
+            <span className="absolute text-white right-5 shrink-0 transform origin-center transition duration-200 ease-out">{sandbox ? '-':'+'}</span>
           </button>
           {sandbox && (
             <Link
@@ -177,10 +177,10 @@ const Navbar = ({ className = "bg-black" }: { className?: string }) => {
             className="block w-full text-white text-center bg-dark-3 py-4 border-b border-b-white relative transition-all duration-300 ease-in-out"
           >
             Events
-            <span className="absolute text-white right-5">{events ? '-':'+'}</span>
+            <span className="absolute text-white right-5 shrink-0 transform origin-center transition duration-200 ease-out">{events ? '-':'+'}</span>
           </button>
           {events && (
-            <div>
+            <div className="transition-all duration-300 ease-in-out">
               <Link
                 href="/events/children-birthday"
                 className="text-[13px] py-4 uppercase px-3 text-center block bg-white text-dark-2 my-0.5 mx-auto"
