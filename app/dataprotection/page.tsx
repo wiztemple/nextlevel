@@ -5,7 +5,7 @@ const DataProtection = () => {
   return (
     <main>
       <Navbar className2="bg-black" />
-      <section className="bg-white sm:px-[165px] px-5 pt-[140px] sm:pb-[122px]">
+      <section className="bg-white sm:px-[165px] px-5 pt-[140px] pb-[122px] break-words">
         <h1 className="sm:text-[40px] text-4xl text-dark-3 leading-[48px] font-medium">
           Datenschutzerklärung
         </h1>

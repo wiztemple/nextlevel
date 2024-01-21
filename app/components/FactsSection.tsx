@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const FactsSection = () => {
   return (
-    <section className="sm:px-[150px] sm:py-[100px] bg-gray-8 w-full grid sm:grid-cols-2 grid-cols-1">
+    <section className="sm:px-[150px] px-5 sm:py-[100px] py-10 bg-gray-8 w-full grid sm:grid-cols-2 grid-cols-1">
       <div className="p-[15px]">
-        <h1 className="text-gray-1 tracking-[10px] uppercase font-medium leading-[26px] text-lg">
+        <h1 className="text-gray-1 sm:tracking-[10px] tracking-[3px] uppercase font-medium leading-[26px] text-lg">
           Euer Besuch bei uns
         </h1>
         <h2 className="uppercase leading-[72px] tracking-[5px] font-black text-dark-1 text-[52px] py-[23px]">
@@ -45,7 +45,7 @@ const FactsSection = () => {
           ändern sich die Preise: Schaut dafür einfach in die Tabelle:
         </p>
       </div>
-      <div>
+      <div className="pt-16 sm:pt-0">
         <Image
           src="https://nextlevel-erlebnisse.de/wp-content/uploads/2023/12/Sandbox_Preisuebersicht_v2_web.png"
           width="1000"

@@ -1,4 +1,4 @@
-import Image from "next/image";
+/* eslint-disable @next/next/no-img-element */
 
 export default function BasicCard({
   className,
@@ -24,11 +24,9 @@ export default function BasicCard({
       <a href="/" className="group overflow-hidden relative">
         <div className="overflow-hidden h-[200px] rounded-tl-[10px] rounded-tr-[10px]">
           <div className={`${className}`}></div>
-          <Image
-            className="object-contain rounded-tl-[10px] rounded-tr-[10px] w-full group-hover:scale-110 transition-all duration-1000 ease-in-out transform"
+          <img
+            className="object-cover h-[200px] rounded-tl-[10px] rounded-tr-[10px] w-full group-hover:scale-110 transition-all duration-1000 ease-in-out transform"
             src={`/${img}`}
-            width={100}
-            height={100}
             alt="blog image"
           />
           <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/20 transition-all"></div>

@@ -30,7 +30,9 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
           'section2': "url('/section2.png')",
+          'section2-mobile': "url('/sbvr-bg-mobile.webp')",
           'section3': "url('/section3.png')",
+          'section3-mobile': "url('/sbvr-bg-blue-mobile.webp')",
           'section4': "url('https://nextlevel-erlebnisse.de/wp-content/uploads/2022/10/sandboxvr-header.jpg)",
           'sectionCard1': "url('/sbvr-bg.webp')",
           'sectionCardHover': "url('/sbvr-bg-grey.webp')",

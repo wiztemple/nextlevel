@@ -1,17 +1,17 @@
 const FurtherQuestions = () => {
   return (
-    <section className="sm:px-[150px] sm:pt-[70px] sm:pb-[55px]">
-      <h1 className="uppercase text-xl text-gray-1 leading-[26px] tracking-[10px]">
+    <section className="sm:px-[150px] px-5 pt-[70px] pb-[55px]">
+      <h1 className="uppercase sm:text-xl text-sm text-gray-1 leading-[26px] sm:tracking-[10px] tracking-[3px]">
         LASS VON DIR HÖREN
       </h1>
-      <h2 className="uppercase text-white text-[55px] leading-[72px] font-bold pt-5 tracking-[10px]">
+      <h2 className="uppercase text-white sm:text-[55px] text-4xl sm:leading-[72px] leading-snug font-bold pt-5 tracking-[10px]">
         Weitere Fragen?
       </h2>
       <p className="pt-5 text-[15px] left-5">
         Dann lass uns doch gerne in Kontakt treten! Wir freuen uns, dir
         Weiterhelfen zu können!
       </p>
-      <div className="grid grid-cols-3 sm:pt-[70px]">
+      <div className="grid grid-cols-3 sm:pt-[70px] pt-[50px]">
         <div className="flex justify-center">
           <div className="w-full">
             <div className="flex justify-center">

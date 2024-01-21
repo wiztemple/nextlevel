@@ -1,6 +1,6 @@
 const CorporateContact = ({ headerPosition }: { headerPosition?: boolean }) => {
   return (
-    <section className="bg-mesh-gradient w-full bg-cover bg-fixed bg-no-repeat relative">
+    <section className="bg-mesh-gradient w-full bg-cover sm:bg-fixed bg-no-repeat relative">
       <div
         className=" bg-black absolute -top-[91px] sm:-top-[125px] sm:h-[250px] h-[180px] w-full"
         style={{ clipPath: "polygon(51% 50%, 100% 50%, 50% 94%, 0% 50%)" }}
@@ -17,15 +17,15 @@ const CorporateContact = ({ headerPosition }: { headerPosition?: boolean }) => {
         </div>
         ):(
           <div>
-          <span className="block leading-2px] text-white text-[10px] font-medium uppercase tracking-[10px]">
+          <span className="block leading-2px] text-white text-[15px] pt-12 sm:pt-0 font-medium uppercase tracking-[10px]">
             LASS UNS EINE NACHRICHT DA!
           </span>
-          <h1 className="text-start sm:text-[41px] text-[22px] font-medium leading-[54px] uppercase pt-5 tracking-[1.8px]">
+          <h1 className="text-start sm:text-[41px] text-3xl font-medium leading-[54px] uppercase pt-5 tracking-[1.8px]">
             KONTAKTFORMULAR
           </h1>
         </div>
         )}
-        <form className="bg-tranparent sm:p-[53px] sm:shadow-shadowForm rounded-[10px] sm:mt-[60px]">
+        <form className="bg-tranparent sm:p-[53px] shadow-shadowForm p-7 rounded-[10px] sm:mt-[60px] mt-[50px]">
           <p className="text-[15px] text-white leading-5">
             Mit Stern(*) gekennzeichnete Felder, sind Pflichtfelder
           </p>
