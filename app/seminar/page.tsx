@@ -2,8 +2,8 @@ import Footer from "@/app/components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import PricingCard from "../components/PricingCard";
-import PricingCardListItem from "../components/PricinCardListItem";
 import SeminarContact from "../components/SeminarContact";
+import PricingCardListItem from "../components/PricingCardListItem";
 
 const Seminar = () => {
   return (
