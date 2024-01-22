@@ -48,7 +48,7 @@ const Navbar = ({ className = "bg-black", className2 = "bg-transparent" }: { cla
         </a>
         <div className="flex items-center gap-[18px]">
           <div className="flex gap-[33px]">
-            <span className="group relative">
+            <span className="group relative text-white">
               Erlebnisse
               <div className="absolute hidden group-hover:block z-50 w-56 float-left top-[100%]">
                 <div className="shadow-lg bg-gray-9 mt-4">
@@ -61,7 +61,7 @@ const Navbar = ({ className = "bg-black", className2 = "bg-transparent" }: { cla
                 </div>
               </div>
             </span>
-            <Link href="/events" className="relative group">
+            <Link href="/events" className="relative group text-white">
               Events
               <div className="absolute hidden group-hover:block z-50 w-56 float-left top-[100%]">
                 <div className="shadow-lg bg-gray-9 mt-4">

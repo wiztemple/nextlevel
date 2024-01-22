@@ -36,7 +36,7 @@ const SchoolClasses = () => {
             Ein toller Ausflug für <br />
             deine Schulklasse
           </h2>
-          <p className="pt-[22px] sm:text-[15px] text-sm leading-5 text-center sm:px-[160px] px-5">
+          <p className="pt-[22px] sm:text-[15px] text-sm leading-5 text-center sm:px-[160px] px-5 text-white">
             Suchst du nach dem perfekten Abenteuer für deine Schulklasse? Bei
             NextLevel Erlebnisse erwartet euch ein unvergesslicher Ausflug
             voller Spaß, Teamwork und aufregender Herausforderungen. Entdeckt
