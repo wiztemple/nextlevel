@@ -42,8 +42,8 @@ export default function BasicCard({
         <p className="text-[#3F444B] pt-[17px]">{description}</p>
       </div>
       {showRibbon ? (
-        <div className=" bg-black absolute origin-top top-0 float-right mt-12 mr-12 w-72 text-center translate-x-[50%] rotate-45">
-          <div className="text-xs font-extrabold py-1.5 text-center pr-14 uppercase" style={{ color: `${ribbonTextColor}`}}>
+        <div className=" bg-black absolute origin-top top-0 float-right sm:mt-12 mr-12 w-72 text-center translate-x-[50%] rotate-45">
+          <div className="text-xs font-extrabold py-1.5 text-center sm:mr-14 -mr-[94px] uppercase" style={{ color: `${ribbonTextColor}`}}>
             {ribbonText}
           </div>
         </div>

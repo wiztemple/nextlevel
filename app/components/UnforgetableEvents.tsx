@@ -18,7 +18,7 @@ const UnforgetableEvents = () => {
           maßgeschneidertes Event – wir haben immer das passende Angebot zu
           jedem Anlass.
         </p>
-        <div className="grid sm:grid-cols-4 grid-cols-1 gap-[10px] sm:gap-y-0 gap-y-10 sm:pt-[52px]">
+        <div className="grid sm:grid-cols-4 grid-cols-1 gap-[10px] sm:gap-y-0 gap-y-10 sm:mt-[52px] px-[15px]">
           <BasicCard
             className=""
             img="cardimage-1.jpg"
@@ -55,32 +55,34 @@ const UnforgetableEvents = () => {
           />
         </div>
       </div>
-      <div className="grid sm:grid-cols-5 grid-cols-1">
-        <img
-          className="object-cover h-[288px] w-full"
-          src="/hologate_event.jpg"
-          alt="Hologate event"
-        />
-        <img
-          className="object-cover h-[288px] w-full"
-          src="/lue-image.jpg"
-          alt="Lue event"
-        />
-        <img
-          className="object-cover h-[288px] w-full"
-          src="/vr-event.jpg"
-          alt="VR Event"
-        />
-        <img
-          className="object-cover h-[288px] w-full"
-          src="/vr-event2.jpg"
-          alt="VR Event 2"
-        />
-        <img
-          className="object-cover h-[288px] w-full"
-          src="/vr-book.jpg"
-          alt="VR Book"
-        />
+      <div className="sm:block hidden">
+        <div className="grid sm:grid-cols-5 grid-cols-1">
+          <img
+            className="object-cover h-[288px] w-full"
+            src="/hologate_event.jpg"
+            alt="Hologate event"
+          />
+          <img
+            className="object-cover h-[288px] w-full"
+            src="/lue-image.jpg"
+            alt="Lue event"
+          />
+          <img
+            className="object-cover h-[288px] w-full"
+            src="/vr-event.jpg"
+            alt="VR Event"
+          />
+          <img
+            className="object-cover h-[288px] w-full"
+            src="/vr-event2.jpg"
+            alt="VR Event 2"
+          />
+          <img
+            className="object-cover h-[288px] w-full"
+            src="/vr-book.jpg"
+            alt="VR Book"
+          />
+        </div>
       </div>
       <div className="sm:px-[150px] px-5 pb-16">
         <h2 className="sm:pt-[125px] pt-14 uppercase tracking-[2px] sm:text-[40px] text-[22px] sm:leading-[54px]">
@@ -93,7 +95,7 @@ const UnforgetableEvents = () => {
           dir zusammen ein Programm erstellen können. Grundsätzlich haben wir
           auch Platz für große Event mit bis zu 500 Personen. 
         </p>
-        <div className="grid sm:grid-cols-3 grid-cols-1 gap-[30px] sm:pt-[52px]">
+        <div className="grid sm:grid-cols-3 grid-cols-1 gap-[30px] sm:mt-[52px] p-[15px]">
           <BasicCard
             className=""
             img="cardimage-1.jpg"
@@ -101,14 +103,14 @@ const UnforgetableEvents = () => {
             title="Firmenevents"
             description="Egal ob Weihnachtsfeier, Teambuilding oder einfach etwas Spaß nach Feierabend mit der gesamten Belegschaft. Gemeinsam planen wir Euer nächstes Erlebnis."
           />
-           <BasicCard
+          <BasicCard
             className=""
             img="cardimage-1.jpg"
             color="#F8A120"
             title="Tagung / Seminar"
             description="Egal ob Weihnachtsfeier, Teambuilding oder einfach etwas Spaß nach Feierabend mit der gesamten Belegschaft. Gemeinsam planen wir Euer nächstes Erlebnis."
           />
-           <BasicCard
+          <BasicCard
             className=""
             img="cardimage-1.jpg"
             color="#F8A120"
