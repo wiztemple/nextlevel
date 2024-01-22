@@ -170,7 +170,7 @@ Metaverse und Künstliche Intelligenz (KI)"
         </div>
       </section>
       <SeminarContact />
-      <section className="sm:px-[150px] sm:pt-[60px] pt-12 px-5 sm:pb-[55px] pb-5">
+      <section className="sm:px-[150px] sm:pt-[60px] pt-12 px-5 sm:pb-[55px] pb-5 bg-black">
         <h2 className="uppercase text-white sm:text-[22px] text-lg text-center sm:leading-8 pt-5 pb-10 sm:pb-0 tracking-[1px]">
           ODER SCHREIBT, RUFT AN UND MAILT UNS DIREKT.
         </h2>
