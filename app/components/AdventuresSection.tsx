@@ -22,7 +22,7 @@ const AdventuresSection = () => {
       <h1 className="uppercase font-medium sm:text-xl text-sm text-[#6F6F6F] sm:tracking-[10px] tracking-[3px] leading-6 sm:pt-5 pt-8">
         WEITERE ERLEBNISSE
       </h1>
-      <h2 className="pt-5 sm:tracking-[10px] tracking-[5px] sm:leading-[72px] leading-snug sm:text-[54px] text-4xl font-bold uppercase">
+      <h2 className="pt-5 sm:tracking-[10px] tracking-[5px] sm:leading-[72px] leading-snug sm:text-[54px] text-4xl font-bold uppercase text-white">
         Unsere Abenteuer
       </h2>
       <p className="pt-6 leading-6 text-white text-[15px]">

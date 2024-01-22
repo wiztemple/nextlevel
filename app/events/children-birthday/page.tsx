@@ -49,14 +49,14 @@ const ChildrenBirthday = () => {
       <Navbar />
       <Hero className="h-[760px] flex justify-center items-center w-screen transition duration-300 ease-in-out  hover:rounded-lg bg-[url('/kindergeburtstag.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="sm:pt-64">
-          <h1 className="text-center text-[19px] leading-6 tracking-[5px] uppercase">
+          <h1 className="text-center text-[19px] leading-6 tracking-[5px] uppercase text-white">
             SPASS UND ACTION GARANTIERT
           </h1>
           <h2 className="text-center text-[71px] font-medium uppercase tracking-[2.1px] sm:pt-10 leading-[80px] text-white">
             NEXTLEVEL KINDER-
             <br /> GEBURTSTAGE
           </h2>
-          <p className="pt-[22px] text-[15px] leading-5 text-center sm:px-[160px]">
+          <p className="pt-[22px] text-[15px] leading-5 text-center sm:px-[160px] text-white">
             Ein Kindergeburtstag bei NextLevel Erlebnisse ist garantiert ein
             unvergessliches Abenteuer. Egal ob ihr Euch in der Lasertag Arena
             battelt, virtuelle Welten im Hologate erlebt oder im Escaperoom mal
@@ -66,7 +66,7 @@ const ChildrenBirthday = () => {
         </div>
       </Hero>
       <SecondaryHero>
-        <h1 className="text-xl font-medium">
+        <h1 className="text-xl font-medium text-white">
           DU SUCHST NACH EINEM UNVERGESSLICHEN KINDERGEBURTSTAG?
         </h1>
         <h2 className="uppercase text-[40px] font-medium tracking-[2px] text-white leading-[54px] pt-5">
@@ -95,7 +95,7 @@ const ChildrenBirthday = () => {
             <h1 className="leading-8 sm:text-[22px] text-xl text-white tracking-[1px] uppercase sm:pt-14 pt-10">
               Feiern ohne stress
             </h1>
-            <h2 className="uppercase sm:text-[40px] text-[24px] font-medium leading-[54px] psm:t-[28.5px] pt-3 tracking-[2px]">
+            <h2 className="uppercase sm:text-[40px] text-[24px] font-medium leading-[54px] psm:t-[28.5px] pt-3 tracking-[2px] text-white">
               NEXTLEVEL PARTYRAUM
             </h2>
             <p className="text-white sm:pt-[27px] pt-3 text-[15px] leading-5">
@@ -123,7 +123,7 @@ const ChildrenBirthday = () => {
         <h1 className="text-white leading-8 tracking-[1px] uppercase sm:text-xl text-lg">
           STEP BY STEP
         </h1>
-        <h2 className="uppercase pt-5 tracking-[2px] leading-[54px] sm:text-[41px] text-2xl font-medium">
+        <h2 className="uppercase pt-5 tracking-[2px] leading-[54px] sm:text-[41px] text-2xl font-medium text-white">
           Wie buche ich?
         </h2>
         <div className="grid sm:grid-cols-4 grid-cols-1 sm:pt-[35px] sm:gap-8 sm:gap-y-0 gap-y-6">
@@ -142,7 +142,7 @@ const ChildrenBirthday = () => {
                 />
               </svg>
             </span>
-            <span className="block pt-5 tracking-[2.5px] uppercase font-medium text-lg leading-5 text-center">
+            <span className="block pt-5 tracking-[2.5px] uppercase font-medium text-lg leading-5 text-center text-white">
               Paket auswählen
             </span>
             <p className="text-[15px] leading-5 text-white pt-[15px] text-center">
@@ -166,7 +166,7 @@ const ChildrenBirthday = () => {
                 />
               </svg>
             </span>
-            <span className="block pt-5 tracking-[2.5px] uppercase font-medium text-lg leading-5 text-center">
+            <span className="block pt-5 tracking-[2.5px] uppercase font-medium text-lg leading-5 text-center text-white">
               Eckdaten
             </span>
             <p className="text-[15px] leading-5 text-white pt-[15px] text-center">
@@ -190,7 +190,7 @@ const ChildrenBirthday = () => {
                 />
               </svg>
             </span>
-            <span className="block pt-5 tracking-[2.5px] uppercase font-medium text-lg leading-5 text-center">
+            <span className="block pt-5 tracking-[2.5px] uppercase font-medium text-lg leading-5 text-center text-white">
               Buchung
             </span>
             <p className="text-[15px] leading-5 text-white pt-[15px] text-center">
@@ -213,7 +213,7 @@ const ChildrenBirthday = () => {
                 />
               </svg>
             </span>
-            <span className="block pt-5 tracking-[2.5px] uppercase font-medium text-lg leading-5 text-center">
+            <span className="block pt-5 tracking-[2.5px] uppercase font-medium text-lg leading-5 text-center text-white">
               Einladungen
             </span>
             <p className="text-[15px] leading-5 text-white pt-[15px] text-center">
@@ -227,7 +227,7 @@ const ChildrenBirthday = () => {
         <h1 className="leading-8 text-[22px] uppercase text-white tracking-[1px]">
           DIE PAKETE
         </h1>
-        <h2 className="uppercase pt-5 tracking-[2px] leading-[54px] sm:text-[41px] text-2xl font-medium">
+        <h2 className="uppercase pt-5 tracking-[2px] leading-[54px] sm:text-[41px] text-2xl font-medium text-white">
           HIER KÖNNT IHR BUCHEN
         </h2>
         <div className="grid sm:grid-cols-3 grid-cols-1 sm:pt-20 sm:p-10 gap-10">
@@ -320,7 +320,7 @@ hintereinander. Der komplette Aufenthalt bei"
           ))}
         </div>
       </section>
-      <section className="sm:px-[150px] sm:pt-[70px] sm:pb-[55px]">
+      <section className="sm:px-[150px] sm:pt-[70px] sm:pb-[55px] bg-black">
         <h2 className="uppercase text-white text-[40px] leading-[72px] font-bold pt-5 tracking-[10px]">
           Ihr braucht dabei Hilfe?
         </h2>
@@ -329,7 +329,7 @@ hintereinander. Der komplette Aufenthalt bei"
           Fragen offen sind oder ihr bei der Planung noch Hilfe braucht.
         </p>
         <div className="grid grid-cols-4 sm:pt-[70px]">
-          <p className="uppercase leading-6 tracking-[2px] font-medium text-center">
+          <p className="uppercase leading-6 tracking-[2px] font-medium text-center text-white">
             Schreib uns, ruf uns an <br /> oder schick eine Mail. <br /> ✌
           </p>
           <div className="flex justify-center">
@@ -348,10 +348,10 @@ hintereinander. Der komplette Aufenthalt bei"
                   />
                 </svg>
               </div>
-              <span className="block text-center tracking-[5px] uppercase leading-5 pt-6">
+              <span className="block text-center tracking-[5px] uppercase leading-5 pt-6 text-white">
                 WHATSAPP
               </span>
-              <span className="block text-center text-gray-1 text-sm leading-5 pt-[11px]">
+              <span className="block text-center text-white text-sm leading-5 pt-[11px]">
                 (06631) 7882663
               </span>
             </div>
@@ -372,10 +372,10 @@ hintereinander. Der komplette Aufenthalt bei"
                   />
                 </svg>
               </div>
-              <span className="block text-center tracking-[5px] uppercase leading-5 pt-6">
+              <span className="block text-center tracking-[5px] uppercase leading-5 pt-6 text-white">
                 TELEFON
               </span>
-              <span className="block text-center text-gray-1 text-sm leading-5 pt-[11px]">
+              <span className="block text-center text-sm leading-5 pt-[11px] text-white">
                 (06631) 7882664
               </span>
             </div>
@@ -396,10 +396,10 @@ hintereinander. Der komplette Aufenthalt bei"
                   />
                 </svg>
               </div>
-              <span className="block text-center tracking-[5px] uppercase leading-5 pt-6">
+              <span className="block text-center tracking-[5px] uppercase leading-5 pt-6 text-white">
                 E-MAIL
               </span>
-              <span className="block text-center text-gray-1 text-sm leading-5 pt-[11px]">
+              <span className="block text-center text-white text-sm leading-5 pt-[11px]">
                 buchung@nextlevel-erlebnisse.de
               </span>
             </div>

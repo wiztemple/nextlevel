@@ -11,7 +11,7 @@ const CorporateContact = ({ headerPosition }: { headerPosition?: boolean }) => {
           <span className="block leading-2px] sm:text-lg text-center text-white text-[10px] font-medium uppercase tracking-[10px] pt-10">
             LASS UNS EINE NACHRICHT DA!
           </span>
-          <h1 className="sm:text-[60px] text-center text-[22px] font-medium leading-[54px] uppercase pt-5 tracking-[1.8px]">
+          <h1 className="sm:text-[60px] text-center text-[22px] font-medium leading-[54px] uppercase pt-5 tracking-[1.8px] text-white">
             KONTAKTFORMULAR
           </h1>
         </div>
@@ -20,7 +20,7 @@ const CorporateContact = ({ headerPosition }: { headerPosition?: boolean }) => {
           <span className="block leading-2px] text-white text-[15px] pt-12 sm:pt-0 font-medium uppercase tracking-[10px]">
             LASS UNS EINE NACHRICHT DA!
           </span>
-          <h1 className="text-start sm:text-[41px] text-3xl font-medium leading-[54px] uppercase pt-5 tracking-[1.8px]">
+          <h1 className="text-start sm:text-[41px] text-3xl font-medium leading-[54px] uppercase pt-5 tracking-[1.8px] text-white">
             KONTAKTFORMULAR
           </h1>
         </div>

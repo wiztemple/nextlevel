@@ -29,7 +29,7 @@ const SchoolClasses = () => {
       <Hero className="sm:h-[681px] h-[545px] flex justify-center items-center w-screen transition duration-300 ease-in-out  hover:rounded-lg bg-[url('/schulklassen.webp')] bg-cover bg-center bg-no-repeat">
         <div className="absolute top-0 bottom-0 sm:h-[681px] h-[545px] right-0 z-10 left-0 bg-[#1b1b1b]/30 flex justify-center items-center"></div>
         <div className="sm:pt-64 pt-36 relative z-50">
-          <h1 className="text-center sm:text-[19px] text-sm leading-6 sm:tracking-[5px] uppercase">
+          <h1 className="text-center sm:text-[19px] text-sm leading-6 sm:tracking-[5px] uppercase text-white">
             Unsere Angebote für Schulklassen
           </h1>
           <h2 className="text-center sm:text-[71px] sm:px-0 px-5 text-[28px] font-medium uppercase sm:tracking-[2.1px] sm:pt-10 pt-5 sm:leading-[80px] text-white">
@@ -48,7 +48,7 @@ const SchoolClasses = () => {
         </div>
       </Hero>
       <SecondaryHero>
-        <h1 className="text-xl font-medium leading-5 sm:pt-0 pt-20 uppercase">
+        <h1 className="text-xl font-medium leading-5 sm:pt-0 pt-20 uppercase text-white">
           Raus aus dem Klassenzimmer
         </h1>
         <h2 className="uppercase sm:text-[40px] text-2xl font-medium sm:tracking-[2px] text-white sm:leading-[54px] pt-5">
@@ -86,7 +86,7 @@ const SchoolClasses = () => {
           Schulklasse zu gestalten.
         </p>
       </SecondaryHero>
-      <section className="sm:px-[150px] px-5 sm:pt-[70px] pt-[50px]">
+      <section className="sm:px-[150px] px-5 sm:pt-[70px] pt-[50px] bg-black">
         <h1 className="uppercase text-appviolet text-lg font-medium leading-5 tracking-[2.5px]">
           Lasertag
         </h1>
@@ -200,7 +200,7 @@ const SchoolClasses = () => {
           </Slider>
         </div>
       </section>
-      <section className="sm:px-[150px] px-5 sm:pt-[70px] pt-[50px]">
+      <section className="sm:px-[150px] px-5 sm:pt-[70px] pt-[50px] bg-black">
         <h1 className="uppercase text-[#6EC1E4] text-lg font-medium leading-5 tracking-[2.5px]">
           Lasertag + HOLOGATE
         </h1>

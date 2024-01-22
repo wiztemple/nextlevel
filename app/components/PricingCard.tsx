@@ -31,7 +31,7 @@ const PricingCard = ({
         <h1 className="text-white font-medium leading-7 tracking-[1px] uppercase text-[22px] text-center">
           {header1} <br /> {header2}
         </h1>
-        <span className="text-xs tex-white leading-5 text-center">
+        <span className="text-xs tex-white leading-5 text-center text-white">
           {subheading}
         </span>
       </div>

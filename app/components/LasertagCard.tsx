@@ -20,7 +20,7 @@ const LasertagCard = ({
   return (
     <div className="rounded-[20px] bg-[#F9FAFA]">
       <div className={className}>
-        <h1 className="text-xl font-semibold uppercase leading-7 text-center pt-[22px]">{header}</h1>
+        <h1 className="text-xl font-semibold uppercase leading-7 text-center pt-[22px] text-white">{header}</h1>
         <span className="block text-center text-white pt-1 text-xs leading-5 pb-6">{subHeader}</span>
       </div>
       <div className="pt-10 pb-[30px] px-6">

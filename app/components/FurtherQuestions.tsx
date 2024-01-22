@@ -28,7 +28,7 @@ const FurtherQuestions = () => {
                 />
               </svg>
             </div>
-            <span className="block text-center tracking-[5px] uppercase leading-5 pt-6">
+            <span className="block text-center tracking-[5px] uppercase leading-5 pt-6 text-white">
               WHATSAPP
             </span>
             <span className="block text-center text-gray-1 text-sm leading-5 pt-[11px]">
@@ -52,7 +52,7 @@ const FurtherQuestions = () => {
                 />
               </svg>
             </div>
-            <span className="block text-center tracking-[5px] uppercase leading-5 pt-6">
+            <span className="block text-center tracking-[5px] uppercase leading-5 pt-6 text-white">
                TELEFON
             </span>
             <span className="block text-center text-gray-1 text-sm leading-5 pt-[11px]">
@@ -67,7 +67,7 @@ const FurtherQuestions = () => {
 <path d="M44.0965 2.12305C47.4168 0.169922 51.616 3.00195 51.0301 6.9082L45.2684 44.7012C44.9754 46.166 44.1941 47.3379 42.9246 48.1191C42.1434 48.5098 41.3621 48.7051 40.5809 48.7051C39.9949 48.7051 39.409 48.6074 38.823 48.3145L27.8855 43.8223L23.5887 49.584C20.952 53.1973 15.1902 51.3418 15.1902 46.752V38.5488L3.95977 33.959C0.346485 32.4941 0.0535164 27.5137 3.47149 25.5605L44.0965 2.12305ZM19.8777 46.752L23.3934 41.9668L19.8777 40.502V46.752ZM40.5809 44.0176L46.4402 6.12695L5.81524 29.5645L16.2645 33.959L36.9676 15.9902C38.3348 14.7207 40.2879 16.4785 39.3113 18.041L25.5418 37.7676L40.5809 44.0176Z" fill="white"/>
 </svg>
             </div>
-            <span className="block text-center tracking-[5px] uppercase leading-5 pt-6">
+            <span className="block text-center tracking-[5px] uppercase leading-5 pt-6 text-white">
               E-MAIL
             </span>
             <span className="block text-center text-gray-1 text-sm leading-5 pt-[11px]">

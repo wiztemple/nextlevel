@@ -21,7 +21,7 @@ const CorporateEvents = () => {
             Erfolgreiche <br />
             Firmenevents
           </h2>
-          <p className="pt-[22px] sm:text-[15px] text-sm leading-5 text-center sm:px-[160px]">
+          <p className="pt-[22px] sm:text-[15px] text-sm leading-5 text-center sm:px-[160px] text-white">
             Erfolgreiche Firmenevents sind für dein Unternehmen von großer
             Bedeutung, denn sie fördern nicht nur das Zusammengehörigkeitsgefühl
             und die Motivation deiner Mitarbeiterinnen und Mitarbeiter, sondern
@@ -30,7 +30,7 @@ const CorporateEvents = () => {
         </div>
       </Hero>
       <SecondaryHero>
-        <h1 className="text-xl sm:text-[22px] leading-8 tracking-[1px] uppercase pt-10 sm:pt-0">
+        <h1 className="text-xl sm:text-[22px] leading-8 tracking-[1px] uppercase pt-10 sm:pt-0 text-white">
           WARUM BEI UNS?
         </h1>
         <h2 className="uppercase sm:text-[40px] text-3xl font-medium sm:tracking-[2px] text-white sm:leading-[54px] leading-snug pt-5">
@@ -97,7 +97,7 @@ const CorporateEvents = () => {
         </div>
       </section>
       <section className="bg-black sm:px-[150px] px-5 sm:pt-[100px] pt-20 sm:pb-[85px] pb-[50px]">
-        <h1 className="uppercase sm:text-lg text-sm">IHR HABT GROSSES VOR?</h1>
+        <h1 className="uppercase sm:text-lg text-sm text-white">IHR HABT GROSSES VOR?</h1>
         <h2 className="uppercase sm:text-[40px] text-3xl font-medium leading-[54px] tracking-[2px] text-white pt-5">
           Events für Firmen
         </h2>

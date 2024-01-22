@@ -57,7 +57,7 @@ export default function Home() {
       </Hero>
       <VirtualRealityVideo />
       <FutureExperience />
-      <section className="py-[50px] sm:px-[150px] px-5 flex justify-center">
+      <section className="py-[50px] sm:px-[150px] px-5 flex justify-center bg-[#161617]">
         <h1 className="text-[#CCCBC9] sm:leading-[78px] sm:text-[60px] text-4xl font-medium uppercase tracking-[5px] py-1">
           Hier wird es
         </h1>

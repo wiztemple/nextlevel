@@ -36,7 +36,7 @@ const SeminarContact = () => {
         />
       </div>
       <div>
-        <h1 className="text-center sm:text-[41px] text-[22px] font-medium leading-[54px] uppercase sm:pt-[85px] pt-14 tracking-[1.8px]">
+        <h1 className="text-center sm:text-[41px] text-[22px] font-medium leading-[54px] uppercase sm:pt-[85px] pt-14 tracking-[1.8px] text-white">
           KONTAKTFORMULAR
         </h1>
         <div className="flex justify-center px-5 sm:px-0">

@@ -11,7 +11,7 @@ const NextLevelClub = () => {
           <img className="object-cover sm:w-[1024px] sm:h-[172px]" src="/nextlevel-club.webp" alt="Next Level Club" />
         </div>
         <div className="sm:pt-[112px] pt-40">
-          <h1 className="sm:text-[40px] text-2xl sm:text-left text-center font-medium tracking-[2px] uppercase sm:leading-[54px]">
+          <h1 className="sm:text-[40px] text-2xl sm:text-left text-center font-medium tracking-[2px] uppercase sm:leading-[54px] text-white">
             DIE 100% ERLEBNIS-FLATRATE FÜR DAS GANZE JAHR!
           </h1>
         </div>
@@ -51,7 +51,7 @@ const NextLevelClub = () => {
           <div className="flex justify-center pt-11">
             <img className="sm:w-[1024px] sm:h-[274px] object-cover" src="/card-price.webp" alt="Next level card price" />
           </div>
-          <p className="pt-[22px] text-[15px] text-center leading-5">
+          <p className="pt-[22px] text-[15px] text-center leading-5 text-white">
            Du kannst 1 Jahr Flatrate spielen während unserer OPEN ARENA Zeiten. <br />
 Das Angebot gilt für Lasertag, Robomaster Battle und alle Hologate Free Games. Hologate Premium Games kosten 1,50 EUR Aufpreis.
           </p>
@@ -60,14 +60,14 @@ Das Angebot gilt für Lasertag, Robomaster Battle und alle Hologate Free Games. 
 Erwachsene ab 17 Jahre: 119 €
           </p>
           <h1 className="sm:pt-[77px] pt-10 uppercase sm:text-[40px] text-2xl font-medium sm:leading-[54px] sm:tracking-[2px] text-center text-white">NEXT LEVEL CLUB Family Jahrespass</h1>
-          <p className="pt-5 text-[15px] text-center leading-5">
+          <p className="pt-5 text-[15px] text-center leading-5 text-white">
            für die ganze Familie (Die Eltern sowie alle an der gleichen Adresse wohnenden Kinder unter 18 Jahre)
           </p>
         </div>
         <div className="sm:pt-[70px] pt-10 flex justify-center">
           <img src="/familycard-price.webp" className="sm:w-[1024px] sm:h-[234px] object-cover" alt="Next level claim" />
         </div>
-        <p className="pt-[22px] text-[15px] text-center leading-5">
+        <p className="pt-[22px] text-[15px] text-center leading-5 text-white">
         Die ganze Familie kann 1 Jahr Flatrate spielen während unserer OPEN ARENA Zeiten. <br />
 Das Angebot gilt für Lasertag, Robomaster Battle und alle Hologate Free Games. Hologate Premium Games kosten 1,50 EUR Aufpreis.
           </p>

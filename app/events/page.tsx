@@ -11,14 +11,14 @@ const Events = () => {
       <Navbar />
       <Hero className="sm:h-[760px] flex justify-center items-center w-screen transition duration-300 ease-in-out  hover:rounded-lg bg-[url('/sandboxvr-header.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="sm:pt-64 pt-48 sm:px-0 px-5 pb-20 sm:pb-0">
-          <h1 className="text-center sm:text-[19px] text-sm leading-6 tracking-[5px] uppercase">
+          <h1 className="text-center sm:text-[19px] text-sm leading-6 tracking-[5px] uppercase text-white">
             Für Unvergessliche Momente
           </h1>
           <h2 className="text-center sm:text-[71px] text-3xl font-medium uppercase sm:tracking-[2.1px] pt-10 sm:leading-[80px] leading-snug text-white">
             Erlebe Top-Events in <br />
             Alsfeld
           </h2>
-          <p className="pt-[22px] sm:text-[15px] text-sm leading-5 text-center sm:px-[160px]">
+          <p className="pt-[22px] sm:text-[15px] text-sm leading-5 text-center sm:px-[160px] text-white">
             Egal ob kleiner Kindergeburtstag oder großer Firmenevent – wir
             gestalten jede Veranstaltung ganz individuell und einzigartig. Wir
             bieten maßgeschneiderte Konzepte und setzen unser Know-how und
@@ -28,7 +28,7 @@ const Events = () => {
         </div>
       </Hero>
       <SecondaryHero>
-        <h1 className="text-xl font-medium pt-10 sm:text-left text-center sm:pt-0">
+        <h1 className="text-xl font-medium pt-10 sm:text-left text-center sm:pt-0 text-white">
           OB GESCHÄFTLICH ODER PRIVAT, GROSS ODER KLEI
         </h1>
         <h2 className="uppercase sm:text-[40px] text-3xl font-medium tracking-[2px] text-white leading-[54px] pt-5">
@@ -45,10 +45,13 @@ const Events = () => {
           dir ein Event zu bieten, das du nicht so schnell vergessen wirst. Lass
           uns gemeinsam das nächste Level erreichen!
         </p>
-        <a href="/" className="font-medium text-white pt-5 block underline sm:text-base text-sm">
+        <a
+          href="/"
+          className="font-medium text-white pt-5 block underline sm:text-base text-sm"
+        >
           Next Level Erlebnisse ist perfekt für:
         </a>
-        <p className="sm:text-base text-sm">
+        <p className="sm:text-base text-sm text-white">
           (Kinder-)Geburtstage, Junggesellenabschiede, Mädelsabende,
           Stammtischausflüge, Teambuildings, Firmenfeiern und vieles mehr.{" "}
           <br />
@@ -137,9 +140,9 @@ const Events = () => {
           </div>
         </div>
       </section> */}
-        <section className="sm:px-[150px] px-5 sm:pt-[70px] sm:pb-[109px] pb-[100px]">
+      <section className="sm:px-[150px] px-5 sm:pt-[70px] sm:pb-[109px] pb-[100px] bg-black">
         <div className="sm:grid grid-cols-4 hidden">
-          <p className="uppercase leading-6 tracking-[2px] font-medium text-center pt-6">
+          <p className="uppercase leading-6 tracking-[2px] font-medium text-center pt-6 text-white">
             Schreib uns, ruf uns an <br /> oder schick eine Mail. <br /> ✌
           </p>
           <div className="flex justify-center">
@@ -161,7 +164,7 @@ const Events = () => {
               <span className="block text-center tracking-[5px] uppercase leading-5 pt-6">
                 WHATSAPP
               </span>
-              <span className="block text-center text-gray-1 text-sm leading-5 pt-[11px]">
+              <span className="block text-center text-white text-sm leading-5 pt-[11px]">
                 (06631) 7882663
               </span>
             </div>
@@ -182,10 +185,10 @@ const Events = () => {
                   />
                 </svg>
               </div>
-              <span className="block text-center tracking-[5px] uppercase leading-5 pt-6">
+              <span className="block text-center tracking-[5px] uppercase leading-5 pt-6 text-white">
                 TELEFON
               </span>
-              <span className="block text-center text-gray-1 text-sm leading-5 pt-[11px]">
+              <span className="block text-center text-sm leading-5 pt-[11px] text-white">
                 (06631) 7882664
               </span>
             </div>
@@ -206,17 +209,17 @@ const Events = () => {
                   />
                 </svg>
               </div>
-              <span className="block text-center tracking-[5px] uppercase leading-5 pt-6">
+              <span className="block text-center tracking-[5px] uppercase leading-5 pt-6 text-white">
                 E-MAIL
               </span>
-              <span className="block text-center text-gray-1 text-sm leading-5 pt-[11px]">
+              <span className="block text-center text-white text-sm leading-5 pt-[11px]">
                 buchung@nextlevel-erlebnisse.de
               </span>
             </div>
           </div>
         </div>
         <div className="sm:hidden block">
-          <p className="uppercase leading-6 tracking-[2px] font-medium text-center pt-6">
+          <p className="uppercase leading-6 tracking-[2px] font-medium text-center pt-6 text-white">
             Schreib uns, ruf uns an <br /> oder schick eine Mail. ✌
           </p>
           <div className="grid grid-cols-3 pt-8 items-center gap-5">
@@ -236,7 +239,7 @@ const Events = () => {
                     />
                   </svg>
                 </div>
-                <span className="block text-center uppercase leading-5 pt-6">
+                <span className="block text-center uppercase leading-5 pt-6 text-white">
                   WHATSAPP
                 </span>
                 <span className="block text-center text-white text-sm leading-5 pt-[11px]">
@@ -260,10 +263,10 @@ const Events = () => {
                     />
                   </svg>
                 </div>
-                <span className="block text-center uppercase leading-5 pt-6">
+                <span className="block text-center uppercase leading-5 pt-6 text-white">
                   TELEFON
                 </span>
-                <span className="block text-center text-white text-sm leading-5 pt-[11px]">
+                <span className="block text-center text-sm leading-5 pt-[11px] text-white">
                   (06631) 7882664
                 </span>
               </div>
@@ -284,7 +287,7 @@ const Events = () => {
                     />
                   </svg>
                 </div>
-                <span className="block text-center uppercase leading-5 pt-6">
+                <span className="block text-center uppercase leading-5 pt-6 text-white">
                   E-MAIL
                 </span>
                 <span className="block text-center text-white text-sm leading-5 pt-[11px]">
@@ -294,9 +297,6 @@ const Events = () => {
             </div>
           </div>
         </div>
-        {/* <h1 className="text-aquagreen sm:block hidden text-center uppercase tracking-[10px] leading-[30px] font-medium text-[22px] sm:pt-[89px]">
-          WIR FREUEN UNS AUF EURE ANFRAGE!
-        </h1> */}
       </section>
       <Footer />
     </main>

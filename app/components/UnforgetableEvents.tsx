@@ -85,7 +85,7 @@ const UnforgetableEvents = () => {
         </div>
       </div>
       <div className="sm:px-[150px] px-5 pb-16">
-        <h2 className="sm:pt-[125px] pt-14 uppercase tracking-[2px] sm:text-[40px] text-[22px] sm:leading-[54px]">
+        <h2 className="sm:pt-[125px] pt-14 uppercase tracking-[2px] sm:text-[40px] text-[22px] sm:leading-[54px] text-white">
           Events für Firmen und Vereine
         </h2>
         <p className="leading-5 text-[15px] pt-[22px] sm:pb-0 pb-8 text-white">

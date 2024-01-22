@@ -9,13 +9,13 @@ const ClubsAndGroups = () => {
       <Navbar />
       <Hero className="sm:h-[681px] h-[545px] flex justify-center items-center w-screen transition duration-300 ease-in-out  hover:rounded-lg bg-[url('/vereine.webp')] bg-cover bg-center bg-no-repeat">
         <div className="sm:pt-64">
-          <h1 className="text-center sm:text-[19px] text-[15px] leading-6 tracking-[5px] uppercase">
+          <h1 className="text-center sm:text-[19px] text-[15px] leading-6 tracking-[5px] uppercase text-white">
             Spezial Paketpreise für Vereine
           </h1>
           <h2 className="text-center sm:text-[71px] sm:px-0 px-5 text-[28px] font-medium uppercase tracking-[2.1px] sm:pt-10 pt-5 sm:leading-[80px] text-white">
             Ausflug für Vereine
           </h2>
-          <p className="pt-[22px] text-[15px] leading-5 text-center sm:px-[160px] px-5">
+          <p className="pt-[22px] text-[15px] leading-5 text-center sm:px-[160px] px-5 text-white">
             Das ultimative Gruppenevent voller Action und virtueller Realität.
             Verstärkt den Teamgeist und erlebt unvergessliche Momente in unserer
             Lasertag- und HOLOGATE Arena. Ob unsere Gruppenevents oder
@@ -25,7 +25,7 @@ const ClubsAndGroups = () => {
         </div>
       </Hero>
       <SecondaryHero>
-        <h1 className="text-xl font-medium leading-5">Stärke den Teamgeist</h1>
+        <h1 className="text-xl font-medium leading-5 text-white">Stärke den Teamgeist</h1>
         <h2 className="uppercase sm:text-[40px] text-[30px] font-medium tracking-[2px] text-white sm:leading-[54px] pt-5">
           Actionreicher Ausflug für Vereine
         </h2>

@@ -1,7 +1,7 @@
 const MoveExperiences = () => {
   return (
     <section className="sm:px-[150px] px-5 sm:pt-[150px] pt-[100px] pb-[50px] bg-[url(https://nextlevel-erlebnisse.de/wp-content/uploads/2022/10/sandboxvr-header.jpg)] sm:h-[470px] bg-cover bg-center">
-      <h1 className="uppercase">ERLEBNISSE VERSCHENKEN</h1>
+      <h1 className="uppercase text-white">ERLEBNISSE VERSCHENKEN</h1>
       <h2 className="uppercase sm:text-[55px] text-4xl font-bold text-white sm:leading-[72px] leading-snug tracking-[10px] pt-5">
         Ein besonderes Geschenk.
       </h2>

@@ -23,7 +23,7 @@ const BachelorParty = () => {
             NextLevel JGA - <br />
             Junggesellen-abschied
           </h2>
-          <p className="pt-[22px] text-[15px] leading-5 text-center sm:px-[160px] px-5">
+          <p className="pt-[22px] text-[15px] leading-5 text-center sm:px-[160px] px-5 text-white">
             Seid ihr bereit für den Junggesellenabschied (JGA) des Jahrhunderts?
             Möchtet ihr einen Tag erleben, der für immer in eurer Erinnerung
             bleiben wird? Dann seid ihr hier genau richtig! Next Level
@@ -35,7 +35,7 @@ const BachelorParty = () => {
         </div>
       </Hero>
       <SecondaryHero>
-        <h1 className="text-xl sm:font-medium leading-5">
+        <h1 className="text-xl sm:font-medium leading-5 text-white">
           IHR HABT DIE QUAL DER WAHL FÜR EUREN JGA
         </h1>
         <h2 className="uppercase sm:text-[40px] text-[30px] font-medium tracking-[2px] text-white sm:leading-[54px] pt-5">
@@ -104,7 +104,7 @@ const BachelorParty = () => {
         <h1 className="text-lg font-medium tracking-[2.5px] uppercase leading-5 text-white">
           BEHAUPTET EUCH GEGEN ZOMBIES, ALIENS ODER PIRATEN
         </h1>
-        <h2 className="sm:text-[42px] text-[30px] font-medium leading-[54px] uppercase tracking-[2px] pt-5">
+        <h2 className="sm:text-[42px] text-[30px] font-medium leading-[54px] uppercase tracking-[2px] pt-5 text-white">
           Sandbox VR
         </h2>
         <p className="pt-[22px] leading-5 text-[15px] text-white">
@@ -140,18 +140,18 @@ const BachelorParty = () => {
         <div className="sm:pt-[76px]">s</div>
       </section>
       <section className="bg-mesh-gradient bg-top sm:bg-fixed bg-no-repeat bg-cover sm:px-[150px] px-5 sm:pt-[90px] pt-16 sm:pb-[53px] pb-16">
-        <h1 className="text-lg font-medium tracking-[2.5px] uppercase leading-5">
+        <h1 className="text-lg font-medium tracking-[2.5px] uppercase leading-5 text-white">
           WIR HABEN NOCH MEHR ERLEBNISSE
         </h1>
-        <h2 className="sm:text-[41px] text-[30px] font-medium sm:leading-[54px] uppercase sm:tracking-[2px] pt-6">
+        <h2 className="sm:text-[41px] text-[30px] font-medium sm:leading-[54px] uppercase sm:tracking-[2px] pt-6 text-white">
           LASERTAG, ESCAPEROOM UND HOLOGATE
         </h2>
-        <p className="pt-[27px] leading-5 text-[15px]">
+        <p className="pt-[27px] leading-5 text-[15px] text-white">
           Wenn Euch Sandbox VR zu extrem ist oder ihr Eure Sandbox VR Erfahrung
           abrunden wollt, haben wir natürlich auch die richtigen Erlebnisse für
           Euch:
         </p>
-        <p className="pt-6 leading-5 text-[15px]">
+        <p className="pt-6 leading-5 text-[15px] text-white">
           <span className="text-[#A6519A]">Lasertag,</span>{" "}
           <span className="text-[#A6519A]">Hologate</span> und unser
           <span className="text-[#A6519A]"> Escaperoom</span> lassen keine
@@ -232,9 +232,9 @@ const BachelorParty = () => {
         </div>
       </section>
       <CorporateContact />
-      <section className="sm:px-[150px] px-5 sm:pt-[70px] sm:pb-[109px] pb-[100px]">
+      <section className="sm:px-[150px] px-5 sm:pt-[70px] sm:pb-[109px] pb-[100px] bg-black">
         <div className="sm:grid grid-cols-4 hidden">
-          <p className="uppercase leading-6 tracking-[2px] font-medium text-center pt-6">
+          <p className="uppercase leading-6 tracking-[2px] font-medium text-center pt-6 text-white">
             Schreib uns, ruf uns an <br /> oder schick eine Mail. <br /> ✌
           </p>
           <div className="flex justify-center">
@@ -253,10 +253,10 @@ const BachelorParty = () => {
                   />
                 </svg>
               </div>
-              <span className="block text-center tracking-[5px] uppercase leading-5 pt-6">
+              <span className="block text-center tracking-[5px] uppercase leading-5 pt-6 text-white">
                 WHATSAPP
               </span>
-              <span className="block text-center text-gray-1 text-sm leading-5 pt-[11px]">
+              <span className="block text-center text-white text-sm leading-5 pt-[11px]">
                 (06631) 7882663
               </span>
             </div>
@@ -277,10 +277,10 @@ const BachelorParty = () => {
                   />
                 </svg>
               </div>
-              <span className="block text-center tracking-[5px] uppercase leading-5 pt-6">
+              <span className="block text-center tracking-[5px] uppercase leading-5 pt-6 text-white">
                 TELEFON
               </span>
-              <span className="block text-center text-gray-1 text-sm leading-5 pt-[11px]">
+              <span className="block text-center text-white text-sm leading-5 pt-[11px]">
                 (06631) 7882664
               </span>
             </div>
@@ -301,10 +301,10 @@ const BachelorParty = () => {
                   />
                 </svg>
               </div>
-              <span className="block text-center tracking-[5px] uppercase leading-5 pt-6">
+              <span className="block text-center tracking-[5px] uppercase leading-5 pt-6 text-white">
                 E-MAIL
               </span>
-              <span className="block text-center text-gray-1 text-sm leading-5 pt-[11px]">
+              <span className="block text-center text-white text-sm leading-5 pt-[11px]">
                 buchung@nextlevel-erlebnisse.de
               </span>
             </div>
