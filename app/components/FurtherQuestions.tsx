@@ -1,6 +1,6 @@
 const FurtherQuestions = () => {
   return (
-    <section className="sm:px-[150px] px-5 pt-[70px] pb-[55px]">
+    <section className="sm:px-[150px] px-5 pt-[70px] pb-[55px] bg-black">
       <h1 className="uppercase sm:text-xl text-sm text-gray-1 leading-[26px] sm:tracking-[10px] tracking-[3px]">
         LASS VON DIR HÖREN
       </h1>

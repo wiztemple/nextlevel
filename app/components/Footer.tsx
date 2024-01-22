@@ -131,13 +131,13 @@ const Footer = () => {
                     fill="white"
                   />
                 </svg>
-                <span className="sm:text-start text-center">
+                <span className="sm:text-start text-center text-white">
                   {" "}
                   buchung@nextlevel-erlebnisse.de
                 </span>
               </a>
               <div className="flex sm:justify-start justify-center">
-                <a href="" className="flex gap-1 items-center pt-1">
+                <a href="" className="flex gap-1 items-center pt-1 text-white">
                   <svg
                     width="15"
                     height="15"
@@ -154,7 +154,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="flex sm:justify-start justify-center">
-              <a href="" className="flex gap-1 items-center pt-1">
+              <a href="" className="flex gap-1 items-center pt-1 text-white">
                 <svg
                   width="15"
                   height="15"
@@ -173,13 +173,13 @@ const Footer = () => {
               <div className="pt-3">
                 <Link
                   href="/imprint"
-                  className="block text-[15px] sm:text-left text-center font-bold pt-1"
+                  className="block text-[15px] sm:text-left text-center font-bold pt-1 text-white"
                 >
                   Impressum
                 </Link>
                 <Link
                   href="/dataprotection"
-                  className="block text-[15px] sm:text-left text-center font-bold pt-1"
+                  className="block text-[15px] sm:text-left text-center font-bold pt-1 text-white"
                 >
                   Datenschutzerklärung
                 </Link>
@@ -191,7 +191,7 @@ const Footer = () => {
               </h1>
               <a
                 href=""
-                className="block text-[15px] text-center font-bold pt-1"
+                className="block text-[15px] text-center font-bold pt-1 text-white"
               >
                 Sandbox VR
               </a>
@@ -202,23 +202,23 @@ const Footer = () => {
               </h1>
               <a
                 href=""
-                className="block text-[15px] sm:text-right text-center font-bold pt-1"
+                className="block text-[15px] sm:text-right text-center font-bold pt-1 text-white"
               >
                 Firmenevents
               </a>
-              <a href="" className="block text-[15px] sm:text-right text-center font-bold">
+              <a href="" className="block text-[15px] sm:text-right text-center font-bold text-white">
                 Kindergeburtstage
               </a>
-              <a href="" className="block text-[15px] sm:text-right text-center font-bold">
+              <a href="" className="block text-[15px] sm:text-right text-center font-bold text-white">
                 Teamevents
               </a>
-              <a href="" className="block text-[15px] sm:text-right text-center font-bold">
+              <a href="" className="block text-[15px] sm:text-right text-center font-bold text-white">
                 Junggesellenabschiede
               </a>
-              <a href="" className="block text-[15px] sm:text-right text-center font-bold">
+              <a href="" className="block text-[15px] sm:text-right text-center font-bold text-white">
                 Weihnachtsfeiern
               </a>
-              <a href="" className="block text-[15px] sm:text-right text-center font-bold">
+              <a href="" className="block text-[15px] sm:text-right text-center font-bold text-white">
                 Seminare
               </a>
             </div>
