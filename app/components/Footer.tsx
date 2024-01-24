@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="flex justify-center sm:w-full social-links flex-wrap">
             <div className="flex sm:gap-8 gap-4 pt-3">
               <a
-                href="https://www.instagram.com/nextlevel.erlebnisse/"
+                href="https://www.instagram.com/sandboxvr_chfb"
                 target="_blank"
               >
                 <svg
@@ -27,7 +27,7 @@ const Footer = () => {
                   />
                 </svg>
               </a>
-              <a href="/">
+              <a href="www.facebook.com/sandboxvrswitzerland" target="_blank">
                 <svg
                   width="29"
                   height="29"
@@ -57,19 +57,50 @@ const Footer = () => {
               </a>
               <a href="/">
                 <svg
-                  width="30"
-                  height="33"
-                  viewBox="0 0 30 33"
+                  width="33"
+                  height="32"
+                  viewBox="0 0 33 32"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <path
-                    d="M23.6344 6.66992V13.5449H21.1969V6.66992H23.6344ZM17.0094 6.60742V13.4824H14.5719V6.60742H17.0094ZM6.69687 0.169922H29.6344V16.1699L18.7594 26.4824H13.9469L7.94687 32.1699V26.4824H0.696875V5.91992L6.69687 0.169922ZM27.2594 15.0449V2.48242H7.94687V19.6074H13.3844V23.6074L17.5719 19.6074H22.3844L27.2594 15.0449Z"
-                    fill="white"
-                  />
+                  <g clip-path="url(#clip0_341_51)">
+                    <mask
+                      id="mask0_341_51"
+                      maskUnits="userSpaceOnUse"
+                      x="0"
+                      y="0"
+                      width="33"
+                      height="32"
+                    >
+                      <path
+                        d="M32.8887 0H0.888672V32H32.8887V0Z"
+                        fill="white"
+                      />
+                    </mask>
+                    <g mask="url(#mask0_341_51)">
+                      <path
+                        d="M29.1387 0H4.63867C2.5676 0 0.888672 1.67893 0.888672 3.75V28.25C0.888672 30.3211 2.5676 32 4.63867 32H29.1387C31.2097 32 32.8887 30.3211 32.8887 28.25V3.75C32.8887 1.67893 31.2097 0 29.1387 0Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M23.1325 6.25H26.4405L19.2135 14.51L27.7155 25.75H21.0585L15.8445 18.933L9.87855 25.75H6.56858L14.2985 16.915L6.14258 6.25H12.9685L17.6815 12.481L23.1325 6.25ZM21.9715 23.77H23.8045L11.9725 8.126H10.0055L21.9715 23.77Z"
+                        fill="black"
+                      />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_341_51">
+                      <rect
+                        width="32"
+                        height="32"
+                        fill="white"
+                        transform="translate(0.886719)"
+                      />
+                    </clipPath>
+                  </defs>
                 </svg>
               </a>
-              <a href="/">
+              <a href="/" target="_blank">
                 <svg
                   width="29"
                   height="33"
@@ -83,16 +114,16 @@ const Footer = () => {
                   />
                 </svg>
               </a>
-              <a href="/">
+              <a href="/https://www.linkedin.com/company/sandbox-vr-ch-at" target="_blank">
                 <svg
-                  width="39"
-                  height="29"
-                  viewBox="0 0 39 29"
+                  width="36"
+                  height="35"
+                  viewBox="0 0 36 35"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M32.4344 2.54492C36.5594 8.66992 38.6219 15.5449 37.8719 23.4824C37.8719 23.4824 37.8719 23.5449 37.8094 23.5449C35.0594 25.6074 31.9344 27.1699 28.6219 28.1699C28.5594 28.1699 28.4969 28.1699 28.4969 28.1699C27.8094 27.1699 27.1844 26.1699 26.6219 25.1074V25.0449C26.6219 24.9824 26.6219 24.9824 26.6844 24.9199C27.6844 24.5449 28.6219 24.1074 29.5594 23.5449C29.6219 23.5449 29.6219 23.5449 29.6219 23.4824C29.6219 23.4199 29.6219 23.4199 29.5594 23.3574C29.3719 23.2324 29.1844 23.1074 28.9969 22.9199H28.9344H28.8719C22.9344 25.6699 16.4344 25.6699 10.4344 22.9199C10.3719 22.9199 10.3719 22.9199 10.3719 22.9199C10.3094 22.9199 10.3094 22.9199 10.3094 22.9199C10.1219 23.1074 9.93438 23.2324 9.74688 23.3574C9.68438 23.4199 9.68438 23.4199 9.68438 23.4824C9.68438 23.5449 9.68438 23.5449 9.74688 23.5449C10.6219 24.1074 11.6219 24.5449 12.6219 24.9199C12.6219 24.9824 12.6844 24.9824 12.6844 25.0449V25.1074C12.1219 26.1699 11.4969 27.1699 10.8094 28.1699C10.7469 28.1699 10.7469 28.1699 10.6844 28.1699C7.30938 27.1699 4.18438 25.6074 1.49688 23.5449C1.43438 23.5449 1.43438 23.4824 1.43438 23.4824C0.809376 16.6074 2.12188 9.66992 6.87188 2.54492C6.87188 2.54492 6.87188 2.54492 6.93438 2.54492C9.24688 1.48242 11.8094 0.669922 14.3719 0.232422C14.3719 0.232422 14.3719 0.232422 14.4344 0.232422H14.4969C14.8719 0.857422 15.1844 1.54492 15.4344 2.16992C16.8094 1.98242 18.1844 1.85742 19.6219 1.85742C21.0594 1.85742 22.4969 1.98242 23.8719 2.16992C24.1219 1.54492 24.4344 0.857422 24.8094 0.232422L24.8719 0.169922C24.8719 0.169922 24.8719 0.232422 24.9344 0.232422C27.4969 0.669922 30.0594 1.48242 32.3719 2.54492C32.4344 2.54492 32.4344 2.54492 32.4344 2.54492ZM13.5594 19.2949C15.3719 19.2949 16.8719 17.6074 16.8719 15.6074C16.8719 13.5449 15.4344 11.9199 13.5594 11.9199C11.7469 11.9199 10.2469 13.5449 10.2469 15.6074C10.2469 17.6074 11.7469 19.2949 13.5594 19.2949ZM25.7469 19.2949C27.6219 19.2949 29.0594 17.6074 29.0594 15.6074C29.1219 13.5449 27.6219 11.9199 25.7469 11.9199C23.9344 11.9199 22.4969 13.5449 22.4969 15.6074C22.4969 17.6074 23.9344 19.2949 25.7469 19.2949Z"
+                    d="M30.1096 2.91622H5.40547C5.12777 2.91236 4.85203 2.96325 4.594 3.06597C4.33597 3.16869 4.1007 3.32123 3.90163 3.51488C3.70256 3.70854 3.54359 3.93951 3.43379 4.19461C3.32399 4.44971 3.26552 4.72394 3.26172 5.00164V29.9975C3.26552 30.2752 3.32399 30.5494 3.43379 30.8045C3.54359 31.0596 3.70256 31.2906 3.90163 31.4842C4.1007 31.6779 4.33597 31.8304 4.594 31.9331C4.85203 32.0359 5.12777 32.0867 5.40547 32.0829H30.1096C30.3873 32.0867 30.6631 32.0359 30.9211 31.9331C31.1791 31.8304 31.4144 31.6779 31.6135 31.4842C31.8125 31.2906 31.9715 31.0596 32.0813 30.8045C32.1911 30.5494 32.2496 30.2752 32.2534 29.9975V5.00164C32.2496 4.72394 32.1911 4.44971 32.0813 4.19461C31.9715 3.93951 31.8125 3.70854 31.6135 3.51488C31.4144 3.32123 31.1791 3.16869 30.9211 3.06597C30.6631 2.96325 30.3873 2.91236 30.1096 2.91622ZM12.0555 27.3287H7.68047V14.2037H12.0555V27.3287ZM9.86797 12.3662C9.2646 12.3662 8.68595 12.1265 8.2593 11.6999C7.83266 11.2732 7.59297 10.6946 7.59297 10.0912C7.59297 9.48785 7.83266 8.9092 8.2593 8.48255C8.68595 8.05591 9.2646 7.81622 9.86797 7.81622C10.1884 7.77988 10.5128 7.81163 10.8201 7.90938C11.1273 8.00713 11.4105 8.16868 11.651 8.38346C11.8915 8.59823 12.0839 8.86138 12.2157 9.15567C12.3475 9.44997 12.4156 9.76878 12.4156 10.0912C12.4156 10.4137 12.3475 10.7325 12.2157 11.0268C12.0839 11.3211 11.8915 11.5842 11.651 11.799C11.4105 12.0138 11.1273 12.1753 10.8201 12.2731C10.5128 12.3708 10.1884 12.4026 9.86797 12.3662ZM27.8346 27.3287H23.4596V20.285C23.4596 18.5204 22.8326 17.3683 21.243 17.3683C20.751 17.3719 20.272 17.5262 19.8704 17.8104C19.4689 18.0946 19.1641 18.4951 18.9971 18.9579C18.883 19.3007 18.8336 19.6616 18.8513 20.0225V27.3141H14.4763C14.4763 27.3141 14.4763 15.385 14.4763 14.1891H18.8513V16.0412C19.2487 15.3516 19.8268 14.7834 20.5232 14.398C21.2196 14.0125 22.008 13.8243 22.8034 13.8537C25.7201 13.8537 27.8346 15.735 27.8346 19.7746V27.3287Z"
                     fill="white"
                   />
                 </svg>
@@ -133,7 +164,7 @@ const Footer = () => {
                 </svg>
                 <span className="sm:text-start text-center text-white">
                   {" "}
-                  buchung@nextlevel-erlebnisse.de
+                  zurich@sandboxvr.com
                 </span>
               </a>
               <div className="flex sm:justify-start justify-center">
@@ -150,11 +181,11 @@ const Footer = () => {
                       fill="white"
                     />
                   </svg>
-                  <span> 06631 7882663</span>
+                  <span>+41433119906</span>
                 </a>
               </div>
               <div className="flex sm:justify-start justify-center">
-              <a href="" className="flex gap-1 items-center pt-1 text-white">
+                {/* <a href="" className="flex gap-1 items-center pt-1 text-white">
                 <svg
                   width="15"
                   height="15"
@@ -168,7 +199,7 @@ const Footer = () => {
                   />
                 </svg>
                 <span> 06631 7882663</span>
-              </a>
+              </a> */}
               </div>
               <div className="pt-3">
                 <Link
@@ -189,38 +220,53 @@ const Footer = () => {
               <h1 className="uppercase text-lg tracking-widest text-[#999999] sm:pt-0 pt-10">
                 Next Level Erlebnisse
               </h1>
-              <a
-                href=""
+              <Link
+                href="/"
                 className="block text-[15px] text-center font-bold pt-1 text-white"
               >
                 Sandbox VR
-              </a>
+              </Link>
             </div>
             <div>
               <h1 className="uppercase text-lg tracking-widest text-[#999999] sm:pt-0 pt-10">
                 Eventangebote
               </h1>
-              <a
-                href=""
+              <Link
+                href="/corporate-events"
                 className="block text-[15px] sm:text-right text-center font-bold pt-1 text-white"
               >
                 Firmenevents
-              </a>
-              <a href="" className="block text-[15px] sm:text-right text-center font-bold text-white">
+              </Link>
+              <Link
+                href="/events/children-birthday"
+                className="block text-[15px] sm:text-right text-center font-bold text-white"
+              >
                 Kindergeburtstage
-              </a>
-              <a href="" className="block text-[15px] sm:text-right text-center font-bold text-white">
+              </Link>
+              <Link
+                href="/"
+                className="block text-[15px] sm:text-right text-center font-bold text-white"
+              >
                 Teamevents
-              </a>
-              <a href="" className="block text-[15px] sm:text-right text-center font-bold text-white">
+              </Link>
+              <Link
+                href="/"
+                className="block text-[15px] sm:text-right text-center font-bold text-white"
+              >
                 Junggesellenabschiede
-              </a>
-              <a href="" className="block text-[15px] sm:text-right text-center font-bold text-white">
+              </Link>
+              <Link
+                href="/"
+                className="block text-[15px] sm:text-right text-center font-bold text-white"
+              >
                 Weihnachtsfeiern
-              </a>
-              <a href="" className="block text-[15px] sm:text-right text-center font-bold text-white">
+              </Link>
+              <Link
+                href="/seminar"
+                className="block text-[15px] sm:text-right text-center font-bold text-white"
+              >
                 Seminare
-              </a>
+              </Link>
             </div>
           </div>
           <div className="w-full flex justify-center sm:pt-44 pt-36 pb-20">

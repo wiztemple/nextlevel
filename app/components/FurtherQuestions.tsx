@@ -11,8 +11,8 @@ const FurtherQuestions = () => {
         Dann lass uns doch gerne in Kontakt treten! Wir freuen uns, dir
         Weiterhelfen zu können!
       </p>
-      <div className="grid grid-cols-3 sm:pt-[70px] pt-[50px]">
-        <div className="flex justify-center">
+      <div className="grid grid-cols-2 sm:pt-[70px] pt-[50px]">
+        {/* <div className="flex justify-center">
           <div className="w-full">
             <div className="flex justify-center">
               <svg
@@ -35,7 +35,7 @@ const FurtherQuestions = () => {
               (06631) 7882663
             </span>
           </div>
-        </div>
+        </div> */}
         <div className="flex justify-center">
           <div className="w-full">
             <div className="flex justify-center">
@@ -56,7 +56,7 @@ const FurtherQuestions = () => {
                TELEFON
             </span>
             <span className="block text-center text-gray-1 text-sm leading-5 pt-[11px]">
-            (06631) 7882664
+            (+414) 33119906
             </span>
           </div>
         </div>
@@ -71,7 +71,7 @@ const FurtherQuestions = () => {
               E-MAIL
             </span>
             <span className="block text-center text-gray-1 text-sm leading-5 pt-[11px]">
-            buchung@nextlevel-erlebnisse.de
+            zurich@sandboxvr.com
             </span>
           </div>
         </div>
