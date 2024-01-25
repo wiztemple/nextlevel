@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const PressSection = () => {
   return (
     <section className="sm:pt-[120px] pt-20 sm:pb-20 sm:px-[150px] px-5 bg-dark-1">
@@ -34,12 +36,12 @@ const PressSection = () => {
           <p className="sm:text-[15px] text-sm leading-5 text-gray-8 pt-5 relative z-50">
             Du bist Influencer, Streamer, Blogger, Youtuber? ✌️
           </p>
-          <a
-            href="/"
+          <Link
+            href="/coorperation"
             className="text-gray-8 block w-fit py-3 px-6 rounded-[3px] border border-gray-8 tracking-[5px] leading-5 text-[15px] relative mt-11 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110 hover:bg-appblue hover:border-appblue"
           >
             DANN HIER LANG!
-          </a>
+          </Link>
         </div>
       </div>
     </section>

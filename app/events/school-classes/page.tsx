@@ -12,8 +12,6 @@ import Navbar from "@/app/components/Navbar";
 import SchoolAccordion from "@/app/components/SchoolAccordion";
 import SecondaryHero from "@/app/components/SecondaryHero";
 import Image from "next/image";
-import NextArrow from "@/app/components/NextArrow";
-import PrevArrow from "@/app/components/PrevArrow";
 
 const SchoolClasses = () => {
   const settings = {
@@ -497,11 +495,11 @@ const SchoolClasses = () => {
         </div>
       </section> */}
       <section className="sm:px-[150px] px-5 sm:pt-[70px] pt-10 sm:pb-[109px] pb-[100px]">
-        <div className="sm:grid grid-cols-4 hidden">
+        <div className="sm:grid grid-cols-3 hidden">
           <p className="uppercase leading-6 tracking-[2px] font-medium text-center pt-6">
             Schreib uns, ruf uns an <br /> oder schick eine Mail. <br /> ✌
           </p>
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <div className="w-full">
               <div className="flex justify-center">
                 <svg
@@ -524,7 +522,7 @@ const SchoolClasses = () => {
                 (06631) 7882663
               </span>
             </div>
-          </div>
+          </div> */}
           <div className="flex justify-center">
             <div className="w-full">
               <div className="flex justify-center">
@@ -545,7 +543,7 @@ const SchoolClasses = () => {
                 TELEFON
               </span>
               <span className="block text-center text-gray-1 text-sm leading-5 pt-[11px]">
-                (06631) 7882664
+              +41433119906
               </span>
             </div>
           </div>
@@ -569,7 +567,7 @@ const SchoolClasses = () => {
                 E-MAIL
               </span>
               <span className="block text-center text-gray-1 text-sm leading-5 pt-[11px]">
-                buchung@nextlevel-erlebnisse.de
+              zurich@sandboxvr.com
               </span>
             </div>
           </div>

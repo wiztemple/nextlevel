@@ -48,7 +48,8 @@ const config: Config = {
         'cardXl2': '0px 0px 10px 0px rgba(0,0,0,0.5)',
         'shadowxl4': '0px 0px 22px 3px rgba(255,255,255,0.9)',
         'shadowForm': '0px 0px 10px 2px rgba(0, 0, 0, 0.16)',
-        'voucherShadow': '2px 2px 5px 0px rgba(0,0,0,0.5)'
+        'voucherShadow': '2px 2px 5px 0px rgba(0,0,0,0.5)',
+        'coopCard': '6px 7px 10px 0px rgba(0, 0, 0, 0.38)'
       }
     },
   },
