@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Accordion from "@/app/components/Accordion";
 import Footer from "@/app/components/Footer";
 import Hero from "@/app/components/Hero";
@@ -45,7 +46,7 @@ const ChildrenBirthday = () => {
     },
   ];
   return (
-    <main>
+    <main className="break-words">
       <Navbar />
       <Hero className="h-[760px] flex justify-center items-center w-screen transition duration-300 ease-in-out  hover:rounded-lg bg-[url('/kindergeburtstag.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="sm:pt-64">
@@ -81,6 +82,111 @@ const ChildrenBirthday = () => {
           den besonderen Tag zu einem unvergesslichen Erlebnis werden:
         </p>
       </SecondaryHero>
+      <section className="bg-black pt-5 sm:px-[150px] px-5">
+        <div className="grid sm:grid-cols-2 sm:gap-[30px]">
+          <a
+            href="/"
+            className="group overflow-hidden relative block h-[340px] rounded-[20px] mt-5"
+          >
+            <div className="overflow-hidden rounded-[20px]">
+              <img
+                className="object-cover h-[340px] rounded-[20px] rounded-tr-[10px] w-full group-hover:scale-[1.2] transition-all duration-1000 ease-in-out transform"
+                src={`/altiers.webp`}
+                alt="blog image"
+              />
+              <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/15 transition-all p-9">
+                <div className="flex justify-center ">
+                  <img
+                    src="/Logo_Escape_Room_black.webp"
+                    className="w-[141px] h-[49px]"
+                    alt="client logo"
+                  />
+                </div>
+                <h1 className="uppercase text-dark-4 text-center tracking-[2.5px] text-lg leading-5 font-medium pt-5">
+                  Knifflige Rätsel und spannende Abenteuer
+                </h1>
+                <p className="pt-[17px] text-center text-dark-4 text-[15px] leading-5">
+                  Für Rätsel- und Knobelfreunde haben wir unsere spannenden
+                  Escaperooms im Angebot. Hier können die Kids gemeinsam
+                  knifflige Aufgaben lösen und ihre Köpfchen anstrengen, um
+                  rechtzeitig den Blutsplitter zu finden und damit die magische
+                  Welt zu retten. Dabei sind Teamwork und Kreativität gefragt -
+                  genau das Richtige für einen aufregenden Kindergeburtstag! Ein
+                  aufregendes und lehrreiches Erlebnis für alle Altersgruppen!
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/"
+            className="group overflow-hidden relative block h-[370px] rounded-[20px]"
+          >
+            <div className="overflow-hidden rounded-[20px]">
+              <img
+                className="object-cover h-[370px] rounded-[20px] rounded-tr-[10px] w-full group-hover:scale-[1.2] transition-all duration-1000 ease-in-out transform"
+                src={`/bg-hd.webp`}
+                alt="blog image"
+              />
+              <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/15 transition-all p-9">
+                <div className="flex justify-center ">
+                  <img
+                    src="/lasertag.webp"
+                    className="w-[141px] h-[79px]"
+                    alt="client logo"
+                  />
+                </div>
+                <h1 className="uppercase text-white tracking-[2.5px] text-center text-lg leading-5 font-medium pt-5">
+                  Action Pur und jede Menge Spass
+                </h1>
+                <p className="pt-[17px] text-center text-white text-[15px] leading-5">
+                  Unser Lasertag ist besonders beliebt. Die Kinder tauchen in
+                  eine futuristische Welt ein, in der sie spielerisch ihre
+                  Geschicklichkeit und Teamgeist unter Beweis stellen können.
+                  Ausgestattet mit High-Tech-Westen und Lasern, ist es das Ziel,
+                  die gegnerischen Teams zu besiegen und dabei jede Menge Spaß
+                  zu haben. Die speziell gestaltete Arena mit Hindernissen und
+                  Verstecken auf mehreren Ebenen macht das Spiel noch
+                  aufregender. Es fördert Teamgeist und sorgt für eine Menge
+                  Adrenalin!
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/"
+            className="group overflow-hidden relative block h-[299px] rounded-[20px] mt-5"
+          >
+            <div className="overflow-hidden rounded-[20px]">
+              <img
+                className="object-cover h-[299px] rounded-[20px] rounded-tr-[10px] w-full group-hover:scale-[1.2] transition-all duration-1000 ease-in-out transform"
+                src={`/hol-bg.webp`}
+                alt="blog image"
+              />
+              <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/15 transition-all p-9">
+                <div className="flex justify-center ">
+                  <img
+                    src="/hologate.webp"
+                    className="w-[141px] h-[49px]"
+                    alt="client logo"
+                  />
+                </div>
+                <h1 className="uppercase text-white text-center tracking-[2.5px] text-lg leading-5 font-medium pt-5">
+                  Eintauchen in VR Welten
+                </h1>
+                <p className="pt-[17px] text-center text-white text-[15px] leading-5">
+                  Hologate, unsere Virtual-Reality-Attraktion, entführt die
+                  Geburtstagsgäste in faszinierende Welten. Ob atemberaubende
+                  Abenteuer oder lustige Minispiele, hier ist für jeden etwas
+                  dabei. Die Kinder werden begeistert sein, wenn sie gemeinsam
+                  in die virtuelle Realität eintauchen und dort spannende
+                  Erlebnisse teilen.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section className="b bg-mesh-gradient">s</section>
       <section className="py-[65px] sm:px-[185px] px-5 bg-black">
         <div className="grid sm:grid-cols-2 grid-cols-1">
           <div>
