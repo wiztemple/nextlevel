@@ -39,7 +39,7 @@ const AdventuresSection = () => {
         <a href="https://escaperoom-alsfeld.de/" className="flex">
           <Image
             className="object-contain transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110"
-            src="/Logo_Escape_Room_Alsfeld_weiss_print-600x210.webp"
+            src="/escaperoom.jpg"
             width={285}
             height={100}
             alt="Escape Room Logo"

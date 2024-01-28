@@ -7,16 +7,16 @@ const VirtualRealityVideo = () => {
         <h2 className="pt-5 uppercase text-white tracking-widest sm:leading-[72px] sm:text-[54px] text-3xl font-bold">
           Mehr als nur Virtual Reality
         </h2>
-        <p className="leading-5 text-sm font-bold pt-[22px]">
+        <p className="leading-5 text-sm font-bold pt-[22px] text-white">
           Erlebe das beste VR Erlebnis der Welt jetzt auch in Deutschland!
         </p>
-        <p className="py-[28.8px] sm:text-[15px] text-[13px] leading-5">
+        <p className="py-[28.8px] sm:text-[15px] text-[13px] leading-5 text-white">
           In unseren hessischen Standorten in Alsfeld  und Wiesbaden warten
           filmreife VR Erlebnisse auf Euch. Dank Motion Capture und High-End
           Technik könnt ihr Euch kabellos auf dem Spielfeld bewegen und in
           Echtzeit miteinander interagieren.
         </p>
-        <p className="leading-5 text-sm font-bold sm:pb-[86.8px] pb-10">
+        <p className="leading-5 text-sm font-bold sm:pb-[86.8px] pb-10 text-white">
           So habt ihr VR garantiert noch nie erlebt!
         </p>
         <div className="bg-dark-1">

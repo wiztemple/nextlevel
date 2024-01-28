@@ -9,12 +9,13 @@ import Hero from "@/app/components/Hero";
 import Navbar from "@/app/components/Navbar";
 import SecondaryHero from "@/app/components/SecondaryHero";
 import CorporateContact from "@/app/components/CorporateContact";
+import Link from "next/link";
 
 const BachelorParty = () => {
   return (
-    <main className="">
+    <main className="break-words">
       <Navbar />
-      <Hero className="sm:h-[780px] h-[582px] bg-black flex justify-center items-center w-screen transition duration-300 ease-in-out  hover:rounded-lg bg-[url('/jga.webp')] bg-cover bg-bottom bg-no-repeat">
+      <Hero className="sm:h-[780px] h-[582px] bg-black flex justify-center items-center w-screen transition duration-300 ease-in-out bg-[url('/jga.webp')] bg-cover bg-bottom bg-no-repeat">
         <div className="sm:pt-64 pt-28">
           <h1 className="text-center sm:text-[19px] text-[15px] leading-6 sm:tracking-[5px] sm:px-0 px-5 uppercase text-white">
             Ein legendärer Tag
@@ -137,7 +138,35 @@ const BachelorParty = () => {
           Erinnerungen – die ihr sogar in Form von zwei Best-Of Movies
           mitbekommt.
         </p>
-        <div className="sm:pt-[76px]">s</div>
+        <div className="sm:mt-[76px] mt-12 bg-dark-1">
+          <iframe
+            width="100%"
+            height="642"
+            src="https://www.youtube.com/embed/-5x74pzVRHU"
+            title="Sandbox VR - Alsfeld"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div className="grid sm:grid-cols-2 grid-cols-1 sm:pt-20 pt-10 w-full">
+          <div>
+            <h1 className="uppercase text-white sm:text-[40px] text-3xl leading-[54px] font-medium tracking-[2px]">
+              Schon überzeugt?
+            </h1>
+            <h2 className="sm:pt-5 pt-3 text-white font-medium tracking-[2.5px] sm:text-lg text-[15px] uppercase">
+              Hier geht es direkt zur Buchung:
+            </h2>
+          </div>
+          <div className="flex justify-center">
+          <Link
+            href="/"
+            className="text-gray-8 block w-fit h-fit py-5 px-8 rounded-[3px] border border-gray-8 tracking-[5px] leading-5 text-[15px] relative mt-5 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:text-dark-1 hover:scale-110 hover:bg-white hover:border-white"
+          >
+            BUCHEN
+          </Link>
+          </div>
+        </div>
       </section>
       <section className="bg-mesh-gradient bg-top sm:bg-fixed bg-no-repeat bg-cover sm:px-[150px] px-5 sm:pt-[90px] pt-16 sm:pb-[53px] pb-16">
         <h1 className="text-lg font-medium tracking-[2.5px] uppercase leading-5 text-white">

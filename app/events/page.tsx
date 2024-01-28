@@ -9,7 +9,7 @@ const Events = () => {
   return (
     <main>
       <Navbar />
-      <Hero className="sm:h-[760px] flex justify-center items-center w-screen transition duration-300 ease-in-out  hover:rounded-lg bg-[url('/sandboxvr-header.jpg')] bg-cover bg-center bg-no-repeat">
+      <Hero className="sm:h-[760px] flex justify-center items-center w-screen transition duration-300 ease-in-out bg-[url('/sandboxvr-header.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="sm:pt-64 pt-48 sm:px-0 px-5 pb-20 sm:pb-0">
           <h1 className="text-center sm:text-[19px] text-sm leading-6 tracking-[5px] uppercase text-white">
             Für Unvergessliche Momente

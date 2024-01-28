@@ -33,7 +33,7 @@ const Navbar = ({ className = "bg-black", className2 = "bg-transparent" }: { cla
     <nav
       className={`${
         header ? className : className2
-      } h-[72px] sm:fixed relative z-[1000] min-h-[72px] w-full top-0 left-0 right-0 border-b border-b-white/10`}
+      } h-[72px] sm:fixed relative z-[1000] min-h-[72px] w-full top-0 left-0 right-0 sm:border-b sm:border-b-white/10`}
     >
       <div className="sm:flex z-50 hidden justify-between items-center h-full sm:px-[75px]">
         <a href="/">
@@ -119,7 +119,7 @@ const Navbar = ({ className = "bg-black", className2 = "bg-transparent" }: { cla
           </a>
         </div>
       </div>
-      <div className="sm:hidden flex justify-between items-center h-full w-full px-5">
+      <div className="sm:hidden flex justify-between items-center h-full w-full px-5 bg-[#13151d]">
         <a href="/">
           <Image
             className="block"

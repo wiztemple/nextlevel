@@ -48,7 +48,7 @@ const ChildrenBirthday = () => {
   return (
     <main className="break-words">
       <Navbar />
-      <Hero className="h-[760px] flex justify-center items-center w-screen transition duration-300 ease-in-out  hover:rounded-lg bg-[url('/kindergeburtstag.jpg')] bg-cover bg-center bg-no-repeat">
+      <Hero className="h-[760px] flex justify-center items-center w-screen transition duration-300 ease-in-out bg-[url('/kindergeburtstag.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="sm:pt-64">
           <h1 className="text-center text-[19px] leading-6 tracking-[5px] uppercase text-white">
             SPASS UND ACTION GARANTIERT

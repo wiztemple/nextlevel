@@ -1,4 +1,10 @@
+"use client";
+
+import { useState } from "react";
+import BookModal from "./BookModal";
+
 const FutureExperience = () => {
+  const [showModal, setShowModal] = useState(false);
   return (
     <section className="sm:bg-section2 bg-section2-mobile bg-bottom sm:h-[776px] h-full bg-cover sm:px-[180px] px-5 sm:py-[200px] py-16">
       <h1 className="sm:tracking-[10px] tracking-[2px] sm:text-xl text-[13px] text-gray-1 font-light uppercase sm:leading-6">
@@ -19,11 +25,13 @@ const FutureExperience = () => {
       <div className="sm:pt-[94px] pt-[200px] sm:block flex justify-center">
         <button
           type="button"
+          onClick={() => setShowModal(true)}
           className="transition sm:text-base text-sm w-fit delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110 sm:py-5 py-4 sm:px-10 px-5 leading-5 sm:tracking-[7px] rounded-md text-white bg-[#0076FF] border border-[#0076FF]"
         >
           JETZT BUCHEN
         </button>
       </div>
+      {showModal && <BookModal onClose={() => setShowModal(!showModal)} showModal={showModal} />}
     </section>
   );
 };

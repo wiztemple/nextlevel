@@ -7,7 +7,7 @@ const EventRequest = () => {
   return (
     <main>
       <Navbar />
-      <Hero className="h-[605px] flex justify-center items-center w-screen transition duration-300 ease-in-out  hover:rounded-lg bg-[url('/sandboxvr-header.jpg')] bg-cover bg-center bg-no-repeat">
+      <Hero className="h-[605px] flex justify-center items-center w-screen transition duration-300 ease-in-out bg-[url('/sandboxvr-header.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="pt-64 px-5">
           <h2 className="text-center sm:text-[36px] text-2xl font-medium uppercase tracking-[2.1px] leading-5 sm:pt-10 sm:leading-[80px] text-white">
           GROUPENEVENTS

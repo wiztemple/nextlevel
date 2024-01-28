@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -11,12 +13,15 @@ import VirtualRealityVideo from "./components/VirtualRealityVideo";
 import FurtherQuestions from "./components/FurtherQuestions";
 import AdventuresSection from "./components/AdventuresSection";
 import HomeCarousel from "./components/HomeCarousel";
+import { useState } from "react";
+import BookModal from "./components/BookModal";
 
 export default function Home() {
+  const [showModal, setShowModal] = useState(false);
   return (
     <main className="break-words">
       <Navbar />
-      <Hero className="sm:h-screen h-[70vh] w-screen relative transition duration-300 ease-in-out  hover:rounded-lg bg-[url(https://nextlevel-erlebnisse.de/wp-content/uploads/2023/12/SB-Experience_DeadWoodValley_4.webp)] bg-cover bg-center bg-no-repeat">
+      <Hero className="sm:h-screen h-[70vh] w-screen relative transition duration-300 ease-in-out bg-[url(https://nextlevel-erlebnisse.de/wp-content/uploads/2023/12/SB-Experience_DeadWoodValley_4.webp)] bg-cover bg-center bg-no-repeat">
         <div className="">
           <div className="absolute bg-dark-1/50 w-full sm:h-screen h-full top-0 left-0 flex justify-center items-center">
             <div className="z-50 relative">
@@ -36,12 +41,11 @@ export default function Home() {
               />
               <div className="flex justify-center w-full sm:pt-[65px] pt-10">
                 <div className="flex sm:flex-row flex-col items-center sm:gap-24">
-                  <a
-                    href="https://nextlevel-erlebnisse.de/sandboxvr/gutschein"
+                  <button type="button" onClick={() => setShowModal(true)}
                     className="block w-fit transition delay-100 duration-300 text-center ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110 sm:py-5 py-4 sm:px-10 px-5 leading-5 sm:tracking-[7px] tracking-[1px] rounded-md text-white bg-appblue border-2 border-appblue"
                   >
                     BUCHEN
-                  </a>
+                  </button>
 
                   <a
                     href="https://nextlevel-erlebnisse.de/sandboxvr/gutschein"
@@ -55,12 +59,26 @@ export default function Home() {
           </div>
         </div>
       </Hero>
+      {showModal && <BookModal onClose={() => setShowModal(!showModal)} showModal={showModal} />}
       <VirtualRealityVideo />
       <FutureExperience />
       <section className="py-[50px] sm:px-[150px] px-5 flex justify-center bg-[#161617]">
-        <h1 className="text-[#CCCBC9] sm:leading-[78px] sm:text-[60px] text-4xl font-medium uppercase tracking-[5px] py-1">
+        {/* <h1 className="text-[#CCCBC9] sm:leading-[78px] sm:text-[60px] text-4xl font-medium uppercase tracking-[5px] py-1">
           Hier wird es
-        </h1>
+        </h1> */}
+        <div className="font-medium uppercase md:leading-[78px] py-[15px] text-center text-4xl md:text-[60px] tracking-[5px] [text-wrap:balance] bg-clip-text text-[#CCCBC9] bg-gradient-to-r from-slate-200/60 to-50% to-slate-200">
+        Hier wird es
+          <span className="text-[#9E9C97] pl-3 uppercase font-bold inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.6xl)*theme(lineHeight.snug))] overflow-hidden">
+            <ul className="block animate-text-slide-5 text-left md:leading-[78px] [&_li]:block">
+              <li>FANTASTISCH</li>
+              <li>ERSTAUNLICH </li>
+              <li>ABGEFAHREN</li>
+              <li>GROSSARTIG</li>
+              <li>SPANNEND</li>
+              <li aria-hidden="true">INTENSIV</li>
+            </ul>
+          </span>
+        </div>
       </section>
       <FactsSection />
       <HomeCarousel />
@@ -90,7 +108,19 @@ export default function Home() {
             <p className="pt-5 text-[15px] text-dark-1">
               Adresse für das Navi: <strong>Im Grund 3, 36304 Alsfeld</strong>
             </p>
-            <div className="pt-8 w-full"><iframe width="100%" height="400" frameBorder="0" scrolling="no" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Im%20Grund%203,%2036304%20Alsfeld+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Find Population on Map</a></iframe></div>
+            <div className="pt-8 w-full">
+              <iframe
+                width="100%"
+                height="400"
+                frameBorder="0"
+                scrolling="no"
+                src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Im%20Grund%203,%2036304%20Alsfeld+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              >
+                <a href="https://www.maps.ie/population/">
+                  Find Population on Map
+                </a>
+              </iframe>
+            </div>
           </div>
           <div className="sm:p-[30px]">
             <h1 className="uppercase text-[#57BFC7] text-[22px] leading-8 pb-5 sm:pt-0 pt-8">
@@ -108,7 +138,17 @@ export default function Home() {
               Adresse für das Navi:{" "}
               <strong>Bahnhofsplatz 3, 65189 Wiesbaden</strong>
             </p>
-            <div className="w-full pt-8"><iframe width="100%" height="400" frameBorder="0" scrolling="no" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Bahnhofsplatz%203,%2065189%20Wiesbaden+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population mapping</a></iframe></div>
+            <div className="w-full pt-8">
+              <iframe
+                width="100%"
+                height="400"
+                frameBorder="0"
+                scrolling="no"
+                src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Bahnhofsplatz%203,%2065189%20Wiesbaden+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              >
+                <a href="https://www.maps.ie/population/">Population mapping</a>
+              </iframe>
+            </div>
           </div>
         </div>
       </section>
