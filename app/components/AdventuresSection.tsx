@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const AdventuresSection = () => {
   return (
@@ -36,7 +37,7 @@ const AdventuresSection = () => {
         Klick auf das Erlebnis und erfahre mehr:
       </p>
       <div className="grid sm:grid-cols-4 grid-cols-2 sm:gap-0 gap-10 sm:pt-[84px] pt-16 sm:px-0 px-10">
-        <a href="https://escaperoom-alsfeld.de/" className="flex">
+        <Link href="https://escaperoom-alsfeld.de/" className="flex">
           <Image
             className="object-contain transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110"
             src="/escaperoom.jpg"
@@ -44,8 +45,8 @@ const AdventuresSection = () => {
             height={100}
             alt="Escape Room Logo"
           />
-        </a>
-        <a
+        </Link>
+        <Link
           href="https://nextlevel-erlebnisse.de/lue"
           className="flex justify-center"
         >
@@ -56,8 +57,8 @@ const AdventuresSection = () => {
             height={113}
             alt="LU Logo"
           />
-        </a>
-        <a
+        </Link>
+        <Link
           href="https://nextlevel-erlebnisse.de/lue"
           className="flex justify-center"
         >
@@ -68,8 +69,8 @@ const AdventuresSection = () => {
             height={100}
             alt="Hologate Logo"
           />
-        </a>
-        <a
+        </Link>
+        <Link
           href="https://nextlevel-erlebnisse.de/lue"
           className="flex justify-center"
         >
@@ -80,7 +81,7 @@ const AdventuresSection = () => {
             height={160.5}
             alt="Lasergate Logo"
           />
-        </a>
+        </Link>
       </div>
     </section>
   );

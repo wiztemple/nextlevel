@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Link from "next/link";
+
 export default function BasicCard({
   className,
   title,
@@ -21,7 +23,7 @@ export default function BasicCard({
 }) {
   return (
     <div className="bg-[#F9FAFA] rounded-[10px] relative overflow-hidden">
-      <a href="/" className="group overflow-hidden relative">
+      <Link href="/" className="group overflow-hidden relative">
         <div className="overflow-hidden h-[200px] rounded-tl-[10px] rounded-tr-[10px]">
           <div className={`${className}`}></div>
           <img
@@ -31,7 +33,7 @@ export default function BasicCard({
           />
           <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/20 transition-all"></div>
         </div>
-      </a>
+      </Link>
       <div className="p-[35px]">
         <h1
           className="font-medium text-lg tracking-[2.5px] uppercase leading-5 text-center"

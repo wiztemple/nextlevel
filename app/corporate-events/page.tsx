@@ -7,6 +7,7 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import SecondaryHero from "../components/SecondaryHero";
 import CorporateContact from "../components/CorporateContact";
+import Link from "next/link";
 
 const CorporateEvents = () => {
   return (
@@ -45,7 +46,7 @@ const CorporateEvents = () => {
           wirtschaftlichen Erfolg, sondern auch auf das Wohlbefinden und die
           Zufriedenheit seiner Stakeholder Wert legt.
         </p>
-        <a href="/" className=" text-white pt-[29px] block sm:text-[15px] text-sm">
+        <Link href="/" className=" text-white pt-[29px] block sm:text-[15px] text-sm">
           Stärke den Zusammenhalt Deiner Kollegen in unserer Lasertag Arena und
           tretet an im Lasertag-Turnier.  Danach tauchen Ihr in unsere Virtual
           Reality-Welten ein, in der Ihr unsere Highscores nur knacken könnt,
@@ -54,7 +55,7 @@ const CorporateEvents = () => {
           kühlen Getränk greifen. Davor oder danach besteht die Möglichkeit, mit
           der gesamten Belegschaft die Rätsel in unserem 60-minütigen Escaperoom
           zu lösen und herauszufinden wer die Nerven behält oder wer aufgibt!
-        </a>
+        </Link>
         <p className="text-white pt-12 block sm:text-[15px] text-sm">
           Ob Weihnachtsfeier, Sommerfest, Betriebsausflug und Teambuilding –{" "}
           <br />

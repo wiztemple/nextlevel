@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const PricingCard = ({
   header1,
   header2,
@@ -90,12 +92,12 @@ const PricingCard = ({
             {children}
           </ul>
           <div className="flex justify-center pt-5">
-            <a
+            <Link
               href={bookLink}
               className="bg-appblue text-white block px-[30px] py-[15px] rounded w-fit transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110"
             >
               Mehr Infos
-            </a>
+            </Link>
           </div>
           <p className="pt-[18px] text-xs text-gray-1 leading-4 text-center pb-[34px]">
             Alle Preise netto zzgl. Mwst.

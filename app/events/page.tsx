@@ -1,3 +1,4 @@
+import Link from "next/link";
 import CorporateContact from "../components/CorporateContact";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
@@ -45,12 +46,12 @@ const Events = () => {
           dir ein Event zu bieten, das du nicht so schnell vergessen wirst. Lass
           uns gemeinsam das nächste Level erreichen!
         </p>
-        <a
+        <Link
           href="/"
           className="font-medium text-white pt-5 block underline sm:text-base text-sm"
         >
           Next Level Erlebnisse ist perfekt für:
-        </a>
+        </Link>
         <p className="sm:text-base text-sm text-white">
           (Kinder-)Geburtstage, Junggesellenabschiede, Mädelsabende,
           Stammtischausflüge, Teambuildings, Firmenfeiern und vieles mehr.{" "}

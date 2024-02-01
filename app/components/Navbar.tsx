@@ -4,7 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-const Navbar = ({ className = "bg-black", className2 = "bg-transparent" }: { className?: string; className2?: string }) => {
+const Navbar = ({
+  className = "bg-black",
+  className2 = "bg-transparent",
+}: {
+  className?: string;
+  className2?: string;
+}) => {
   const [header, setHeader] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [sandbox, setSandbox] = useState(false);
@@ -36,7 +42,7 @@ const Navbar = ({ className = "bg-black", className2 = "bg-transparent" }: { cla
       } h-[72px] sm:fixed relative z-[1000] min-h-[72px] w-full top-0 left-0 right-0 sm:border-b sm:border-b-white/10`}
     >
       <div className="sm:flex z-50 hidden justify-between items-center h-full sm:px-[75px]">
-        <a href="/">
+        <Link href="/">
           <Image
             className=""
             src="/applogo.svg"
@@ -45,22 +51,15 @@ const Navbar = ({ className = "bg-black", className2 = "bg-transparent" }: { cla
             height={27.6}
             priority
           />
-        </a>
+        </Link>
         <div className="flex items-center gap-[18px]">
-          <div className="flex gap-[33px]">
-            <span className="group relative text-white">
-              Erlebnisse
-              <div className="absolute hidden group-hover:block z-50 w-56 float-left top-[100%]">
-                <div className="shadow-lg bg-gray-9 mt-4">
-                  <Link
-                    href="/"
-                    className="text-[13px] py-3.5 uppercase px-3 block text-dark-2 border-b border-[#191919]/5"
-                  >
-                    SANDBOXVR
-                  </Link>
-                </div>
-              </div>
-            </span>
+          <Link
+            href="/"
+            className="text-sm py-3.5 text-white px-3 block border-b border-[#191919]/5"
+          >
+            Sandbox VR
+          </Link>
+          <div className="flex gap-[33px] items-center">
             <Link href="/events" className="relative group text-white">
               Events
               <div className="absolute hidden group-hover:block z-50 w-56 float-left top-[100%]">
@@ -83,44 +82,45 @@ const Navbar = ({ className = "bg-black", className2 = "bg-transparent" }: { cla
                   >
                     COMPANY EVENT
                   </Link>
-                  <Link
+                  {/* <Link
                     href="/events/clubs-and-groups"
                     className="py-3 text-[13px] uppercase px-3 block text-dark-2 border-b border-[#ebebeb]"
                   >
                     CLUBS & GROUPS
-                  </Link>
-                  <Link
+                  </Link> */}
+                  {/* <Link
                     href="/seminar"
                     className="py-3 text-[13px] uppercase px-3 block text-dark-2 border-b border-[#ebebeb]"
                   >
                     VR SEMINARS
-                  </Link>
-                  <Link
+                  </Link> */}
+                  {/* <Link
                     href="/events/school-classes"
                     className="py-3 text-[13px] uppercase px-3 block text-dark-2 border-b border-[#ebebeb]"
                   >
                     SCHOOL CLASSES
-                  </Link>
-                  <Link
+                  </Link> */}
+                  {/* <Link
                     href="/nextlevelclub"
                     className="py-3 text-[13px] uppercase px-3 block text-dark-2 border-b border-[#ebebeb]"
                   >
                     NEXTLEVEL CLUB
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </Link>
           </div>
-          <a
-            href="/"
-            className="bg-[#CB3078] text-white font-medium rounded-[5px] px-3 py-1.5"
+          <Link
+            href="https://sandboxvr.com/zurich/"
+            target="_blank"
+            className="bg-[#CB3078] text-white font-medium rounded-[5px] px-3 py-1.5 underline"
           >
             Buchen
-          </a>
+          </Link>
         </div>
       </div>
       <div className="sm:hidden flex justify-between items-center h-full w-full px-5 bg-[#13151d]">
-        <a href="/">
+        <Link href="/">
           <Image
             className="block"
             src="/applogo.svg"
@@ -129,7 +129,7 @@ const Navbar = ({ className = "bg-black", className2 = "bg-transparent" }: { cla
             height={27.6}
             priority
           />
-        </a>
+        </Link>
         <button
           className="w-14 h-14 relative focus:outline-none bg-transparent rounded"
           onClick={handleClick}
@@ -161,7 +161,9 @@ const Navbar = ({ className = "bg-black", className2 = "bg-transparent" }: { cla
             className="block w-full text-white text-center bg-dark-3 py-4 border-y border-y-white relative transition-all duration-300 ease-in-out"
           >
             Erlebnisse
-            <span className="absolute text-white right-5 shrink-0 transform origin-center transition duration-200 ease-out">{sandbox ? '-':'+'}</span>
+            <span className="absolute text-white right-5 shrink-0 transform origin-center transition duration-200 ease-out">
+              {sandbox ? "-" : "+"}
+            </span>
           </button>
           {sandbox && (
             <Link
@@ -177,7 +179,9 @@ const Navbar = ({ className = "bg-black", className2 = "bg-transparent" }: { cla
             className="block w-full text-white text-center bg-dark-3 py-4 border-b border-b-white relative transition-all duration-300 ease-in-out"
           >
             Events
-            <span className="absolute text-white right-5 shrink-0 transform origin-center transition duration-200 ease-out">{events ? '-':'+'}</span>
+            <span className="absolute text-white right-5 shrink-0 transform origin-center transition duration-200 ease-out">
+              {events ? "-" : "+"}
+            </span>
           </button>
           {events && (
             <div className="transition-all duration-300 ease-in-out">
@@ -225,12 +229,12 @@ const Navbar = ({ className = "bg-black", className2 = "bg-transparent" }: { cla
               </Link>
             </div>
           )}
-          <a
+          <Link
             href="/"
             className="bg-[#CB3078] text-white text-center font-medium px-3 py-3.5 block border-b border-b-white"
           >
             Buchen
-          </a>
+          </Link>
         </div>
       )}
     </nav>

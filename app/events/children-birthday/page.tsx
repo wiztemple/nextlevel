@@ -6,6 +6,7 @@ import Navbar from "@/app/components/Navbar";
 import PackageCard from "@/app/components/PackageCard";
 import SecondaryHero from "@/app/components/SecondaryHero";
 import Image from "next/image";
+import Link from "next/link";
 
 const ChildrenBirthday = () => {
   const faqs = [
@@ -84,7 +85,7 @@ const ChildrenBirthday = () => {
       </SecondaryHero>
       <section className="bg-black pt-5 sm:px-[150px] px-5">
         <div className="grid sm:grid-cols-2 sm:gap-[30px]">
-          <a
+          <Link
             href="/"
             className="group overflow-hidden relative block h-[340px] rounded-[20px] mt-5"
           >
@@ -116,8 +117,8 @@ const ChildrenBirthday = () => {
                 </p>
               </div>
             </div>
-          </a>
-          <a
+          </Link>
+          <Link
             href="/"
             className="group overflow-hidden relative block h-[370px] rounded-[20px]"
           >
@@ -151,8 +152,8 @@ const ChildrenBirthday = () => {
                 </p>
               </div>
             </div>
-          </a>
-          <a
+          </Link>
+          <Link
             href="/"
             className="group overflow-hidden relative block h-[299px] rounded-[20px] mt-5"
           >
@@ -183,7 +184,7 @@ const ChildrenBirthday = () => {
                 </p>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </section>
       <section className="b bg-mesh-gradient">s</section>

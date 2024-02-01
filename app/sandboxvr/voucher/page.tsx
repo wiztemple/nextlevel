@@ -3,6 +3,7 @@ import Hero from "@/app/components/Hero";
 import Navbar from "@/app/components/Navbar";
 import VoucherCard from "@/app/components/VoucherCard";
 import Image from "next/image";
+import Link from "next/link";
 
 const Voucher = () => {
   return (
@@ -109,12 +110,12 @@ const Voucher = () => {
             und klick dann auf den Button um die Gutscheine zu kaufen.
           </p>
           <div className="flex justify-center pt-10 sm:pt-6">
-            <a
+            <Link
               href="/"
               className="text-appblue block w-fit py-3 px-6 rounded-[3px] border-2 border-appblue sm:tracking-[5px] tracking-[1px] leading-5 text-[15px] relative transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:text-white hover:scale-110 hover:bg-appblue hover:border-appblue"
             >
               Gutschein kaufen
-            </a>
+            </Link>
           </div>
           <div className="pt-6">
             <h1 className="text-[22px] leading-8 uppercase text-dark-1 tracking-[1px]">
@@ -218,12 +219,12 @@ const Voucher = () => {
             </div>
           </div>
           <div className="flex justify-center sm:pt-[120px] pt-[100px]">
-            <a
+            <Link
               href="/"
               className="text-appblue block w-fit py-3 px-6 rounded-[3px] border-2 border-appblue sm:tracking-[5px] tracking-[1px] leading-5 text-[15px] relative mt-6 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:text-white hover:scale-110 hover:bg-appblue hover:border-appblue"
             >
               Gutschein kaufen
-            </a>
+            </Link>
           </div>
         </div>
         <div className="rounded-[20px] bg-[#EFF3F7] sm:pt-[70px] pt-[50px] pb-10 mb-20 sm:px-[50px] px-5 mt-[70px]">
@@ -291,12 +292,12 @@ anderen Erlebnisse - zu verschenken."
             />
           </div>
           <div className="flex justify-center sm:pt-[65px]">
-            <a
+            <Link
               href="/"
               className="text-appblue block w-fit py-3 px-6 rounded-[3px] border-2 border-appblue tracking-[5px] leading-5 text-[15px] relative mt-6 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:text-white hover:scale-110 hover:bg-appblue hover:border-appblue"
             >
               Gutschein kaufen
-            </a>
+            </Link>
           </div>
         </div>
       </section>

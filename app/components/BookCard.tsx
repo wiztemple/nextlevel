@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Link from "next/link";
+
 export default function BookCard({
   title,
   description,
@@ -14,7 +16,7 @@ export default function BookCard({
   ribbonText?: string;
 }) {
   return (
-    <a
+    <Link
       href="/"
       className="bg-[#D1DDE8] block rounded-[20px] relative overflow-hidden shadow-voucherShadow group"
     >
@@ -37,14 +39,14 @@ export default function BookCard({
           {description}
         </p>
         <div className="flex justify-center">
-          <a
+          <Link
             href="/"
             className="text-appblue block w-fit py-3 px-6 rounded-[3px] border-2 border-appblue leading-5 text-[15px] relative sm:mt-6 mt-2 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:text-white hover:scale-110 hover:bg-appblue hover:border-appblue"
           >
             Jetzt buchen
-          </a>
+          </Link>
         </div>
       </div>
-    </a>
+    </Link>
   );
 }

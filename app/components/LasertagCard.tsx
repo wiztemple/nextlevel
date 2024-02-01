@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const LasertagCard = ({
   price,
   oldPrice,
@@ -51,12 +53,12 @@ const LasertagCard = ({
             {extraItem}
           </span>}
           <div className="flex justify-center pt-[15px]">
-            <a
+            <Link
               href="/"
               className={`${hoverClass} hover:text-white uppercase w-fit transition duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110 block px-[25px] py-3 rounded-2xl leading-6 text-[#1B1B1B] border border-[#1B1B1B] tracking-[4.3px] text-[15px] text-center`}
             >
               BUCHEN
-            </a>
+            </Link>
           </div>
         </div>
       </div>
