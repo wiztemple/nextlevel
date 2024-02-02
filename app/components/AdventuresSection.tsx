@@ -40,46 +40,10 @@ const AdventuresSection = () => {
         <Link href="https://escaperoom-alsfeld.de/" className="flex">
           <Image
             className="object-contain transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110"
-            src="/escaperoom.jpg"
-            width={285}
-            height={100}
+            src="/sbvr-logo.webp"
+            width={185}
+            height={40}
             alt="Escape Room Logo"
-          />
-        </Link>
-        <Link
-          href="https://nextlevel-erlebnisse.de/lue"
-          className="flex justify-center"
-        >
-          <Image
-            className="object-contain transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110"
-            src="/lu.webp"
-            width={125}
-            height={113}
-            alt="LU Logo"
-          />
-        </Link>
-        <Link
-          href="https://nextlevel-erlebnisse.de/lue"
-          className="flex justify-center"
-        >
-          <Image
-            className="object-contain transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110"
-            src="/hologate.webp"
-            width={285}
-            height={100}
-            alt="Hologate Logo"
-          />
-        </Link>
-        <Link
-          href="https://nextlevel-erlebnisse.de/lue"
-          className="flex justify-center"
-        >
-          <Image
-            className="object-contain transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110"
-            src="/lasertag.webp"
-            width={285}
-            height={160.5}
-            alt="Lasergate Logo"
           />
         </Link>
       </div>

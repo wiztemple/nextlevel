@@ -13,7 +13,6 @@ const Navbar = ({
 }) => {
   const [header, setHeader] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-  const [sandbox, setSandbox] = useState(false);
   const [events, setEvents] = useState(false);
 
   const handleClick = () => {
@@ -155,7 +154,7 @@ const Navbar = ({
       </div>
       {isOpen && (
         <div className="absolute w-full top-16 left-0 right-0 bottom-0 bg-dark-3 h-screen z-50 transition-opacity duration-500 ease-in-out">
-          <button
+          {/* <button
             type="button"
             onClick={() => setSandbox(!sandbox)}
             className="block w-full text-white text-center bg-dark-3 py-4 border-y border-y-white relative transition-all duration-300 ease-in-out"
@@ -172,7 +171,13 @@ const Navbar = ({
             >
               SANDBOXVR
             </Link>
-          )}
+          )} */}
+           <Link
+              href="/"
+              className="block w-full text-white text-center bg-dark-3 py-4 border-b border-b-white relative transition-all duration-300 ease-in-out"
+            >
+              SANDBOXVR
+            </Link>
           <button
             type="button"
             onClick={() => setEvents(!events)}
@@ -203,34 +208,35 @@ const Navbar = ({
               >
                 COMPANY EVENT
               </Link>
-              <Link
+              {/* <Link
                 href="/events/clubs-and-groups"
                 className="py-4 text-[13px] text-center uppercase px-3 block bg-white text-dark-2 my-0.5 mx-auto"
               >
                 CLUBS & GROUPS
-              </Link>
-              <Link
+              </Link> */}
+              {/* <Link
                 href="/seminar"
                 className="py-4 text-center text-[13px] uppercase px-3 block bg-white text-dark-2 my-0.5 mx-auto"
               >
                 VR SEMINARS
-              </Link>
-              <Link
+              </Link> */}
+              {/* <Link
                 href="/events/school-classes"
                 className="py-4 text-[13px] text-center uppercase px-3 block bg-white text-dark-2 my-0.5 mx-auto"
               >
                 SCHOOL CLASSES
-              </Link>
-              <Link
+              </Link> */}
+              {/* <Link
                 href="/nextlevelclub"
                 className="py-4 text-[13px] text-center uppercase px-3 block bg-white text-dark-2 my-0.5 mx-auto"
               >
                 NEXTLEVEL CLUB
-              </Link>
+              </Link> */}
             </div>
           )}
           <Link
-            href="/"
+            href="https://sandboxvr.com/zurich/"
+            target="_blank"
             className="bg-[#CB3078] text-white text-center font-medium px-3 py-3.5 block border-b border-b-white"
           >
             Buchen

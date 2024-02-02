@@ -5,7 +5,7 @@ const CorporateContact = ({ headerPosition }: { headerPosition?: boolean }) => {
         className=" bg-black absolute -top-[91px] sm:-top-[125px] sm:h-[250px] h-[180px] w-full"
         style={{ clipPath: "polygon(51% 50%, 100% 50%, 50% 94%, 0% 50%)" }}
       ></div>
-      <div className="sm:px-[150px] px-5 sm:pt-[150px] pt-20 pb-[70px]">
+      <div className="sm:px-[150px] px-5 sm:pt-[170px] pt-20 pb-[70px]">
         {headerPosition ? (
           <div>
           <span className="block leading-2px] sm:text-lg text-center text-white text-[10px] font-medium uppercase tracking-[10px] pt-10">

@@ -30,40 +30,27 @@ const CorporateEvents = () => {
           </p>
         </div>
       </Hero>
-      <SecondaryHero>
+      {/* <SecondaryHero>
         <h1 className="text-xl sm:text-[22px] leading-8 tracking-[1px] uppercase pt-10 sm:pt-0 text-white">
           WARUM BEI UNS?
         </h1>
         <h2 className="uppercase sm:text-[40px] text-3xl font-medium sm:tracking-[2px] text-white sm:leading-[54px] leading-snug pt-5">
           WEIL'S UNVERGESSLICH WIRD
         </h2>
-        <p className="pt-[22px] text-white sm:text-[15px] text-sm">
-          Ein gut geplantes und durchgeführtes Event kann das Vertrauen in deine
-          Marke und dein Unternehmen erhöhen und dich als attraktiven
-          Arbeitgeber positionieren. Investiere in erfolgreiche Firmenevents und
-          zeige deinen Mitarbeiterinnen und Mitarbeitern sowie deinen Kundinnen
-          und Kunden, dass du ein Unternehmen bist, das nicht nur auf
-          wirtschaftlichen Erfolg, sondern auch auf das Wohlbefinden und die
-          Zufriedenheit seiner Stakeholder Wert legt.
+        <p className="pt-[22px] text-white sm:text-base text-sm">
+          Ein gut geplantes und durchgeführtes Event kann das Vertrauen in Ihre
+          Marke und Ihr Unternehmen stärken und Sie als attraktiven Arbeitgeber
+          positionieren. Investieren Sie in erfolgreiche Firmenevents und zeigen
+          Sie Ihren Mitarbeitern und Kunden, dass Sie ein Unternehmen sind, dem
+          nicht nur der wirtschaftliche Erfolg, sondern auch das Wohlbefinden
+          und die Zufriedenheit seiner Stakeholder wichtig sind.
         </p>
-        <Link href="/" className=" text-white pt-[29px] block sm:text-[15px] text-sm">
-          Stärke den Zusammenhalt Deiner Kollegen in unserer Lasertag Arena und
-          tretet an im Lasertag-Turnier.  Danach tauchen Ihr in unsere Virtual
-          Reality-Welten ein, in der Ihr unsere Highscores nur knacken könnt,
-          wenn ihr als Gruppe gut zusammenspielt. Zwischen den Spielen könnt Ihr
-          epische Roboter-Battles bestreiten oder ganz entspannt nach einem
-          kühlen Getränk greifen. Davor oder danach besteht die Möglichkeit, mit
-          der gesamten Belegschaft die Rätsel in unserem 60-minütigen Escaperoom
-          zu lösen und herauszufinden wer die Nerven behält oder wer aufgibt!
-        </Link>
-        <p className="text-white pt-12 block sm:text-[15px] text-sm">
-          Ob Weihnachtsfeier, Sommerfest, Betriebsausflug und Teambuilding –{" "}
-          <br />
-          bei uns sind Sie definitiv an der richtigen Adresse für ein
-          unvergessliches Event!
+        <p className="text-white pt-12 block sm:text-base text-sm">
+        Ob Weihnachtsfeier, Sommerfest, Betriebsausflug oder Teambuilding -bei uns sind Sie auf jeden Fall an der richtigen Adresse für ein
+unvergessliches Event!
         </p>
-      </SecondaryHero>
-      <section className="bg-black sm:block hidden">
+      </SecondaryHero> */}
+      {/* <section className="bg-black sm:block hidden">
         <div className="grid sm:grid-cols-6 grid-cols-1">
           <img
             className="object-cover h-[288px] w-full"
@@ -96,9 +83,32 @@ const CorporateEvents = () => {
             alt="VR Event 2"
           />
         </div>
-      </section>
+      </section> */}
+      <SecondaryHero>
+        <h1 className="text-xl sm:text-[22px] leading-8 tracking-[1px] uppercase pt-10 sm:pt-0 text-white">
+          WARUM BEI UNS?
+        </h1>
+        <h2 className="uppercase sm:text-[40px] text-3xl font-medium sm:tracking-[2px] text-white sm:leading-[54px] leading-snug pt-5">
+          WEIL'S UNVERGESSLICH WIRD
+        </h2>
+        <p className="pt-[22px] text-white sm:text-base text-sm">
+          Ein gut geplantes und durchgeführtes Event kann das Vertrauen in Ihre
+          Marke und Ihr Unternehmen stärken und Sie als attraktiven Arbeitgeber
+          positionieren. Investieren Sie in erfolgreiche Firmenevents und zeigen
+          Sie Ihren Mitarbeitern und Kunden, dass Sie ein Unternehmen sind, dem
+          nicht nur der wirtschaftliche Erfolg, sondern auch das Wohlbefinden
+          und die Zufriedenheit seiner Stakeholder wichtig sind.
+        </p>
+        <p className="text-white pt-12 block sm:text-base text-sm">
+        Ob Weihnachtsfeier, Sommerfest, Betriebsausflug oder Teambuilding -bei uns sind Sie auf jeden Fall an der richtigen Adresse für ein
+unvergessliches Event!
+        </p>
+      </SecondaryHero>
+      <CorporateContact />
       <section className="bg-black sm:px-[150px] px-5 sm:pt-[100px] pt-20 sm:pb-[85px] pb-[50px]">
-        <h1 className="uppercase sm:text-lg text-sm text-white">IHR HABT GROSSES VOR?</h1>
+        <h1 className="uppercase sm:text-lg text-sm text-white">
+          IHR HABT GROSSES VOR?
+        </h1>
         <h2 className="uppercase sm:text-[40px] text-3xl font-medium leading-[54px] tracking-[2px] text-white pt-5">
           Events für Firmen
         </h2>
@@ -162,33 +172,6 @@ const CorporateEvents = () => {
           das jeweilige Logo:
         </p>
         <div className="grid sm:grid-cols-4 grid-cols-2 pt-[60px] sm:gap-0 gap-8">
-          <div className="flex justify-center">
-            <Image
-              src="/lasertag.webp"
-              className="opacity-30 transition-all duration-1000 hover:opacity-100 object-contain"
-              width={220}
-              height={124}
-              alt="Laser tag logo"
-            />
-          </div>
-          <div className="flex justify-center">
-            <Image
-              src="/hologate.webp"
-              className="opacity-30 transition-all duration-1000 hover:opacity-100 object-contain"
-              width={192.5}
-              height={67.38}
-              alt="Hologate logo"
-            />
-          </div>
-          <div className="flex justify-center">
-            <Image
-              src="/logo_Escape_Room.webp"
-              className="opacity-30 transition-all duration-1000 hover:opacity-100 object-contain"
-              width={195.25}
-              height={68.33}
-              alt="Escape Room logo"
-            />
-          </div>
           <div className="flex justify-center">
             <Image
               src="/sbvr-logo.webp"

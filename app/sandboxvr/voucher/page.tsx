@@ -58,28 +58,27 @@ const Voucher = () => {
           <div className="grid sm:grid-cols-2 grid-cols-1 sm:pt-[42px] pt-5 sm:gap-[69px]">
             <div className="">
               <p className="text-white text-[15px] leading-5">
-                Ein Sandbox VR Erlebnis kostet – je nach Wochentag und
-                Gruppengröße – pro Person zwischen 35 und 60 Euro. Unter der
-                Woche ist es günstiger als am Wochenende und bei größeren
-                Gruppen ist der Preis pro Person günstiger als bei kleinen
-                Gruppen. Um Dir zu erleichtern, was für einen Gutscheinwert Du
-                verschenken möchtest, 
+                Ein Sandkasten-VR-Erlebnis kostet je nach Gruppengrösse zwischen
+                CHF 50 und CHF 70 pro Person. Für grössere Gruppen ist der Preis
+                pro Person günstiger als für kleine Gruppen. Um Ihnen die
+                Entscheidung zu erleichtern, welchen Gutscheinwert Sie
+                verschenken möchten, finden Sie hier eine Übersicht über die
+                Preise der Sandbox VR pro Person.
               </p>
               <p className="text-white text-[15px] sm:pt-12 pt-10 left-5">
                 <strong>
-                  Grundsätzlich empfehlen wir einen Gutscheinwert von mindestens
-                  50 Euro pro Person
+                  Generell empfehlen wir einen Gutscheinwert von mindestens CHF
+                  50 pro Person.
                 </strong>
-                . Ein Beispiel: Wenn Du Sandbox VR einer Familie mit 4 Personen
-                schenken möchtest, solltest du einen Gutschein im Wert von 200
-                Euro kaufen. 
+                . Ein Beispiel: Wenn Sie die Sandbox VR an eine 4-köpfige
+                Familie verschenken möchten, sollten Sie einen Gutschein im Wert
+                von CHF200 kaufen.
               </p>
               <p className="text-white text-[15px] pt-7 leading-5">
-                Wenn der Preis bei der konkreten Buchung dann etwas höher oder
-                niedriger ist, können Differenzen aufgezahlt werden oder
-                Restbeträge ,die nicht aufgebraucht werden, können bei weiteren
-                Buchungen eingelöst werden. Eine Barauszahlung der Differenz ist
-                leider nicht möglich.
+                Sollte der Preis für die konkrete Buchung etwas höher oder
+                niedriger sein, können die Differenzen ausbezahlt oder nicht
+                verbrauchte Restbeträge für weitere Buchungen eingelöst werden.
+                Leider ist es nicht möglich, die Differenz in bar zu bezahlen.
               </p>
             </div>
             <div className="pt-16 sm:pt-0">
@@ -93,26 +92,24 @@ const Voucher = () => {
             </div>
           </div>
         </div>
-        <div className="rounded-[20px] bg-[#EFF3F7] pt-[70px] pb-10 sm:px-[50px] px-5 mt-[70px]">
+        <div className="rounded-[20px] bg-[#EFF3F7] pt-[70px] mb-[70px] pb-10 sm:px-[50px] px-5 mt-[70px]">
           <h1 className="text-aquagreen tracking-[1px] leading-8 uppercase sm:text-[22px] text-lg">
-            Unser Gutscheinkauf Guide
+            UNSER LEITFADEN ZUM KAUF VON GUTSCHEINEN
           </h1>
-          <h2 className="uppercase sm:text-[40px] text-3xl text-dark-1 pt-5">
+          <h2 className="uppercase sm:text-[40px] text-3xl text-dark-1 sm:pt-5 pt-7">
             Gutschein online kaufen
           </h2>
-          <p className="pt-5 text-dark-1 leading-5">
-            Den Sandbox VR Gutschein kannst Du ausschließlich online in unserem
-            Buchungssystem kaufen.{" "}
-            <strong>
-              Um mögliche Fehler beim Gutscheinkauf zu verhindern, lies dir am
-              besten erst alle Steps aus unseren Guide durch
-            </strong>{" "}
-            und klick dann auf den Button um die Gutscheine zu kaufen.
+          <p className="pt-5 text-dark-1 leading-5 text-base font-normal">
+            Sie können den Sandbox VR-Gutschein nur online in unserem
+            Buchungssystem kaufen. Um mögliche Fehler beim Kauf von Gutscheinen
+            zu vermeiden, lesen Sie sich am besten zuerstalle Schritte in
+            unserem Leitfaden durch und klicken dann aufden Button zum Kauf der
+            Gutscheine.
           </p>
-          <div className="flex justify-center pt-10 sm:pt-6">
+          <div className="flex justify-center pt-10">
             <Link
               href="/"
-              className="text-appblue block w-fit py-3 px-6 rounded-[3px] border-2 border-appblue sm:tracking-[5px] tracking-[1px] leading-5 text-[15px] relative transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:text-white hover:scale-110 hover:bg-appblue hover:border-appblue"
+              className="text-appblue block w-fit py-3 px-6 rounded-[3px] border-[3px] border-appblue sm:tracking-[5px] tracking-[1px] leading-5 text-[15px] relative transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:text-white hover:scale-110 hover:bg-appblue hover:border-appblue"
             >
               Gutschein kaufen
             </Link>
@@ -126,7 +123,7 @@ const Voucher = () => {
               auswählen, für den du den Sandbox VR Gutschein kaufen willst. Die
               Gutscheine sind immer nur für den Standort gültig, für den Du sie
               gekauft hast. Gültig sind sie für 3 Jahre. Um Deinen
-              Wunschstandort auszuwählen musst du einfach auf{" "}
+              Wunschstandort auszuwählen musst du e
               <strong>Standort auswählen </strong>
               klicken und <strong>bestätigen!</strong>.
             </p>
@@ -136,12 +133,12 @@ const Voucher = () => {
               Schritt 2: <span className="font-bold">Gutscheinwert</span>
             </h1>
             <p className="pt-6 text-dark-1 text-[15px] leading-5">
-              Jetzt kannst du den <strong>Gutschein</strong> mit dem passenden
-              Betrag auswählen. Es gibt Gutscheine im Wert von 10, 25 , 50, 100
-              und 200 Euro. Weißt du noch nicht genau, wie viel du am besten
-              verschenkst? Dann schau nochmal oben in unserer Tabelle. Wenn
-              doch, dann klick auf das Bild zum auswählen und dann ganz unten
-              auf <strong>Fortfahren</strong>.
+              Nun können Sie den Gutschein mit dem entsprechenden Betrag
+              auswählen. Es gibt Gutscheine im Wert von 50, 100 und200 CHF. Sie
+              wissen nicht genau, wie viel Sie am besten verschenken sollen?
+              Dann werfen Sie noch einmal einen Blick auf unsere Tabelle oben.
+              Wenn ja, klicken Sie auf das Bild zum Auswählen und dann unten auf
+              Weiter.
             </p>
           </div>
           <div className="pt-[70px] grid sm:grid-cols-2 grid-cols-1">
@@ -156,13 +153,13 @@ const Voucher = () => {
               </p>
               <p className="pt-6 text-dark-1 text-[15px] leading-5">
                 <strong>WICHTIG:</strong> Es gibt 2 Kontaktfelder zum Ausfüllen
-                – Feld 1 ist für die Daten des Beschenkten. Feld 2 ist für DEINE
-                Daten. Da in den meisten Fällen das ganze eine Überraschung sein
-                soll, musst du in beiden Feldern DEINE E-Mail Adresse angeben.
-                So bekommt der andere nichts mit von der Sache.
+                – Feld 1  ist für die Daten des Beschenkten. Feld 2 ist für
+                DEINE Daten. Da in den meisten Fällen das ganze eine
+                Überraschung sein soll, musst du in beiden Feldern DEINE E-Mail
+                Adresse angeben. So bekommt der andere nichts mit von der Sache.
               </p>
               <p className="pt-6 text-dark-1 text-[15px] leading-5">
-                Wenn Du alle Daten ausgefüllt hast, klickst Du unten rechts auf{" "}
+                Wenn Du alle Daten ausgefüllt hast, klickst Du unten rechts auf
                 <strong>Checkout</strong>.
               </p>
             </div>
@@ -182,13 +179,12 @@ const Voucher = () => {
                 Schritt 4: <span className="font-bold">DIE BEZAHLUNG</span>
               </h1>
               <p className="pt-6 text-dark-1 text-[15px] leading-5">
-                Jetzt kannst du den Gutschein bezahlen – am schnellsten und
-                einfachsten mit <strong>Kreditkarte, PayPal</strong> oder{" "}
-                <strong>Google-Pay</strong>.
+                Nun können Sie den Gutschein bezahlen - am schnellsten und
+                einfachsten geht das mit einer Kreditkarte oder TWINT
               </p>
               <p className="pt-6 text-dark-1 text-[15px] leading-5">
-                Wenn Du weder Paypal noch eine Kreditkarte hast, hast du
-                folgende andere Möglichkeiten, um einen Gutschein zu kaufen:
+                Wenn Sie keine Kreditkarte haben, haben Sie folgende weitere
+                Möglichkeiten, einen Gutschein zu kaufen:
               </p>
               <ol className="pt-6 list-decimal pl-10">
                 <li className="text-dark-1 leading-5 text-[15px]">
@@ -221,13 +217,13 @@ const Voucher = () => {
           <div className="flex justify-center sm:pt-[120px] pt-[100px]">
             <Link
               href="/"
-              className="text-appblue block w-fit py-3 px-6 rounded-[3px] border-2 border-appblue sm:tracking-[5px] tracking-[1px] leading-5 text-[15px] relative mt-6 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:text-white hover:scale-110 hover:bg-appblue hover:border-appblue"
+              className="text-appblue block w-fit py-3 px-6 rounded-[3px] border-[3px] border-appblue sm:tracking-[5px] tracking-[1px] leading-5 text-[15px] relative mt-6 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:text-white hover:scale-110 hover:bg-appblue hover:border-appblue"
             >
               Gutschein kaufen
             </Link>
           </div>
         </div>
-        <div className="rounded-[20px] bg-[#EFF3F7] sm:pt-[70px] pt-[50px] pb-10 mb-20 sm:px-[50px] px-5 mt-[70px]">
+        {/* <section className="rounded-[20px] bg-[#EFF3F7] sm:pt-[70px] pt-[50px] pb-10 mb-20 sm:px-[50px] px-5 mt-[70px]">
           <h1 className="text-aquagreen tracking-[1px] leading-8 uppercase sm:text-[22px] text-lg">
             MACH DEINEN GUTSCHEIN PERSÖNLICHER
           </h1>
@@ -299,7 +295,7 @@ anderen Erlebnisse - zu verschenken."
               Gutschein kaufen
             </Link>
           </div>
-        </div>
+        </section> */}
       </section>
       <Footer />
     </main>
