@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="flex justify-center sm:w-full social-links flex-wrap">
             <div className="flex sm:gap-8 gap-4 pt-3">
               <Link
-                href="https://www.instagram.com/sandboxvr_chfb"
+                href="https://www.instagram.com/sandboxvr_ch"
                 target="_blank"
               >
                 <svg
@@ -41,7 +41,7 @@ const Footer = () => {
                   />
                 </svg>
               </Link>
-              <Link href="/">
+              {/* <Link href="/">
                 <svg
                   width="29"
                   height="29"
@@ -54,8 +54,8 @@ const Footer = () => {
                     fill="white"
                   />
                 </svg>
-              </Link>
-              <Link href="/">
+              </Link> */}
+              {/* <Link href="/">
                 <svg
                   width="33"
                   height="32"
@@ -99,8 +99,8 @@ const Footer = () => {
                     </clipPath>
                   </defs>
                 </svg>
-              </Link>
-              <Link href="/" target="_blank">
+              </Link> */}
+              {/* <Link href="/" target="_blank">
                 <svg
                   width="29"
                   height="33"
@@ -113,7 +113,7 @@ const Footer = () => {
                     fill="white"
                   />
                 </svg>
-              </Link>
+              </Link> */}
               <Link href="/https://www.linkedin.com/company/sandbox-vr-ch-at" target="_blank">
                 <svg
                   width="36"
@@ -128,7 +128,7 @@ const Footer = () => {
                   />
                 </svg>
               </Link>
-              <Link href="/">
+              {/* <Link href="/">
                 <svg
                   width="35"
                   height="25"
@@ -141,7 +141,7 @@ const Footer = () => {
                     fill="white"
                   />
                 </svg>
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="w-full flex sm:flex-row flex-col sm:justify-between sm:items-start items-center sm:pt-16">

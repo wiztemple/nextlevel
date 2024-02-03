@@ -112,7 +112,7 @@ const Navbar = ({
           <Link
             href="https://sandboxvr.com/zurich/"
             target="_blank"
-            className="bg-[#CB3078] text-white font-medium rounded-[5px] px-3 py-1.5 underline"
+            className="bg-[#CB3078] text-white font-medium rounded-[5px] px-3 py-1.5"
           >
             Buchen
           </Link>
