@@ -309,7 +309,7 @@ const BachelorParty = () => {
           </div>
         </div>
         <div className="sm:hidden block">
-          <p className="uppercase leading-6 tracking-[2px] font-medium text-center pt-6">
+          <p className="uppercase leading-6 tracking-[2px] font-medium text-center pt-6 text-white">
             Schreib uns, ruf uns an <br /> oder schick eine Mail. ✌
           </p>
           <div className="grid grid-cols-2 pt-8 items-center gap-5">

@@ -103,7 +103,7 @@ const Coorperations = () => {
             </iframe>
           </div>
           <div className="sm:pt-[80px] pt-10 sm:px-10 px-5 sm:w-1/2 w-full">
-            <h1 className="sm:text-[38px] text-3xl font-bold uppercase tracking-[4.5px] sm:leading-[48px] leading-snug">
+            <h1 className="sm:text-[38px] text-white text-3xl font-bold uppercase tracking-[4.5px] sm:leading-[48px] leading-snug">
               Wir laden Dich herzlich ein!
             </h1>
             <p className="text-[15px] pt-6 text-white leading-5">

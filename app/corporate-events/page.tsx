@@ -13,7 +13,7 @@ const CorporateEvents = () => {
   return (
     <main className="break-words">
       <Navbar />
-      <Hero className="min-h-[702px] flex justify-center items-center w-screen transition duration-300 ease-in-out bg-[url('/firmenevents.webp')] bg-cover bg-top sm:bg-center bg-no-repeat">
+      <Hero className="sm:min-h-[702px] min-h-[582px] flex justify-center items-center w-screen transition duration-300 ease-in-out bg-[url('/firmenevents.webp')] bg-cover bg-top sm:bg-center bg-no-repeat">
         <div className="sm:pt-64 pt-20 sm:px-0 px-5 sm:pb-0 pb-10">
           <h1 className="text-center text-[19px] leading-6 sm:tracking-[5px] tracking-widest uppercase text-aquagreen">
             Die besten events für Dich und dein team

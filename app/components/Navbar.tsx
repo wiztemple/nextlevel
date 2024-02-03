@@ -191,6 +191,12 @@ const Navbar = ({
           {events && (
             <div className="transition-all duration-300 ease-in-out">
               <Link
+                href="/events"
+                className="py-4 text-[13px] text-center uppercase px-3 block bg-white text-dark-2 my-0.5 mx-auto"
+              >
+                EVENTS
+              </Link>
+              <Link
                 href="/events/children-birthday"
                 className="text-[13px] py-4 uppercase px-3 text-center block bg-white text-dark-2 my-0.5 mx-auto"
               >
