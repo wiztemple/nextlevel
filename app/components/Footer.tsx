@@ -202,12 +202,9 @@ const Footer = () => {
               </div>
             </div>
             <div>
-              <h1 className="uppercase text-lg tracking-widest text-[#999999] sm:pt-0 pt-10">
-                Erlebnisse
-              </h1>
               <Link
                 href="/"
-                className="block text-[15px] text-center font-bold pt-1 text-white"
+                className="block text-[15px] text-center font-bold text-white"
               >
                 Sandbox VR
               </Link>

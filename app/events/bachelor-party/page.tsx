@@ -107,35 +107,29 @@ const BachelorParty = () => {
         <h2 className="sm:text-[42px] text-[30px] font-medium leading-[54px] uppercase tracking-[2px] pt-5 text-white">
           Sandbox VR
         </h2>
-        <p className="pt-[22px] leading-5 text-[15px] text-white">
-          Unser Premium Erlebnis Sandbox VR gibt es bisher nur einmal in
-          Deutschland und der ganzen Europäischen Union: bei uns in Alsfeld! 
+        <p className="pt-[28px] leading-5 text-[15px] text-white">
+          Stell dir vor: Du und deine besten Freunde tauchen ein in eine völlig
+          neue Welt voller virtueller Abenteuer. Mit modernster Motion-Capture -
+          Technologie und High-End-VR-Brillen erweckt Sandbox VR deine aFantasie
+          zum Leben und katapultiert dich in ein actiongeladenesErlebnis, das du
+          nie vergessen wirst. Machen Sie sich bereit für eine ganz neue Ebene
+          von Junggesellinnenabschieden! In Sandbox VR wirst du Teil einer
+          spannenden virtuellen Realität, in der du gemeinsam gegen Zombies,
+          Aliens oder Piraten kämpfst, spannende Abenteuer erlebst und dein
+          Können unter Beweis stellst. Hier ist Teamwork gefragt, denn nur
+          gemeinsam können Sie die Herausforderungen in der virtuellen Welt
+          meistern.
         </p>
         <p className="pt-[28px] leading-5 text-[15px] text-white">
-          Stellt euch vor: Ihr und eure besten Freunde taucht ein in eine völlig
-          neue Welt voller virtueller Abenteuer. Mit modernster Motion-Capturing
-          Technologie und High-End VR-Brillen bringt{" "}
-          <strong className="text-[#A6519A]">Sandbox VR</strong> eure Fantasie
-          zum Leben und katapultiert euch in ein actiongeladenes Erlebnis, das
-          ihr nie vergessen werdet. Macht euch bereit für ein völlig neues Level
-          an Junggesellenabschieden! Bei Sandbox VR werdet ihr Teil einer
-          spannenden virtuellen Realität, in der ihr gemeinsam gegen Zombies,
-          Aliens oder Piraten kämpfen, aufregende Abenteuer bestehen und eure
-          Geschicklichkeit unter Beweis stellen müsst. Hier ist Teamwork
-          gefragt, denn nur zusammen werdet ihr es schaffen, die
-          Herausforderungen in der virtuellen Welt zu meistern.
-        </p>
-        <p className="pt-[28px] leading-5 text-[15px] text-white">
-          Andrenalin, Panik und auch ein paar Schreie sind garantiert. Dabei ist
-          es egal, ob ich euch mit Eurem Squad in einem unserer Zombie-Abenteuer
-          „Deadwood Mansion“ oder „Deadwood Valley“ gegen eine Horde Zombies
-          stellt oder in Amber Sky in Hong Kong im Jahr 2088 die Erde gegen eine
-          außerirdische Invasion verteidigen müsst. Wenn ihr es etwas weniger
-          panisch angehen lassen wollt, haben wir mit unserem Piratenabenteuer
-          „Davy Jones“ oder „Star Trek“ die richtigen Erlebnisse im Programm.
-          Eins haben sie alle gemeinsam: Sie schaffen unvergessliche
-          Erinnerungen – die ihr sogar in Form von zwei Best-Of Movies
-          mitbekommt.
+          Andrenalin, Panik und sogar ein paar Schreie sind garantiert. Egal, ob
+          Sie und Ihre Truppe in einem unserer Zombie-Abenteuer "Deadwood
+          Mansion" oder "Deadwood Valley" gegen eine Horde Zombies antreten oder
+          ob Sie in Amber Sky im Hongkong des Jahres 2088 die Erde gegen eine
+          Alien-Invasion verteidigen müssen. Wer es etwas weniger panisch
+          angehen möchte, für den haben wir mit unserem Piratenabenteuer "Davy
+          Jones" oder "Star Trek" die richtigen Erlebnisse im Programm. Sie alle
+          haben eines gemeinsam: Sie schaffen unvergessliche Erinnerungen - die
+          Sie sogar in Form von zwei Best-of- Filmen sehen können.
         </p>
         <div className="sm:mt-[76px] mt-12 bg-dark-1">
           <iframe
@@ -158,13 +152,13 @@ const BachelorParty = () => {
             </h2>
           </div>
           <div className="flex justify-center">
-          <Link
-            href="https://sandboxvr.com/zurich/"
-            target="_blank"
-            className="text-gray-8 block w-fit h-fit py-5 px-8 rounded-[3px] border border-gray-8 tracking-[5px] leading-5 text-[15px] relative mt-5 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:text-dark-1 hover:scale-110 hover:bg-white hover:border-white"
-          >
-            BUCHEN
-          </Link>
+            <Link
+              href="https://sandboxvr.com/zurich/"
+              target="_blank"
+              className="text-gray-8 block w-fit h-fit py-5 px-8 rounded-[3px] border border-gray-8 tracking-[5px] leading-5 text-[15px] relative mt-5 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:text-dark-1 hover:scale-110 hover:bg-white hover:border-white"
+            >
+              BUCHEN
+            </Link>
           </div>
         </div>
       </section>
@@ -280,7 +274,7 @@ const BachelorParty = () => {
                 TELEFON
               </span>
               <span className="block text-center text-white text-sm leading-5 pt-[11px]">
-              +41433119906
+                +41433119906
               </span>
             </div>
           </div>
@@ -304,7 +298,7 @@ const BachelorParty = () => {
                 E-MAIL
               </span>
               <span className="block text-center text-white text-sm leading-5 pt-[11px]">
-              zurich@sandboxvr.com
+                zurich@sandboxvr.com
               </span>
             </div>
           </div>
@@ -334,7 +328,7 @@ const BachelorParty = () => {
                   TELEFON
                 </span>
                 <span className="block text-center text-white text-sm leading-5 pt-[11px]">
-                +41433119906
+                  +41433119906
                 </span>
               </div>
             </div>
@@ -358,7 +352,7 @@ const BachelorParty = () => {
                   E-MAIL
                 </span>
                 <span className="block text-center text-white text-sm leading-5 pt-[11px]">
-                zurich@sandboxvr.com
+                  zurich@sandboxvr.com
                 </span>
               </div>
             </div>

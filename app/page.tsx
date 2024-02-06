@@ -13,12 +13,9 @@ import VirtualRealityVideo from "./components/VirtualRealityVideo";
 import FurtherQuestions from "./components/FurtherQuestions";
 import AdventuresSection from "./components/AdventuresSection";
 import HomeCarousel from "./components/HomeCarousel";
-import { useState } from "react";
-import BookModal from "./components/BookModal";
 import Link from "next/link";
 
 export default function Home() {
-  const [showModal, setShowModal] = useState(false);
   return (
     <main className="break-words">
       <Navbar />
@@ -42,7 +39,9 @@ export default function Home() {
               />
               <div className="flex justify-center w-full sm:pt-[65px] pt-10">
                 <div className="flex sm:flex-row flex-col items-center sm:gap-24">
-                  <Link href="https://sandboxvr.com/zurich/" target="_blank"
+                  <Link
+                    href="https://sandboxvr.com/zurich/"
+                    target="_blank"
                     className="block w-fit transition delay-100 duration-300 text-center ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110 sm:py-5 py-4 sm:px-10 px-5 leading-5 sm:tracking-[7px] tracking-[1px] rounded-md text-white bg-appblue border-2 border-appblue"
                   >
                     BUCHEN
@@ -60,7 +59,6 @@ export default function Home() {
           </div>
         </div>
       </Hero>
-      {showModal && <BookModal onClose={() => setShowModal(!showModal)} showModal={showModal} />}
       <VirtualRealityVideo />
       <FutureExperience />
       <section className="py-[50px] sm:px-[150px] px-5 flex justify-center bg-[#161617]">
@@ -68,7 +66,7 @@ export default function Home() {
           Hier wird es
         </h1> */}
         <div className="font-medium uppercase md:leading-[78px] py-[15px] text-center text-4xl md:text-[60px] tracking-[5px] [text-wrap:balance] bg-clip-text text-[#CCCBC9] bg-gradient-to-r from-slate-200/60 to-50% to-slate-200">
-        Hier wird es
+          Hier wird es
           <span className="text-[#9E9C97] pl-3 uppercase font-bold inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.6xl)*theme(lineHeight.snug))] overflow-hidden">
             <ul className="block animate-text-slide-5 text-left md:leading-[78px] [&_li]:block">
               <li>FANTASTISCH</li>
@@ -115,7 +113,7 @@ export default function Home() {
                 height="400"
                 frameBorder="0"
                 scrolling="no"
-                src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Im%20Grund%203,%2036304%20Alsfeld+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Swiss%20Life%20Arena,%20Neben%20der%20Garageneinfahrt,%20Vulkanstrasse%20130i,%208048%20Z%C3%BCrich,%20Switzerland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               >
                 <a href="https://www.maps.ie/population/">
                   Find Population on Map
@@ -123,7 +121,7 @@ export default function Home() {
               </iframe>
             </div>
           </div>
-          <div className="sm:p-[30px]">
+          {/* <div className="sm:p-[30px]">
             <h1 className="uppercase text-[#57BFC7] text-[22px] leading-8 pb-5 sm:pt-0 pt-8">
               Wiesbaden
             </h1>
@@ -150,7 +148,7 @@ export default function Home() {
                 <a href="https://www.maps.ie/population/">Population mapping</a>
               </iframe>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
       <PressSection />

@@ -179,29 +179,27 @@ const Voucher = () => {
                 Schritt 4: <span className="font-bold">DIE BEZAHLUNG</span>
               </h1>
               <p className="pt-6 text-dark-1 text-[15px] leading-5">
-                Nun können Sie den Gutschein bezahlen - am schnellsten und
-                einfachsten geht das mit einer Kreditkarte oder TWINT
+              Nun können Sie den Gutschein bezahlen - am schnellsten und
+einfachsten geht das mit einer Kreditkarte oder TWINT
               </p>
               <p className="pt-6 text-dark-1 text-[15px] leading-5">
-                Wenn Sie keine Kreditkarte haben, haben Sie folgende weitere
-                Möglichkeiten, einen Gutschein zu kaufen:
+              Wenn Sie keine Kreditkarte haben, haben Sie folgende weitere
+Möglichkeiten, einen Gutschein zu kaufen:
               </p>
               <ol className="pt-6 list-decimal pl-10">
                 <li className="text-dark-1 leading-5 text-[15px]">
-                  Dann kannst über das Paypal-System auch per{" "}
-                  <strong>Lastschrift</strong> bezahlen ohne das du ein PayPal
-                  Account aufmachen musst!
+                Sie kontaktieren uns telefonisch (043 311 9906) und können den
+      Gutscheinbetrag in Absprache mit uns per Überweisung bezahlen
                 </li>
                 <li className="text-dark-1 leading-5 text-[15px]">
-                  Du meldest Dich bei uns telefonisch (06631-7882663) und kannst
-                  den Gutscheinbetrag in Absprache mit uns per{" "}
-                  <strong>Überweisung</strong> bezahlen.
+                Sie kommen persönlich bei unsin Zürich vorbei und bezahlen vor 
+      Ort mit einer EC-Karte.
                 </li>
-                <li className="text-dark-1 leading-5 text-[15px]">
+                {/* <li className="text-dark-1 leading-5 text-[15px]">
                   Du kommst persönlich in einer unserer Locations in Alsfeld
                   oder Wiesbaden vorbei und zahlst vor Ort mit{" "}
                   <strong>EC-Karte.</strong>
-                </li>
+                </li> */}
               </ol>
             </div>
             <div className="flex justify-center sm:pt-0 pt-5">
