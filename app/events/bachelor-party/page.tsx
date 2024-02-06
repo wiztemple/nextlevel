@@ -122,12 +122,12 @@ const BachelorParty = () => {
         </p>
         <p className="pt-[28px] leading-5 text-[15px] text-white">
           Andrenalin, Panik und sogar ein paar Schreie sind garantiert. Egal, ob
-          Sie und Ihre Truppe in einem unserer Zombie-Abenteuer "Deadwood
-          Mansion" oder "Deadwood Valley" gegen eine Horde Zombies antreten oder
+          Sie und Ihre Truppe in einem unserer Zombie-Abenteuer Deadwood
+          Mansion oder Deadwood Valley gegen eine Horde Zombies antreten oder
           ob Sie in Amber Sky im Hongkong des Jahres 2088 die Erde gegen eine
           Alien-Invasion verteidigen müssen. Wer es etwas weniger panisch
-          angehen möchte, für den haben wir mit unserem Piratenabenteuer "Davy
-          Jones" oder "Star Trek" die richtigen Erlebnisse im Programm. Sie alle
+          angehen möchte, für den haben wir mit unserem Piratenabenteuer Davy
+          Jones oder Star Trek die richtigen Erlebnisse im Programm. Sie alle
           haben eines gemeinsam: Sie schaffen unvergessliche Erinnerungen - die
           Sie sogar in Form von zwei Best-of- Filmen sehen können.
         </p>
