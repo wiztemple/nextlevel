@@ -7,11 +7,9 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
-import { useState } from "react";
-import BookModal from "./BookModal";
+import Link from "next/link";
 
 const HomeCarousel = () => {
-  const [showModal, setShowModal] = useState(false);
   return (
     <section className="bg-white">
       <div className="pt-[120px] md:px-[150px] px-5">
@@ -127,16 +125,13 @@ const HomeCarousel = () => {
           </SwiperSlide>
         </Swiper>
         <div className="pt-[45px] pb-24 [180px] flex justify-center">
-          <button
-            type="button"
-            onClick={() => setShowModal(true)}
+          <Link href="https://sandboxvr.com/zurich/" target="_blank"
             className="transition sm:text-base text-sm w-fit delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110  py-4 sm:px-8 px-5 leading-5 sm:tracking-[7px] rounded-md text-white bg-[#0076FF] border border-[#0076FF]"
           >
             BUCHEN
-          </button>
+          </Link>
         </div>
       </div>
-      {showModal && <BookModal onClose={() => setShowModal(!showModal)} showModal={showModal} />}
     </section>
   );
 };

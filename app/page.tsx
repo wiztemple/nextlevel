@@ -42,11 +42,11 @@ export default function Home() {
               />
               <div className="flex justify-center w-full sm:pt-[65px] pt-10">
                 <div className="flex sm:flex-row flex-col items-center sm:gap-24">
-                  <button type="button" onClick={() => setShowModal(true)}
+                  <Link href="https://sandboxvr.com/zurich/" target="_blank"
                     className="block w-fit transition delay-100 duration-300 text-center ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110 sm:py-5 py-4 sm:px-10 px-5 leading-5 sm:tracking-[7px] tracking-[1px] rounded-md text-white bg-appblue border-2 border-appblue"
                   >
                     BUCHEN
-                  </button>
+                  </Link>
 
                   <Link
                     href="/sandboxvr/voucher"

@@ -203,7 +203,7 @@ const Footer = () => {
             </div>
             <div>
               <h1 className="uppercase text-lg tracking-widest text-[#999999] sm:pt-0 pt-10">
-                Next Level Erlebnisse
+                Erlebnisse
               </h1>
               <Link
                 href="/"
