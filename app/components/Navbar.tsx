@@ -212,7 +212,7 @@ const Navbar = ({
                 href="/corporate-events"
                 className="py-4 text-[13px] text-center uppercase px-3 block bg-white text-dark-2 my-0.5 mx-auto"
               >
-                COMPANY EVENT
+                CORPORATE EVENT
               </Link>
               {/* <Link
                 href="/events/clubs-and-groups"
