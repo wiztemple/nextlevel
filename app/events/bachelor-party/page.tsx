@@ -168,7 +168,7 @@ const BachelorParty = () => {
           </div>
         </div>
       </section>
-      <section className="bg-mesh-gradient bg-top sm:bg-fixed bg-no-repeat bg-cover sm:px-[150px] px-5 sm:pt-[90px] pt-16 sm:pb-[53px] pb-16">
+      {/* <section className="bg-mesh-gradient bg-top sm:bg-fixed bg-no-repeat bg-cover sm:px-[150px] px-5 sm:pt-[90px] pt-16 sm:pb-[53px] pb-16">
         <h1 className="text-lg font-medium tracking-[2.5px] uppercase leading-5 text-white">
           WIR HABEN NOCH MEHR ERLEBNISSE
         </h1>
@@ -198,8 +198,8 @@ const BachelorParty = () => {
           bis zu 10 Personen. Wenn ihr Lust auf mehrere Erlebnisse habt,
           solltest ihr mindestens 2-3 Stunden einplanen.
         </p>
-      </section>
-      <section className="bg-black w-full">
+      </section> */}
+      {/* <section className="bg-black w-full">
         <div className="grid sm:grid-cols-4 grid-cols-1">
           <img
             className="object-cover h-[288px] w-full"
@@ -254,7 +254,7 @@ const BachelorParty = () => {
             heißen und euren Tag unvergesslich zu machen!
           </p>
         </div>
-      </section>
+      </section> */}
       <section className="sm:px-[150px] px-5 sm:pt-[70px] sm:pb-[109px] pb-[100px] bg-black">
         <div className="sm:grid grid-cols-3 hidden">
           <p className="uppercase leading-6 tracking-[2px] font-medium text-center pt-6 text-white">

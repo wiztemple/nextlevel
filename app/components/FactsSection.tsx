@@ -44,8 +44,8 @@ const FactsSection = () => {
       </div>
       <div className="pt-16 sm:pt-0">
         <Image
-          src="https://nextlevel-erlebnisse.de/wp-content/uploads/2023/12/Sandbox_Preisuebersicht_v2_web.png"
-          width="1000"
+          src="/price.svg"
+          width="570"
           height="600"
           alt=""
         />
