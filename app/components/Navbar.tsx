@@ -59,7 +59,7 @@ const Navbar = ({
             Sandbox VR
           </Link>
           <div className="flex gap-[33px] items-center">
-            <Link href="/events" className="relative group text-white">
+            <div className="relative group text-white">
               Events
               <div className="absolute hidden group-hover:block z-50 w-56 float-left top-[100%]">
                 <div className="shadow-lg bg-gray-9 mt-4">
@@ -107,7 +107,7 @@ const Navbar = ({
                   </Link> */}
                 </div>
               </div>
-            </Link>
+            </div>
           </div>
           <Link
             href="https://sandboxvr.com/zurich/"
@@ -190,12 +190,12 @@ const Navbar = ({
           </button>
           {events && (
             <div className="transition-all duration-300 ease-in-out">
-              <Link
+              {/* <Link
                 href="/events"
                 className="py-4 text-[13px] text-center uppercase px-3 block bg-white text-dark-2 my-0.5 mx-auto"
               >
                 EVENTS
-              </Link>
+              </Link> */}
               <Link
                 href="/events/children-birthday"
                 className="text-[13px] py-4 uppercase px-3 text-center block bg-white text-dark-2 my-0.5 mx-auto"

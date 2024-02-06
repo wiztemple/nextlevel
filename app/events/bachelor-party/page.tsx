@@ -159,7 +159,8 @@ const BachelorParty = () => {
           </div>
           <div className="flex justify-center">
           <Link
-            href="/"
+            href="https://sandboxvr.com/zurich/"
+            target="_blank"
             className="text-gray-8 block w-fit h-fit py-5 px-8 rounded-[3px] border border-gray-8 tracking-[5px] leading-5 text-[15px] relative mt-5 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:text-dark-1 hover:scale-110 hover:bg-white hover:border-white"
           >
             BUCHEN
