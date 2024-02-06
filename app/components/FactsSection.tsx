@@ -16,7 +16,7 @@ const FactsSection = () => {
         </p>
         <ul className="text-dark-1 list-disc pl-[35px]">
           <li>
-            <strong>die komplette VR Experience dauert eine Stunde!</strong>{" "}
+            <strong>das komplette VR Experience dauert eine Stunde!</strong>{" "}
             (Reine Spielzeit mit Tutorial: 40 Minuten)
           </li>
           <li>

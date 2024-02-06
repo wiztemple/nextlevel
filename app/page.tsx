@@ -15,6 +15,7 @@ import AdventuresSection from "./components/AdventuresSection";
 import HomeCarousel from "./components/HomeCarousel";
 import { useState } from "react";
 import BookModal from "./components/BookModal";
+import Link from "next/link";
 
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
@@ -47,12 +48,12 @@ export default function Home() {
                     BUCHEN
                   </button>
 
-                  <a
-                    href="https://nextlevel-erlebnisse.de/sandboxvr/gutschein"
+                  <Link
+                    href="/sandboxvr/voucher"
                     className="block w-fit mt-8 sm:mt-0 transition delay-100 duration-300 ease-in-out text-center hover:-translate-y-1 hover:-translate-x-1 hover:scale-110 sm:py-5 py-4 sm:px-10 px-5 leading-5 sm:tracking-[7px] tracking-[1px] rounded-md text-white bg-appred border-2 border-appred"
                   >
                     GUTSCHEINE
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -1,7 +1,6 @@
 import Footer from "@/app/components/Footer";
 import Hero from "@/app/components/Hero";
 import Navbar from "@/app/components/Navbar";
-import VoucherCard from "@/app/components/VoucherCard";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -108,7 +107,8 @@ const Voucher = () => {
           </p>
           <div className="flex justify-center pt-10">
             <Link
-              href="/"
+              href="https://sandboxvr.com/zurich/giftvoucher"
+              target="_blank"
               className="text-appblue block w-fit py-3 px-6 rounded-[3px] border-[3px] border-appblue sm:tracking-[5px] tracking-[1px] leading-5 text-[15px] relative transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:text-white hover:scale-110 hover:bg-appblue hover:border-appblue"
             >
               Gutschein kaufen
@@ -216,7 +216,8 @@ const Voucher = () => {
           </div>
           <div className="flex justify-center sm:pt-[120px] pt-[100px]">
             <Link
-              href="/"
+              href="https://sandboxvr.com/zurich/giftvoucher"
+              target="_blank"
               className="text-appblue block w-fit py-3 px-6 rounded-[3px] border-[3px] border-appblue sm:tracking-[5px] tracking-[1px] leading-5 text-[15px] relative mt-6 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:text-white hover:scale-110 hover:bg-appblue hover:border-appblue"
             >
               Gutschein kaufen
