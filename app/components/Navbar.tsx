@@ -79,7 +79,7 @@ const Navbar = ({
                     href="/corporate-events"
                     className="py-3 text-[13px] uppercase px-3 block text-dark-2 border-b border-[#ebebeb]"
                   >
-                    COMPANY EVENT
+                    CORPORATE EVENT
                   </Link>
                   {/* <Link
                     href="/events/clubs-and-groups"
