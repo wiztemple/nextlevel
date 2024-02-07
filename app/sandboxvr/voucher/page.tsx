@@ -83,7 +83,7 @@ const Voucher = () => {
             <div className="pt-16 sm:pt-0">
               <Image
                 className="rounded-[20px]"
-                src="https://nextlevel-erlebnisse.de/wp-content/uploads/2023/12/Sandbox_Preisuebersicht_v2_web.png"
+                src="/price.svg"
                 width="510"
                 height="306"
                 alt=""

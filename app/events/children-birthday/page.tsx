@@ -83,7 +83,7 @@ const ChildrenBirthday = () => {
           den besonderen Tag zu einem unvergesslichen Erlebnis werden:
         </p>
       </SecondaryHero>
-      <section className="bg-black pt-5 sm:px-[150px] px-5">
+      {/* <section className="bg-black pt-5 sm:px-[150px] px-5">
         <div className="grid sm:grid-cols-2 gap-[30px]">
           <Link
             href="/"
@@ -186,8 +186,8 @@ const ChildrenBirthday = () => {
             </div>
           </Link>
         </div>
-      </section>
-      <section className="py-[65px] sm:px-[185px] px-5 bg-black">
+      </section> */}
+      {/* <section className="py-[65px] sm:px-[185px] px-5 bg-black">
         <div className="grid sm:grid-cols-2 grid-cols-1">
           <div>
             <Image
@@ -224,7 +224,7 @@ const ChildrenBirthday = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="sm:h-[440px] bg-mesh-gradient bg-cover bg-no-repeat bg-fixed sm:px-[150px] px-5 py-[50px]">
         <h1 className="text-white leading-8 tracking-[1px] uppercase sm:text-xl text-lg">
           STEP BY STEP
@@ -329,14 +329,14 @@ const ChildrenBirthday = () => {
           </div>
         </div>
       </section>
-      <section className="bg-black sm:px-[150px] px-5 sm:pt-[70px] pt-16 sm:pb-[116px] pb-20">
-        <h1 className="leading-8 text-[22px] uppercase text-white tracking-[1px]">
+      <section className="bg-black sm:px-[150px] px-5 sm:pt-[70px] pt-14 sm:pb-[70px] pb-14">
+        {/* <h1 className="leading-8 text-[22px] uppercase text-white tracking-[1px]">
           DIE PAKETE
         </h1>
         <h2 className="uppercase pt-5 tracking-[2px] leading-[54px] sm:text-[41px] text-2xl font-medium text-white">
           HIER KÖNNT IHR BUCHEN
-        </h2>
-        <div className="grid sm:grid-cols-3 grid-cols-1 sm:pt-20 pt-12 sm:p-10 gap-10">
+        </h2> */}
+        {/* <div className="grid sm:grid-cols-3 grid-cols-1 sm:pt-20 pt-12 sm:p-10 gap-10">
           <PackageCard
             imgUrl="lasertag--kindergeburtstag-172ee.jpg"
             title="Lasertag | Kindergeburtstag"
@@ -391,7 +391,7 @@ hintereinander. Der komplette Aufenthalt bei"
             location="Alsfeld"
             price="50,00 €"
           />
-        </div>
+        </div> */}
         <p className="text-white text-[15px] sm:pt-[22px] pt-14 leading-5">
           Wir haben nicht nur Lasertag als Kindergeburtstags-Paket, sondern auch
           den Escaperoom, Hologate und Lü. Und wer den Kindergeburtstag auf das
