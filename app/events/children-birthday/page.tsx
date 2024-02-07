@@ -3,10 +3,7 @@ import Accordion from "@/app/components/Accordion";
 import Footer from "@/app/components/Footer";
 import Hero from "@/app/components/Hero";
 import Navbar from "@/app/components/Navbar";
-import PackageCard from "@/app/components/PackageCard";
 import SecondaryHero from "@/app/components/SecondaryHero";
-import Image from "next/image";
-import Link from "next/link";
 
 const ChildrenBirthday = () => {
   const faqs = [
