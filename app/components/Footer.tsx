@@ -188,7 +188,8 @@ const Footer = () => {
               </div>
               <div className="pt-3">
                 <Link
-                  href="/imprint"
+                  href="https://sandboxvr.com/zurich/imprint"
+                  target="_blank"
                   className="block text-[15px] sm:text-left text-center font-bold pt-1 text-white"
                 >
                   Impressum

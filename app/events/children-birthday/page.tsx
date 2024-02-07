@@ -42,7 +42,7 @@ const ChildrenBirthday = () => {
     },
     {
       title: "EINLADUNGSKARTEN",
-      text: "Um die Kinder zu Eurem NextLevel Geburtstag einzuladen, haben wir Einladungskarten gestaltet, die ihr zuhause selbst ausdrucken (und anpassen) könnt. Hier sind die Download-Links:",
+      text: "Um die Kinder zu Eurem greenwich Geburtstag einzuladen, haben wir Einladungskarten gestaltet, die ihr zuhause selbst ausdrucken (und anpassen) könnt. Hier sind die Download-Links:",
       active: false,
     },
   ];
@@ -55,11 +55,11 @@ const ChildrenBirthday = () => {
             SPASS UND ACTION GARANTIERT
           </h1>
           <h2 className="text-center sm:text-[71px] text-[28px] font-medium uppercase tracking-[2.1px] pt-10 sm:leading-[80px] leading-snug text-white">
-            NEXTLEVEL KINDER-
+          greenwich KINDER-
             <br /> GEBURTSTAGE
           </h2>
           <p className="pt-[22px] text-[15px] leading-5 text-center sm:px-[160px] text-white">
-            Ein Kindergeburtstag bei NextLevel Erlebnisse ist garantiert ein
+            Ein Kindergeburtstag bei greenwich Erlebnisse ist garantiert ein
             unvergessliches Abenteuer. Egal ob ihr Euch in der Lasertag Arena
             battelt, virtuelle Welten im Hologate erlebt oder im Escaperoom mal
             eben kurz die Welt rettet – unsere Erlebnisse sind das Highlight
@@ -76,7 +76,7 @@ const ChildrenBirthday = () => {
           BEI UNS IN BESTEN HÄNDEN.
         </h2>
         <p className="pt-[22px] text-white text-base">
-          Dann bist Du bei Next Level Erlebnisse in Alsfeld genau richtig! Wir
+          Dann bist Du bei greenwich Erlebnisse in Alsfeld genau richtig! Wir
           bieten Dir und Deinen kleinen Gästen die ultimativen Abenteuer, die
           jedes Kinderherz höher schlagen lassen. Entdecke unsere vielfältigen
           Erlebnisangebote wie Lasertag, Escaperoom, Hologate und Lü, und lass
@@ -398,7 +398,7 @@ hintereinander. Der komplette Aufenthalt bei"
           nächste Level heben will, der bucht unser{" "}
           <strong>Spezialpaket!</strong> Hier wartet eine Stunde Lasertag und
           eine Stunde Hologate. Ganz NEU ist unser{" "}
-          <strong>Next Level Partyraum</strong> mit Nintendo Switch Konsole,
+          <strong>greenwich Partyraum</strong> mit Nintendo Switch Konsole,
           Whiteboard, Tischen und Stühle und einer Miniküche. Der Clou: Die
           Getränke sind im Preis inklusive. Wer einen ganzen Tag bei uns
           verbringen, für den ist unser <strong>All-Inclusive Paket</strong> das
