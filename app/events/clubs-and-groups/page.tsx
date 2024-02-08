@@ -1,26 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Footer from "@/app/components/Footer";
 import Hero from "@/app/components/Hero";
 import LasertagCard from "@/app/components/LasertagCard";
 import Navbar from "@/app/components/Navbar";
 import SecondaryHero from "@/app/components/SecondaryHero";
-import Slider from "react-slick";
 import SchoolAccordion from "@/app/components/SchoolAccordion";
 import Image from "next/image";
 import CorporateContact from "@/app/components/CorporateContact";
 
 const ClubsAndGroups = () => {
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
   return (
     <main>
       <Navbar />
@@ -147,7 +137,7 @@ const ClubsAndGroups = () => {
             hoverClass="hover:bg-appviolet hover:border-appviolet"
           />
         </div>
-        <div className="bg-black py-20 px-8 sm:hidden block">
+        {/* <div className="bg-black py-20 px-8 sm:hidden block">
           <Slider {...settings}>
             <LasertagCard
               className="bg-appviolet/90 rounded-tl-[20px] rounded-tr-[20px]"
@@ -195,7 +185,7 @@ const ClubsAndGroups = () => {
               hoverClass="hover:bg-appviolet hover:border-appviolet"
             />
           </Slider>
-        </div>
+        </div> */}
       </section>
       <section className="sm:px-[150px] px-5 sm:pt-[70px] pt-[50px] bg-black">
         <h1 className="uppercase text-[#6EC1E4] text-lg font-medium leading-5 tracking-[2.5px]">
@@ -270,65 +260,6 @@ const ClubsAndGroups = () => {
             numberOfStudents="4"
             hoverClass="hover:bg-aquagreen hover:border-aquagreen"
           />
-        </div>
-        <div className="bg-black py-20 px-8 sm:hidden block">
-          <Slider {...settings}>
-            <LasertagCard
-              className="bg-aquagreen/50 rounded-tl-[20px] rounded-tr-[20px]"
-              header="Lasertag +
-            Hologate"
-              subHeader="(bis max. 16 Personen)"
-              price="250"
-              extraItem="VR-Minispiele im HOLOGATE"
-              oldPrice="420"
-              numberOfStudents="1"
-              hoverClass="hover:bg-aquagreen hover:border-aquagreen"
-            />
-            <LasertagCard
-              className="bg-aquagreen/50 rounded-tl-[20px] rounded-tr-[20px]"
-              header="Lasertag +
-            Hologate"
-              subHeader="(bis max. 20 Personen)"
-              price="325"
-              extraItem="VR-Minispiele im HOLOGATE"
-              oldPrice="550"
-              numberOfStudents="1,5"
-              hoverClass="hover:bg-aquagreen hover:border-aquagreen"
-            />
-            <LasertagCard
-              className="bg-aquagreen/50 rounded-tl-[20px] rounded-tr-[20px]"
-              header="Lasertag +
-            Hologate"
-              subHeader="(bis max. 24 Personen)"
-              price="400"
-              extraItem="VR-Minispiele im HOLOGATE"
-              oldPrice="680"
-              numberOfStudents="2"
-              hoverClass="hover:bg-aquagreen hover:border-aquagreen"
-            />
-            <LasertagCard
-              className="bg-aquagreen/50 rounded-tl-[20px] rounded-tr-[20px]"
-              header="Lasertag +
-            Hologate"
-              subHeader="(bis max. 40 Personen)"
-              price="550"
-              extraItem="VR-Minispiele im HOLOGATE"
-              oldPrice="1000"
-              numberOfStudents="3"
-              hoverClass="hover:bg-aquagreen hover:border-aquagreen"
-            />
-            <LasertagCard
-              className="bg-aquagreen/50 rounded-tl-[20px] rounded-tr-[20px]"
-              header="Lasertag +
-            Hologate"
-              subHeader="(bis max. 60 Personen)"
-              price="700"
-              extraItem="VR-Minispiele im HOLOGATE"
-              oldPrice="1500"
-              numberOfStudents="4"
-              hoverClass="hover:bg-aquagreen hover:border-aquagreen"
-            />
-          </Slider>
         </div>
         <p className="text-white sm:pb-14 pb-10 sm:px-8">
           Spezielles Angebot für Schulklassen und Vereine ab 12 Personen. Nur

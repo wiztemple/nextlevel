@@ -1,48 +1,47 @@
 /* eslint-disable @next/next/no-img-element */
-import Accordion from "@/app/components/Accordion";
+import CorporateContact from "@/app/components/CorporateContact";
 import Footer from "@/app/components/Footer";
 import Hero from "@/app/components/Hero";
 import Navbar from "@/app/components/Navbar";
-import SecondaryHero from "@/app/components/SecondaryHero";
 
 const ChildrenBirthday = () => {
-  const faqs = [
-    {
-      title: "DIE ARENA NUR FÜR EUCH",
-      text: "Kindergeburtstage in unseren Arenen und im Escaperoom finden immer privat statt – sprich ihr seid unter Euch, ohne fremde Spieler. Daher können Kindergeburtstage mit bis zu 18 Kindern gefeiert werden. Dabei gilt: umso mehr Kinder teilnehmen, umso länger sollte für den Aufenthalt eingeplant werden. Nach unserer Erfahrung sind 1,5 Stunden eine gute Aufenthaltsdauer und die Kids danach ordentlich ausgepowert und glücklich. Ab 12 Kindern sind 2 Stunden eine gute Wahl, da wir mit wechselnden Teams spielen.",
-      active: false,
-    },
-    {
-      title: "LIEBE ELTERN - SPIELT DOCH MIT!",
-      text: "Während die Kinder Lasertag spielen können die Eltern im Wartebereich bei einem Getränke (Kalte Getränke und eine Nespresso-Maschine sind vor Ort) die Spiele  verfolgen – oder sie greifen als Überraschungs-Highlight in die Lasertag-Games ein. Ein “Kinder gegen Eltern Spiel” ist oft der heimliche Höhepunkt des Geburtstags – und macht garantiert auch den Eltern Spaß… 😉",
-      active: false,
-    },
-    {
-      title: "GETRÄNKE & SNACKS",
-      text: "Wir haben kalte Getränke (3€), eine Nespresso-Maschine für Kaffee/Espresso (2€) sowie im Sommer eine Langnese Eistruhe (ab 1€). Zu den Erlebnissen selbst könnt ihr nichts zu Essen mitbringen – dafür haben wir einen coolen Partyraum in den ihr Kuchen/Snacks selbst mitbringen und verzehren könnt. Bitte beachtet, dass ihr die Nutzung des Partyraums separat hinzu buchen müsst. Der Preis liegt inkl. Getränken bei 50 Euro.",
-      active: false,
-    },
-    {
-      title: "EIN RUNDUM-PAKET",
-      text: "Um das Kindergeburtstag-Erlebnis abzurunden, bekommt ihr nach der Buchung coole Einladungskarten zum Ausdrucken (Im Anhang der Buchungsbestätigung) und zum Abschluss und als Erinnerung nach dem Lasertag-Spiel bekommt jedes Kind eine Urkunde mit der besten Platzierung.",
-      active: true,
-    },
-    {
-      title: "FAIRPLAY IST UNS SEHR WICHTIG!",
-      text: "Lasertag ist ein taktisches Spiel, bei dem jegliche Aggressivität verboten ist. Ziel ist es durch cleveres und taktisches Vorgehen das gegnerische Team öfter zu treffen als man selbst getroffen wird. Ganz ähnlich wie bei Völkerball – nur modern und komplett kontakt- und aggressionslos. In unserer Arena ist deshalb sowohl aggressives Verhalten als auch Gewalt-Sprache mit Begriffen wie „erschießen“, „töten“, etc. sowie Beleidigungen absolutes Tabu – sowohl in den Gruppen untereinander als auch in unserer Ansprache. Das Lasertag-System verfügt darüber hinaus über Sensoren, die aggressives Spielen gezielt verhindern, bzw. erst gar nicht ermöglichen.",
-      active: false,
-    },
-    {
-      title: "AUFSICHTSPFLICHT",
-      text: "Unsere Erlebnisse sind geeignet für Kindergeburtstage ab 8 Jahren. Es muss auf jeden Fall zu jedem Zeitpunkt ein Elternteil anwesend sein – wir übernehmen explizit nicht die Aufsicht über die Kinder.",
-      active: false,
-    },
-    {
-      title: "EINLADUNGSKARTEN",
-      text: "Um die Kinder zu Eurem greenwich Geburtstag einzuladen, haben wir Einladungskarten gestaltet, die ihr zuhause selbst ausdrucken (und anpassen) könnt. Hier sind die Download-Links:",
-      active: false,
-    },
-  ];
+  // const faqs = [
+  //   {
+  //     title: "DIE ARENA NUR FÜR EUCH",
+  //     text: "Kindergeburtstage in unseren Arenen und im Escaperoom finden immer privat statt – sprich ihr seid unter Euch, ohne fremde Spieler. Daher können Kindergeburtstage mit bis zu 18 Kindern gefeiert werden. Dabei gilt: umso mehr Kinder teilnehmen, umso länger sollte für den Aufenthalt eingeplant werden. Nach unserer Erfahrung sind 1,5 Stunden eine gute Aufenthaltsdauer und die Kids danach ordentlich ausgepowert und glücklich. Ab 12 Kindern sind 2 Stunden eine gute Wahl, da wir mit wechselnden Teams spielen.",
+  //     active: false,
+  //   },
+  //   {
+  //     title: "LIEBE ELTERN - SPIELT DOCH MIT!",
+  //     text: "Während die Kinder Lasertag spielen können die Eltern im Wartebereich bei einem Getränke (Kalte Getränke und eine Nespresso-Maschine sind vor Ort) die Spiele  verfolgen – oder sie greifen als Überraschungs-Highlight in die Lasertag-Games ein. Ein “Kinder gegen Eltern Spiel” ist oft der heimliche Höhepunkt des Geburtstags – und macht garantiert auch den Eltern Spaß… 😉",
+  //     active: false,
+  //   },
+  //   {
+  //     title: "GETRÄNKE & SNACKS",
+  //     text: "Wir haben kalte Getränke (3€), eine Nespresso-Maschine für Kaffee/Espresso (2€) sowie im Sommer eine Langnese Eistruhe (ab 1€). Zu den Erlebnissen selbst könnt ihr nichts zu Essen mitbringen – dafür haben wir einen coolen Partyraum in den ihr Kuchen/Snacks selbst mitbringen und verzehren könnt. Bitte beachtet, dass ihr die Nutzung des Partyraums separat hinzu buchen müsst. Der Preis liegt inkl. Getränken bei 50 Euro.",
+  //     active: false,
+  //   },
+  //   {
+  //     title: "EIN RUNDUM-PAKET",
+  //     text: "Um das Kindergeburtstag-Erlebnis abzurunden, bekommt ihr nach der Buchung coole Einladungskarten zum Ausdrucken (Im Anhang der Buchungsbestätigung) und zum Abschluss und als Erinnerung nach dem Lasertag-Spiel bekommt jedes Kind eine Urkunde mit der besten Platzierung.",
+  //     active: true,
+  //   },
+  //   {
+  //     title: "FAIRPLAY IST UNS SEHR WICHTIG!",
+  //     text: "Lasertag ist ein taktisches Spiel, bei dem jegliche Aggressivität verboten ist. Ziel ist es durch cleveres und taktisches Vorgehen das gegnerische Team öfter zu treffen als man selbst getroffen wird. Ganz ähnlich wie bei Völkerball – nur modern und komplett kontakt- und aggressionslos. In unserer Arena ist deshalb sowohl aggressives Verhalten als auch Gewalt-Sprache mit Begriffen wie „erschießen“, „töten“, etc. sowie Beleidigungen absolutes Tabu – sowohl in den Gruppen untereinander als auch in unserer Ansprache. Das Lasertag-System verfügt darüber hinaus über Sensoren, die aggressives Spielen gezielt verhindern, bzw. erst gar nicht ermöglichen.",
+  //     active: false,
+  //   },
+  //   {
+  //     title: "AUFSICHTSPFLICHT",
+  //     text: "Unsere Erlebnisse sind geeignet für Kindergeburtstage ab 8 Jahren. Es muss auf jeden Fall zu jedem Zeitpunkt ein Elternteil anwesend sein – wir übernehmen explizit nicht die Aufsicht über die Kinder.",
+  //     active: false,
+  //   },
+  //   {
+  //     title: "EINLADUNGSKARTEN",
+  //     text: "Um die Kinder zu Eurem greenwich Geburtstag einzuladen, haben wir Einladungskarten gestaltet, die ihr zuhause selbst ausdrucken (und anpassen) könnt. Hier sind die Download-Links:",
+  //     active: false,
+  //   },
+  // ];
   return (
     <main className="break-words">
       <Navbar />
@@ -64,7 +63,7 @@ const ChildrenBirthday = () => {
           </p>
         </div>
       </Hero>
-      <SecondaryHero>
+      {/* <SecondaryHero>
         <h1 className="sm:text-xl text-[15px] font-medium text-white pt-10 sm:pt-0">
           DU SUCHST NACH EINEM UNVERGESSLICHEN KINDERGEBURTSTAG?
         </h1>
@@ -79,7 +78,7 @@ const ChildrenBirthday = () => {
           Erlebnisangebote wie Lasertag, Escaperoom, Hologate und Lü, und lass
           den besonderen Tag zu einem unvergesslichen Erlebnis werden:
         </p>
-      </SecondaryHero>
+      </SecondaryHero> */}
       {/* <section className="bg-black pt-5 sm:px-[150px] px-5">
         <div className="grid sm:grid-cols-2 gap-[30px]">
           <Link
@@ -222,7 +221,7 @@ const ChildrenBirthday = () => {
           </div>
         </div>
       </section> */}
-      <section className="sm:h-[440px] bg-mesh-gradient bg-cover bg-no-repeat bg-fixed sm:px-[150px] px-5 py-[50px]">
+      {/* <section className="sm:h-[440px] bg-mesh-gradient bg-cover bg-no-repeat bg-fixed sm:px-[150px] px-5 py-[50px]">
         <h1 className="text-white leading-8 tracking-[1px] uppercase sm:text-xl text-lg">
           STEP BY STEP
         </h1>
@@ -325,15 +324,15 @@ const ChildrenBirthday = () => {
             </p>
           </div>
         </div>
-      </section>
-      <section className="bg-black sm:px-[150px] px-5 sm:pt-[70px] pt-14 sm:pb-[70px] pb-14">
-        {/* <h1 className="leading-8 text-[22px] uppercase text-white tracking-[1px]">
+      </section> */}
+      {/* <section className="bg-black sm:px-[150px] px-5 sm:pt-[70px] pt-14 sm:pb-[70px] pb-14">
+        <h1 className="leading-8 text-[22px] uppercase text-white tracking-[1px]">
           DIE PAKETE
         </h1>
         <h2 className="uppercase pt-5 tracking-[2px] leading-[54px] sm:text-[41px] text-2xl font-medium text-white">
           HIER KÖNNT IHR BUCHEN
-        </h2> */}
-        {/* <div className="grid sm:grid-cols-3 grid-cols-1 sm:pt-20 pt-12 sm:p-10 gap-10">
+        </h2>
+        <div className="grid sm:grid-cols-3 grid-cols-1 sm:pt-20 pt-12 sm:p-10 gap-10">
           <PackageCard
             imgUrl="lasertag--kindergeburtstag-172ee.jpg"
             title="Lasertag | Kindergeburtstag"
@@ -388,7 +387,7 @@ hintereinander. Der komplette Aufenthalt bei"
             location="Alsfeld"
             price="50,00 €"
           />
-        </div> */}
+        </div>
         <p className="text-white text-[15px] sm:pt-[22px] pt-14 leading-5">
           Wir haben nicht nur Lasertag als Kindergeburtstags-Paket, sondern auch
           den Escaperoom, Hologate und Lü. Und wer den Kindergeburtstag auf das
@@ -402,8 +401,8 @@ hintereinander. Der komplette Aufenthalt bei"
           richtige. Zwei Erlebnisse, der Partyraum inklusive Getränken zum
           attraktiven Kombipreis.
         </p>
-      </section>
-      <section className="bg-mesh-gradient bg-center pt-[70px] pb-20 sm:bg-fixed bg-no-repeat bg-cover sm:px-[150px] px-5">
+      </section> */}
+      {/* <section className="bg-mesh-gradient bg-center pt-[70px] pb-20 sm:bg-fixed bg-no-repeat bg-cover sm:px-[150px] px-5">
         <h1 className="leading-8 text-[22px] tracking-[1px] uppercase text-white">
           Wichtiges für eure Planung
         </h1>
@@ -422,7 +421,8 @@ hintereinander. Der komplette Aufenthalt bei"
             </Accordion>
           ))}
         </div>
-      </section>
+      </section> */}
+      <CorporateContact />
       <section className="sm:px-[150px] px-5 sm:pt-[70px] pt-[50px] pb-[55px] bg-black">
         <h2 className="uppercase text-white sm:text-[40px] text-3xl sm:leading-[72px] leading-snug font-bold pt-5 tracking-[10px]">
           Ihr braucht dabei Hilfe?

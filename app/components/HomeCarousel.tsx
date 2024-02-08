@@ -48,79 +48,65 @@ const HomeCarousel = () => {
         >
           <SwiperSlide>
             <div className="w-full">
-              <a href="/">
                 <img
                   src="/ambersky-poster.webp"
                   className="h-[420px] object-cover w-full"
                   alt="Slider Image"
                 />
-              </a>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="w-full">
-              <a href="/">
                 <img
                   src="/deadwoodmansion-poster.webp"
                   className="h-[420px] object-cover w-full"
                   alt="Slider Image"
                 />
-              </a>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="w-full">
-              <a href="/">
                 <img
                   src="/startrek-poster.webp"
                   className="h-[420px] object-cover w-full"
                   alt="Slider Image"
                 />
-              </a>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="w-full">
-              <a href="/">
                 <img
                   src="/ufl-poster.webp"
                   className="h-[420px] object-cover w-full"
                   alt="Slider Image"
                 />
-              </a>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="w-full">
-              <a href="/">
                 <img
                   src="/squidgame-poster.webp"
                   className="h-[420px] object-cover w-full"
                   alt="Slider Image"
                 />
-              </a>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="w-full">
-              <a href="/">
                 <img
                   src="/dragonfire-poster.webp"
                   className="h-[420px] object-cover w-full"
                   alt="Slider Image"
                 />
-              </a>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="w-full">
-              <a href="/">
                 <img
                   src="/deadwoodvalley-poster.webp"
                   className="h-[420px] object-cover w-full"
                   alt="Slider Image"
                 />
-              </a>
             </div>
           </SwiperSlide>
         </Swiper>

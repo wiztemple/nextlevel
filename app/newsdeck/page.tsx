@@ -1,7 +1,5 @@
 "use client";
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import { Navigation, Parallax } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";

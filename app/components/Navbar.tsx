@@ -46,8 +46,8 @@ const Navbar = ({
             className=""
             src="/applogo.svg"
             alt="Logo"
-            width={70}
-            height={27.6}
+            width={140}
+            height={42}
             priority
           />
         </Link>

@@ -19,7 +19,7 @@ const BachelorParty = () => {
             Ein legendärer Tag
           </h1>
           <h2 className="text-center sm:text-[37px] text-2xl font-bold uppercase sm:tracking-[10px] pt-10 sm:px-0 px-5 sm:leading-[80px] text-white">
-            NextLevel JGA - <br />
+            Greenwich JGA - <br />
             Junggesellen-abschied
           </h2>
           <p className="pt-[22px] text-[15px] leading-5 text-center sm:px-[160px] px-5 text-white">
