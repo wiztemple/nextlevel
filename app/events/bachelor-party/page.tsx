@@ -25,10 +25,10 @@ const BachelorParty = () => {
           <p className="pt-[22px] text-[15px] leading-5 text-center sm:px-[160px] px-5 text-white">
             Seid ihr bereit für den Junggesellenabschied (JGA) des Jahrhunderts?
             Möchtet ihr einen Tag erleben, der für immer in eurer Erinnerung
-            bleiben wird? Dann seid ihr hier genau richtig! Next Level
+            bleiben wird? Dann seid ihr hier genau richtig! Greenwich
             Erlebnisse bietet die perfekte Kombination aus Spaß, Spannung und
             Teamerlebnis für euren unvergesslichen Tag! Ob als Auftakt,
-            Zwischenstation oder das volle Programm – Euer Besuch bei Next Level
+            Zwischenstation oder das volle Programm – Euer Besuch bei Greenwich
             und damit Euer JGA wird auf jeden Fall legendär! 
           </p>
         </div>

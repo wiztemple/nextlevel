@@ -97,15 +97,15 @@ export default function Home() {
             </h1>
             <p className="text-dark-1 text-[15px] leading-5">
               Unsere Sandbox VR Location in Alsfeld befindet sich in unserem{" "}
-              <strong>Next Level Erlebnisse Headquarter.</strong> Im
+              <strong>Greenwich Erlebnisse Headquarter.</strong> Im
               wunderschönen Städtchen Alsfeld in Hessen findet ihr außerdem
-              viele <strong>weitere Next Level Erlebnisse</strong> und unsere
+              viele <strong>weitere Greenwich Erlebnisse</strong> und unsere
               Verwaltung. Direkt an der A5 gelegen, seid ihr schnell aus allen
               Richtungen bei uns. Wir haben genügend kostenlose Parkplätze
               direkt auf unserem Gelände.
             </p>
             <p className="pt-5 text-[15px] text-dark-1">
-              Adresse für das Navi: <strong>Im Grund 3, 36304 Alsfeld</strong>
+              Adresse für das Navi: <strong>Swiss Life Arena, Neben der Garageneinfahrt, Vulkanstrasse 130i, 8048 Zürich, Switzerland</strong>
             </p>
             <div className="pt-8 w-full">
               <iframe

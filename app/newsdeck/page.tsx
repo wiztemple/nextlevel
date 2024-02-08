@@ -58,7 +58,7 @@ const NewsDeck = () => {
                     className={`absolute sm:px-[200px] px-12 transform duration-500`}
                   >
                     <h1 className="text-center text-white sm:text-[27px] tracking-[4.5px]" data-swiper-parallax="-23%">
-                      Mit 100.000 Euro zum Next Level
+                      Mit 100.000 Euro zum Greenwich
                     </h1>
                     <p className="text-white text-xs text-center sm:leading-5 pt-5" data-swiper-parallax="-200">
                       Es soll der erste Standort in Deutschland werden, einer
@@ -87,7 +87,7 @@ const NewsDeck = () => {
                     className={`absolute sm:px-[200px] px-12 transform duration-500`}
                   >
                     <h1 className="text-center text-white sm:text-[27px] tracking-[4.5px]">
-                      Mit 100.000 Euro zum Next Level
+                      Mit 100.000 Euro zum Greenwich
                     </h1>
                     <p className="text-white text-xs text-center sm:leading-5 pt-5">
                       Es soll der erste Standort in Deutschland werden, einer
@@ -145,21 +145,21 @@ const NewsDeck = () => {
         <h2 className="uppercase text-dark-1 sm:text-[56px] text-4xl pt-6 sm:tracking-[10px] sm:leading-[54px] leading-snug font-bold">
           NIMM KONTAKT MIT UNS AUF!
         </h2>
-        <div className="bg-white py-7 px-5 mt-6">
+        <div className="bg-white py-7 px-5 mt-6 shadow">
           <Image
-            className="ml-5"
-            src="/nextl.webp"
+            className=" bg-[#D1DDE8]"
+            src="/applogo.svg"
             alt=""
             width={147}
             height={58}
           />
           <p className="text-[15px] pt-[26px]">
-            NextLevel Erlebnisse GmbH <br />
+            Greenwich Erlebnisse GmbH <br />
             Ludwigsplatz 1, 36304 Alsfeld
           </p>
           <p className="text-[15px] pt-7">
-            hallo@nextlevel-erlebnisse.de <br />
-            (06631) 7882663
+          zurich@sandboxvr.com <br />
+          +41433119906
           </p>
         </div>
       </section>

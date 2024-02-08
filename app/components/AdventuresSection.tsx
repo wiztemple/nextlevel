@@ -10,7 +10,7 @@ const AdventuresSection = () => {
           src="/greenwich.svg"
           width={529}
           height={115}
-          alt="next level logo"
+          alt="Greenwich logo"
         />
       </div>
       <h1 className="uppercase font-medium sm:text-xl text-sm text-[#6F6F6F] sm:tracking-[10px] tracking-[3px] leading-6 sm:pt-12 pt-8">
@@ -20,7 +20,7 @@ const AdventuresSection = () => {
         Unsere Abenteuer
       </h2>
       <p className="pt-6 leading-6 text-white text-[15px]">
-        Erlebe weitere Abenteuer in unserer NextLevel Area. Du kannst die
+        Erlebe weitere Abenteuer in unserer Greenwich Area. Du kannst die
         Erlebnisse auch als Paket buchen und habt zusammen einen unvergesslichen
         tollen Tag! Ob völlig neue Spielmodi im Lasertag, Rätselspass der
         anderen Art im Escaperoom oder VR-Minigames in der HOLOGATE-Arena –
