@@ -105,7 +105,11 @@ export default function Home() {
               direkt auf unserem Gelände.
             </p>
             <p className="pt-5 text-[15px] text-dark-1">
-              Adresse für das Navi: <strong>Swiss Life Arena, Neben der Garageneinfahrt, Vulkanstrasse 130i, 8048 Zürich, Switzerland</strong>
+              Adresse für das Navi:{" "}
+              <strong>
+                Swiss Life Arena, West Arkade, Vulkanstrasse 130i, 8048 Zürich,
+                Switzerland
+              </strong>
             </p>
             <div className="pt-8 w-full">
               <iframe
@@ -113,7 +117,7 @@ export default function Home() {
                 height="400"
                 frameBorder="0"
                 scrolling="no"
-                src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Swiss%20Life%20Arena,%20Neben%20der%20Garageneinfahrt,%20Vulkanstrasse%20130i,%208048%20Z%C3%BCrich,%20Switzerland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Swiss%20Life%20Arena,%20West%20Arkade,%20Vulkanstrasse%20130i,%208048%20Z%C3%BCrich,%20Switzerland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               >
                 <a href="https://www.maps.ie/population/">
                   Find Population on Map

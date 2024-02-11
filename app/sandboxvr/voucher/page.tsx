@@ -57,7 +57,7 @@ const Voucher = () => {
           <div className="grid sm:grid-cols-2 grid-cols-1 sm:pt-[42px] pt-5 sm:gap-[69px]">
             <div className="">
               <p className="text-white text-[15px] leading-5">
-                Ein Sandkasten-VR-Erlebnis kostet je nach Gruppengrösse zwischen
+                Ein Sandbox-VR-Erlebnis kostet je nach Gruppengrösse zwischen
                 CHF 50 und CHF 70 pro Person. Für grössere Gruppen ist der Preis
                 pro Person günstiger als für kleine Gruppen. Um Ihnen die
                 Entscheidung zu erleichtern, welchen Gutscheinwert Sie

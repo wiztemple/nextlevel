@@ -227,10 +227,10 @@ const Footer = () => {
                 Kindergeburtstage
               </Link>
               <Link
-                href="/"
+                href="/events/bachelor-party"
                 className="block text-[15px] sm:text-right text-center font-bold text-white"
               >
-                Weihnachtsfeiern
+                Bachelor Party
               </Link>
             </div>
           </div>
