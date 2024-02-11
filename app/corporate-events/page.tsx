@@ -98,8 +98,9 @@ unvergessliches Event!
           und die Zufriedenheit seiner Stakeholder wichtig sind.
         </p>
         <p className="text-white pt-12 block sm:text-base text-sm">
-        Ob Weihnachtsfeier, Sommerfest, Betriebsausflug oder Teambuilding -bei uns sind Sie auf jeden Fall an der richtigen Adresse für ein
-unvergessliches Event!
+          Ob Weihnachtsfeier, Sommerfest, Betriebsausflug oder Teambuilding -bei
+          uns sind Sie auf jeden Fall an der richtigen Adresse für ein
+          unvergessliches Event!
         </p>
       </SecondaryHero>
       <CorporateContact />
@@ -206,7 +207,7 @@ unvergessliches Event!
                 TELEFON
               </span>
               <span className="block text-center text-white text-sm leading-5 pt-[11px]">
-              +41433119906
+                +41 43 311 9906
               </span>
             </div>
           </div>
@@ -230,7 +231,7 @@ unvergessliches Event!
                 E-MAIL
               </span>
               <span className="block text-center text-white text-sm leading-5 pt-[11px]">
-              zurich@sandboxvr.com
+                zurich@sandboxvr.com
               </span>
             </div>
           </div>
@@ -260,7 +261,7 @@ unvergessliches Event!
                   TELEFON
                 </span>
                 <span className="block text-center text-white text-sm leading-5 pt-[11px]">
-                +41433119906
+                  +41 43 311 9906
                 </span>
               </div>
             </div>
@@ -284,7 +285,7 @@ unvergessliches Event!
                   E-MAIL
                 </span>
                 <span className="block text-center text-white text-sm leading-5 pt-[11px]">
-                zurich@sandboxvr.com
+                  zurich@sandboxvr.com
                 </span>
               </div>
             </div>

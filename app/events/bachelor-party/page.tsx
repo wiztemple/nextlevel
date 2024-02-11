@@ -25,11 +25,11 @@ const BachelorParty = () => {
           <p className="pt-[22px] text-[15px] leading-5 text-center sm:px-[160px] px-5 text-white">
             Seid ihr bereit für den Junggesellenabschied (JGA) des Jahrhunderts?
             Möchtet ihr einen Tag erleben, der für immer in eurer Erinnerung
-            bleiben wird? Dann seid ihr hier genau richtig! Greenwich
-            Erlebnisse bietet die perfekte Kombination aus Spaß, Spannung und
-            Teamerlebnis für euren unvergesslichen Tag! Ob als Auftakt,
-            Zwischenstation oder das volle Programm – Euer Besuch bei Greenwich
-            und damit Euer JGA wird auf jeden Fall legendär! 
+            bleiben wird? Dann seid ihr hier genau richtig! Greenwich Erlebnisse
+            bietet die perfekte Kombination aus Spaß, Spannung und Teamerlebnis
+            für euren unvergesslichen Tag! Ob als Auftakt, Zwischenstation oder
+            das volle Programm – Euer Besuch bei Greenwich und damit Euer JGA
+            wird auf jeden Fall legendär! 
           </p>
         </div>
       </Hero>
@@ -122,9 +122,9 @@ const BachelorParty = () => {
         </p>
         <p className="pt-[28px] leading-5 text-[15px] text-white">
           Andrenalin, Panik und sogar ein paar Schreie sind garantiert. Egal, ob
-          Sie und Ihre Truppe in einem unserer Zombie-Abenteuer Deadwood
-          Mansion oder Deadwood Valley gegen eine Horde Zombies antreten oder
-          ob Sie in Amber Sky im Hongkong des Jahres 2088 die Erde gegen eine
+          Sie und Ihre Truppe in einem unserer Zombie-Abenteuer Deadwood Mansion
+          oder Deadwood Valley gegen eine Horde Zombies antreten oder ob Sie in
+          Amber Sky im Hongkong des Jahres 2088 die Erde gegen eine
           Alien-Invasion verteidigen müssen. Wer es etwas weniger panisch
           angehen möchte, für den haben wir mit unserem Piratenabenteuer Davy
           Jones oder Star Trek die richtigen Erlebnisse im Programm. Sie alle
@@ -274,7 +274,7 @@ const BachelorParty = () => {
                 TELEFON
               </span>
               <span className="block text-center text-white text-sm leading-5 pt-[11px]">
-                +41433119906
+                +41 43 311 9906
               </span>
             </div>
           </div>
@@ -328,7 +328,7 @@ const BachelorParty = () => {
                   TELEFON
                 </span>
                 <span className="block text-center text-white text-sm leading-5 pt-[11px]">
-                  +41433119906
+                  +41 43 311 9906
                 </span>
               </div>
             </div>

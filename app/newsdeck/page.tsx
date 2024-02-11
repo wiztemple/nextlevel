@@ -57,10 +57,16 @@ const NewsDeck = () => {
                   <div
                     className={`absolute sm:px-[200px] px-12 transform duration-500`}
                   >
-                    <h1 className="text-center text-white sm:text-[27px] tracking-[4.5px]" data-swiper-parallax="-23%">
+                    <h1
+                      className="text-center text-white sm:text-[27px] tracking-[4.5px]"
+                      data-swiper-parallax="-23%"
+                    >
                       Mit 100.000 Euro zum Greenwich
                     </h1>
-                    <p className="text-white text-xs text-center sm:leading-5 pt-5" data-swiper-parallax="-200">
+                    <p
+                      className="text-white text-xs text-center sm:leading-5 pt-5"
+                      data-swiper-parallax="-200"
+                    >
                       Es soll der erste Standort in Deutschland werden, einer
                       von nur zwei in ganz Europa, inmitten <br /> des kleinen
                       Vogelsbergs – und in Alsfeld wird dafür schon seit Monaten
@@ -79,9 +85,7 @@ const NewsDeck = () => {
               </SliderItem>
             </SwiperSlide>
             <SwiperSlide>
-              <SliderItem
-                className="bg-[url('/sandboxvr-alsfeld.webp')]"
-              >
+              <SliderItem className="bg-[url('/sandboxvr-alsfeld.webp')]">
                 <div className="absolute top-0 bottom-0 left-0 right-0 flex justify-center items-center">
                   <div
                     className={`absolute sm:px-[200px] px-12 transform duration-500`}
@@ -158,8 +162,8 @@ const NewsDeck = () => {
             Ludwigsplatz 1, 36304 Alsfeld
           </p>
           <p className="text-[15px] pt-7">
-          zurich@sandboxvr.com <br />
-          +41433119906
+            zurich@sandboxvr.com <br />
+            +41 43 311 9906
           </p>
         </div>
       </section>

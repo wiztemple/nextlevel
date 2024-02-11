@@ -51,11 +51,13 @@ const ChildrenBirthday = () => {
             SPASS UND ACTION GARANTIERT
           </h1>
           <h2 className="text-center sm:text-[71px] text-[28px] font-medium uppercase tracking-[2.1px] pt-10 sm:leading-[80px] leading-snug text-white">
-          greenwich KINDER-
+            greenwich KINDER-
             <br /> GEBURTSTAGE
           </h2>
           <p className="pt-[22px] text-[15px] leading-5 text-center sm:px-[160px] text-white">
-          Ein Kindergeburtstag bei Greenwich Erlebnisse ist garantiert ein unvergessliches Abenteuer.  unsere Erlebnisse sind das Highlight jedes Kindergeburtstags!
+            Ein Kindergeburtstag bei Greenwich Erlebnisse ist garantiert ein
+            unvergessliches Abenteuer.  unsere Erlebnisse sind das Highlight
+            jedes Kindergeburtstags!
           </p>
         </div>
       </Hero>
@@ -451,7 +453,7 @@ hintereinander. Der komplette Aufenthalt bei"
                 TELEFON
               </span>
               <span className="block text-center text-sm leading-5 pt-[11px] text-white">
-              +41433119906
+                +41 43 311 9906
               </span>
             </div>
           </div>
@@ -475,7 +477,7 @@ hintereinander. Der komplette Aufenthalt bei"
                 E-MAIL
               </span>
               <span className="block text-center text-white text-sm leading-5 pt-[11px]">
-              zurich@sandboxvr.com
+                zurich@sandboxvr.com
               </span>
             </div>
           </div>
@@ -505,7 +507,7 @@ hintereinander. Der komplette Aufenthalt bei"
                   TELEFON
                 </span>
                 <span className="block text-center text-sm leading-5 pt-[11px] text-white">
-                +41433119906
+                  +41 43 311 9906
                 </span>
               </div>
             </div>
@@ -529,7 +531,7 @@ hintereinander. Der komplette Aufenthalt bei"
                   E-MAIL
                 </span>
                 <span className="block text-center text-white text-sm leading-5 pt-[11px]">
-                zurich@sandboxvr.com
+                  zurich@sandboxvr.com
                 </span>
               </div>
             </div>

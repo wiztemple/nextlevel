@@ -131,7 +131,7 @@ const Coorperations = () => {
                     TELEFON
                   </span>
                   <span className="block text-center text-gray-1 text-sm leading-5 pt-[11px]">
-                    (+414) 33119906
+                    +41 43 311 9906
                   </span>
                 </div>
               </div>
