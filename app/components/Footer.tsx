@@ -181,7 +181,7 @@ const Footer = () => {
                       fill="white"
                     />
                   </svg>
-                  <span>+41433119906</span>
+                  <span>+41 43 311 9906</span>
                 </Link>
               </div>
               <div className="flex sm:justify-start justify-center">
@@ -189,7 +189,6 @@ const Footer = () => {
               <div className="pt-3">
                 <Link
                   href="https://sandboxvr.com/zurich/imprint"
-                  target="_blank"
                   className="block text-[15px] sm:text-left text-center font-bold pt-1 text-white"
                 >
                   Impressum
@@ -199,6 +198,12 @@ const Footer = () => {
                   className="block text-[15px] sm:text-left text-center font-bold pt-1 text-white"
                 >
                   Datenschutzerklärung
+                </Link>
+                <Link
+                  href="/terms"
+                  className="block text-[15px] sm:text-left text-center font-bold pt-1 text-white"
+                >
+                  Terms
                 </Link>
               </div>
             </div>
@@ -235,50 +240,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="w-full flex justify-center sm:pt-44 pt-36 pb-20">
-            <div className="flex items-center">
-              <Link
-                href="http://ec.europa.eu/agriculture/index_de.htm"
-                target="_blank"
-                className="block"
-              >
-                <Image
-                  className=""
-                  src="/logos.png"
-                  alt="Sponsor"
-                  width={364}
-                  height={88.8}
-                  priority
-                />
-              </Link>
-              <Link
-                href="http://www.eler.hessen.de/"
-                target="_blank"
-                className="block -ml-1"
-              >
-                <Image
-                  className=""
-                  src="/logos2.png"
-                  alt="Sponsor"
-                  width={328.5}
-                  height={88.8}
-                  priority
-                />
-              </Link>
-              <Link
-                href="https://lasertag-alsfeld.de/das-spiel/"
-                target="_blank"
-                className="block -ml-1"
-              >
-                <Image
-                  className="mt-[1px]"
-                  src="/logos3.jpeg"
-                  alt="Sponsor"
-                  width={195.3}
-                  height={88.8}
-                  priority
-                />
-              </Link>
-            </div>
+           &nbsp;
           </div>
         </div>
       </div>

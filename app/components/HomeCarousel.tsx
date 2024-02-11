@@ -50,7 +50,6 @@ const HomeCarousel = () => {
             <Link
               className="block w-full"
               href="sandboxvr.com/zurich"
-              target="_blank"
             >
               <img
                 src="/ambersky-poster.webp"
@@ -63,7 +62,6 @@ const HomeCarousel = () => {
             <Link
               className="block w-full"
               href="sandboxvr.com/zurich"
-              target="_blank"
             >
               <img
                 src="/deadwoodmansion-poster.webp"
@@ -76,7 +74,6 @@ const HomeCarousel = () => {
             <Link
               className="block w-full"
               href="sandboxvr.com/zurich"
-              target="_blank"
             >
               <img
                 src="/startrek-poster.webp"
@@ -89,7 +86,6 @@ const HomeCarousel = () => {
             <Link
               className="block w-full"
               href="sandboxvr.com/zurich"
-              target="_blank"
             >
               <img
                 src="/ufl-poster.webp"
@@ -102,7 +98,6 @@ const HomeCarousel = () => {
             <Link
               className="block w-full"
               href="sandboxvr.com/zurich"
-              target="_blank"
             >
               <img
                 src="/squidgame-poster.webp"
@@ -115,7 +110,6 @@ const HomeCarousel = () => {
             <Link
               className="block w-full"
               href="sandboxvr.com/zurich"
-              target="_blank"
             >
               <img
                 src="/dragonfire-poster.webp"
@@ -128,7 +122,6 @@ const HomeCarousel = () => {
             <Link
               className="block w-full"
               href="sandboxvr.com/zurich"
-              target="_blank"
             >
               <img
                 src="/deadwoodvalley-poster.webp"
@@ -141,7 +134,6 @@ const HomeCarousel = () => {
         <div className="pt-[45px] pb-24 [180px] flex justify-center">
           <Link
             href="https://sandboxvr.com/zurich/"
-            target="_blank"
             className="transition sm:text-base text-sm w-fit delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110  py-4 sm:px-8 px-5 leading-5 sm:tracking-[7px] rounded-md text-white bg-[#0076FF] border border-[#0076FF]"
           >
             BUCHEN

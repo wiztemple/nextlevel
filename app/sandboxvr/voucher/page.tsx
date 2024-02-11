@@ -166,7 +166,7 @@ const Voucher = () => {
             <div className="flex justify-center sm:pt-0 pt-8">
               <Image
                 className="object-cover"
-                src="/felder-voucher.webp"
+                src="/felder-voucher.png"
                 width={300}
                 height={300}
                 alt="felder voucher"

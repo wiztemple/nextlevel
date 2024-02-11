@@ -55,11 +55,7 @@ const ChildrenBirthday = () => {
             <br /> GEBURTSTAGE
           </h2>
           <p className="pt-[22px] text-[15px] leading-5 text-center sm:px-[160px] text-white">
-            Ein Kindergeburtstag bei greenwich Erlebnisse ist garantiert ein
-            unvergessliches Abenteuer. Egal ob ihr Euch in der Lasertag Arena
-            battelt, virtuelle Welten im Hologate erlebt oder im Escaperoom mal
-            eben kurz die Welt rettet – unsere Erlebnisse sind das Highlight
-            jedes Kindergeburtstags!
+          Ein Kindergeburtstag bei Greenwich Erlebnisse ist garantiert ein unvergessliches Abenteuer.  unsere Erlebnisse sind das Highlight jedes Kindergeburtstags!
           </p>
         </div>
       </Hero>
