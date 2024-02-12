@@ -188,24 +188,19 @@ Möglichkeiten, einen Gutschein zu kaufen:
               </p>
               <ol className="pt-6 list-decimal pl-10">
                 <li className="text-dark-1 leading-5 text-[15px]">
-                Sie kontaktieren uns telefonisch (043 311 9906) und können den
+                Sie kontaktieren uns telefonisch (+41 43 311 9906) und können den
       Gutscheinbetrag in Absprache mit uns per Überweisung bezahlen
                 </li>
                 <li className="text-dark-1 leading-5 text-[15px]">
                 Sie kommen persönlich bei unsin Zürich vorbei und bezahlen vor 
       Ort mit einer EC-Karte.
                 </li>
-                {/* <li className="text-dark-1 leading-5 text-[15px]">
-                  Du kommst persönlich in einer unserer Locations in Alsfeld
-                  oder Wiesbaden vorbei und zahlst vor Ort mit{" "}
-                  <strong>EC-Karte.</strong>
-                </li> */}
               </ol>
             </div>
             <div className="flex justify-center sm:pt-0 pt-5">
               <Image
-                className="object-cover"
-                src="/voucher-paypal.webp"
+                className="object-cover rounded-3xl"
+                src="/voucher-sandbox.png"
                 width={280}
                 height={383}
                 alt="felder voucher"

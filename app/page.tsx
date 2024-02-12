@@ -92,23 +92,18 @@ export default function Home() {
         <div className="grid sm:grid-cols-2">
           <div className="sm:p-[30px]">
             <h1 className="uppercase text-[#57BFC7] sm:text-[22px] text-xl leading-8 pb-5 sm:pt-0 pt-8">
-              Alsfeld (Mittelhessen)
+              Swiss Life Arena
             </h1>
             <p className="text-dark-1 text-[15px] leading-5">
-              Unsere Sandbox VR Location in Alsfeld befindet sich in unserem{" "}
-              <strong>Greenwich Erlebnisse Headquarter.</strong> Im
-              wunderschönen Städtchen Alsfeld in Hessen findet ihr außerdem
-              viele <strong>weitere Greenwich Erlebnisse</strong> und unsere
-              Verwaltung. Direkt an der A5 gelegen, seid ihr schnell aus allen
-              Richtungen bei uns. Wir haben genügend kostenlose Parkplätze
-              direkt auf unserem Gelände.
+              Der Standort ist dank der Anbindung an den öffentlichen Verkehr
+              und die Autobahnausfahrt Zürich-Altstetten (A1) hervorragend
+              erreichbar. Der Bahnhof Altstetten ist in Gehdistanz und die Tram-
+              und Buslinien halten in unmittelbarer Nähe. Weitere Informationen
+              finden Sie hier.
             </p>
             <p className="pt-5 text-[15px] text-dark-1">
-              Adresse für das Navi:{" "}
-              <strong>
-                Swiss Life Arena, West Arkade, Vulkanstrasse 130i, 8048 Zürich,
-                Switzerland
-              </strong>
+            Parkplätze sind am Veranstaltungsort und
+              weitere Parkplätze in der Nähe vorhanden.
             </p>
             <div className="pt-8 w-full">
               <iframe
@@ -124,39 +119,11 @@ export default function Home() {
               </iframe>
             </div>
           </div>
-          {/* <div className="sm:p-[30px]">
-            <h1 className="uppercase text-[#57BFC7] text-[22px] leading-8 pb-5 sm:pt-0 pt-8">
-              Wiesbaden
-            </h1>
-            <p className="text-dark-1 text-[15px] leading-5">
-              Unsere Sandbox VR Location in Wiesbaden befindet sich im{" "}
-              <strong>Lili Shopping Center</strong>. Das Lili ist derekt neben
-              dem Hauptbahnhof, so dass ihr mit Bus & Bahn einfach anreisen
-              könnt. Darüber hinaus verfügt das Lili über eine Tiefgarage, in
-              der ihr zahlreiche kostengünstige Parkplätze findet. Der Weg zu
-              uns ist dann komplett überdacht und nur wenige Meter lang.
-            </p>
-            <p className="pt-[44px] text-[15px] text-dark-1">
-              Adresse für das Navi:{" "}
-              <strong>Bahnhofsplatz 3, 65189 Wiesbaden</strong>
-            </p>
-            <div className="w-full pt-8">
-              <iframe
-                width="100%"
-                height="400"
-                frameBorder="0"
-                scrolling="no"
-                src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Bahnhofsplatz%203,%2065189%20Wiesbaden+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-              >
-                <a href="https://www.maps.ie/population/">Population mapping</a>
-              </iframe>
-            </div>
-          </div> */}
         </div>
       </section>
-      <PressSection />
+      {/* <PressSection /> */}
       <FurtherQuestions />
-      <AdventuresSection />
+      {/* <AdventuresSection /> */}
       <Footer />
     </main>
   );

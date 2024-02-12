@@ -49,7 +49,7 @@ const HomeCarousel = () => {
           <SwiperSlide>
             <Link
               className="block w-full"
-              href="sandboxvr.com/zurich"
+              href="https://sandboxvr.com/zurich"
             >
               <img
                 src="/ambersky-poster.webp"
@@ -61,7 +61,7 @@ const HomeCarousel = () => {
           <SwiperSlide>
             <Link
               className="block w-full"
-              href="sandboxvr.com/zurich"
+              href="https://sandboxvr.com/zurich"
             >
               <img
                 src="/deadwoodmansion-poster.webp"
@@ -73,7 +73,7 @@ const HomeCarousel = () => {
           <SwiperSlide>
             <Link
               className="block w-full"
-              href="sandboxvr.com/zurich"
+              href="https://sandboxvr.com/zurich"
             >
               <img
                 src="/startrek-poster.webp"
@@ -85,7 +85,7 @@ const HomeCarousel = () => {
           <SwiperSlide>
             <Link
               className="block w-full"
-              href="sandboxvr.com/zurich"
+              href="https://sandboxvr.com/zurich"
             >
               <img
                 src="/ufl-poster.webp"
@@ -97,7 +97,7 @@ const HomeCarousel = () => {
           <SwiperSlide>
             <Link
               className="block w-full"
-              href="sandboxvr.com/zurich"
+              href="https://sandboxvr.com/zurich"
             >
               <img
                 src="/squidgame-poster.webp"
@@ -109,7 +109,7 @@ const HomeCarousel = () => {
           <SwiperSlide>
             <Link
               className="block w-full"
-              href="sandboxvr.com/zurich"
+              href="https://sandboxvr.com/zurich"
             >
               <img
                 src="/dragonfire-poster.webp"
@@ -121,7 +121,7 @@ const HomeCarousel = () => {
           <SwiperSlide>
             <Link
               className="block w-full"
-              href="sandboxvr.com/zurich"
+              href="https://sandboxvr.com/zurich"
             >
               <img
                 src="/deadwoodvalley-poster.webp"
