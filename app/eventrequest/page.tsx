@@ -10,7 +10,7 @@ const EventRequest = () => {
       <Hero className="h-[605px] flex justify-center items-center w-screen transition duration-300 ease-in-out bg-[url('/sandboxvr-header.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="pt-64 px-5">
           <h2 className="text-center sm:text-[36px] text-2xl font-medium uppercase tracking-[2.1px] leading-5 sm:pt-10 sm:leading-[80px] text-white">
-          GROUPENEVENTS
+            GROUPENEVENTS
           </h2>
           <p className="pt-[22px] text-[15px] leading-5 text-center sm:px-[160px] text-white">
             Egal ob kleiner Kindergeburtstag oder großer Firmenevent – wir
@@ -23,7 +23,9 @@ const EventRequest = () => {
       </Hero>
       <CorporateContact headerPosition />
       <section className="sm:px-[150px] px-5 pt-[70px] sm:pb-[109px] pb-[100px] bg-black">
-        <h1 className="sm:text-[30px] text-[15px] font-medium uppercase sm:tracking-[10px] sm:leading-8 text-center text-white sm:pb-[60px]">ODER SCHREIBT, RUFT AN UND MAILT UNS DIREKT.</h1>
+        <h1 className="sm:text-[30px] text-[15px] font-medium uppercase sm:tracking-[10px] sm:leading-8 text-center text-white sm:pb-[60px]">
+          ODER SCHREIBT, RUFT AN UND MAILT UNS DIREKT.
+        </h1>
         <div className="sm:grid grid-cols-3 hidden">
           <p className="uppercase leading-6 tracking-[2px] font-medium text-center pt-6 text-white">
             Schreib uns, ruf uns an <br /> oder schick eine Mail. <br /> ✌
@@ -48,7 +50,7 @@ const EventRequest = () => {
                 TELEFON
               </span>
               <span className="block text-center text-white text-sm leading-5 pt-[11px]">
-              (+414) 33119906
+                +41 43 311 9906
               </span>
             </div>
           </div>
@@ -72,7 +74,7 @@ const EventRequest = () => {
                 E-MAIL
               </span>
               <span className="block text-center text-white text-sm leading-5 pt-[11px]">
-              zurich@sandboxvr.com
+                zurich@sandboxvr.com
               </span>
             </div>
           </div>
@@ -81,31 +83,7 @@ const EventRequest = () => {
           <p className="uppercase leading-6 tracking-[2px] font-medium text-center pt-6">
             Schreib uns, ruf uns an <br /> oder schick eine Mail. ✌
           </p>
-          <div className="grid grid-cols-3 pt-8 items-center gap-5">
-            <div className="flex justify-center">
-              <div className="w-full">
-                <div className="flex justify-center">
-                  <svg
-                    width="45"
-                    height="45"
-                    viewBox="0 0 45 45"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M37.3855 7.00977C41.4871 11.1113 44.0262 16.4824 44.0262 22.3418C44.0262 34.2559 34.0652 44.0215 22.0535 44.0215C18.4402 44.0215 14.9246 43.0449 11.702 41.3848L0.276173 44.3145L3.30352 33.084C1.44805 29.8613 0.373829 26.1504 0.373829 22.2441C0.373829 10.3301 10.1395 0.564453 22.0535 0.564453C27.9129 0.564453 33.3816 2.9082 37.3855 7.00977ZM22.0535 40.3105C32.0145 40.3105 40.3152 32.2051 40.3152 22.3418C40.3152 17.459 38.2645 12.9668 34.8465 9.54883C31.4285 6.13086 26.9363 4.27539 22.1512 4.27539C12.1902 4.27539 4.08477 12.3809 4.08477 22.2441C4.08477 25.6621 5.06133 28.9824 6.81914 31.9121L7.30742 32.5957L5.45195 39.2363L12.2879 37.3809L12.8738 37.7715C15.7059 39.4316 18.8309 40.3105 22.0535 40.3105ZM32.0145 26.834C32.5027 27.127 32.8934 27.2246 32.991 27.5176C33.1863 27.7129 33.1863 28.7871 32.698 30.0566C32.2098 31.3262 30.0613 32.498 29.0848 32.5957C27.327 32.8887 25.9598 32.791 22.5418 31.2285C17.073 28.8848 13.5574 23.416 13.2645 23.123C12.9715 22.7324 11.116 20.1934 11.116 17.459C11.116 14.8223 12.4832 13.5527 12.9715 12.9668C13.4598 12.3809 14.0457 12.2832 14.4363 12.2832C14.7293 12.2832 15.1199 12.2832 15.4129 12.2832C15.8035 12.2832 16.1941 12.1855 16.6824 13.2598C17.073 14.334 18.2449 16.9707 18.3426 17.2637C18.4402 17.5566 18.5379 17.8496 18.3426 18.2402C17.366 20.291 16.1941 20.1934 16.7801 21.1699C18.9285 24.7832 20.9793 26.0527 24.202 27.6152C24.6902 27.9082 24.9832 27.8105 25.3738 27.5176C25.6668 27.127 26.741 25.8574 27.034 25.3691C27.4246 24.7832 27.8152 24.8809 28.3035 25.0762C28.7918 25.2715 31.4285 26.541 32.0145 26.834Z"
-                      fill="white"
-                    />
-                  </svg>
-                </div>
-                <span className="block text-center uppercase leading-5 pt-6">
-                  WHATSAPP
-                </span>
-                <span className="block text-center text-white text-sm leading-5 pt-[11px]">
-                  (06631) 7882663
-                </span>
-              </div>
-            </div>
+          <div className="grid grid-cols-2 pt-8 items-center gap-5">
             <div className="flex justify-center">
               <div className="w-full">
                 <div className="flex justify-center">
@@ -126,7 +104,7 @@ const EventRequest = () => {
                   TELEFON
                 </span>
                 <span className="block text-center text-white text-sm leading-5 pt-[11px]">
-                  (06631) 7882664
+                  +41 43 311 9906
                 </span>
               </div>
             </div>
@@ -150,7 +128,7 @@ const EventRequest = () => {
                   E-MAIL
                 </span>
                 <span className="block text-center text-white text-sm leading-5 pt-[11px]">
-                  buchung@nextlevel-erlebnisse.de
+                  zurich@sandboxvr.com
                 </span>
               </div>
             </div>
@@ -162,7 +140,7 @@ const EventRequest = () => {
       </section>
       <Footer />
     </main>
-  )
-}
+  );
+};
 
 export default EventRequest;
