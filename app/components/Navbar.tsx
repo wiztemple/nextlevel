@@ -67,19 +67,19 @@ const Navbar = ({
                     href="/events/children-birthday"
                     className="text-[13px] py-3.5 uppercase px-3 block text-dark-2 border-b border-[#191919]/5"
                   >
-                    {`CHILDREN'S BIRTHDAY`}
+                    KINDERGEBURSTAG
                   </Link>
                   <Link
                     href="/events/bachelor-party"
                     className="py-3 text-[13px] uppercase px-3 block text-dark-2 border-b border-[#191919]/5"
                   >
-                    BACHELOR PARTY
+                    JUNGGESELLENABSCHIED
                   </Link>
                   <Link
                     href="/corporate-events"
                     className="py-3 text-[13px] uppercase px-3 block text-dark-2 border-b border-[#ebebeb]"
                   >
-                    CORPORATE EVENT
+                    FIRMENEVENT
                   </Link>
                   {/* <Link
                     href="/events/clubs-and-groups"
@@ -200,19 +200,19 @@ const Navbar = ({
                 href="/events/children-birthday"
                 className="text-[13px] py-4 uppercase px-3 text-center block bg-white text-dark-2 my-0.5 mx-auto"
               >
-                {`CHILDREN'S BIRTHDAY`}
+                KINDERGEBURSTAG
               </Link>
               <Link
                 href="/events/bachelor-party"
                 className="py-4 text-[13px] text-center uppercase px-3 block bg-white text-dark-2 my-0.5 mx-auto"
               >
-                BACHELOR PARTY
+                JUNGGESELLENABSCHIED
               </Link>
               <Link
                 href="/corporate-events"
                 className="py-4 text-[13px] text-center uppercase px-3 block bg-white text-dark-2 my-0.5 mx-auto"
               >
-                CORPORATE EVENT
+                FIRMENEVENT
               </Link>
               {/* <Link
                 href="/events/clubs-and-groups"

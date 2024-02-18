@@ -49,7 +49,7 @@ const HomeCarousel = () => {
           <SwiperSlide>
             <Link
               className="block w-full"
-              href="https://sandboxvr.com/zurich"
+              href="https://sandboxvr.com/experience/ambersky"
             >
               <img
                 src="/ambersky-poster.webp"
@@ -61,7 +61,7 @@ const HomeCarousel = () => {
           <SwiperSlide>
             <Link
               className="block w-full"
-              href="https://sandboxvr.com/zurich"
+              href="https://sandboxvr.com/experience/ambersky"
             >
               <img
                 src="/deadwoodmansion-poster.webp"
@@ -73,7 +73,7 @@ const HomeCarousel = () => {
           <SwiperSlide>
             <Link
               className="block w-full"
-              href="https://sandboxvr.com/zurich"
+              href="https://sandboxvr.com/experience/ambersky"
             >
               <img
                 src="/startrek-poster.webp"

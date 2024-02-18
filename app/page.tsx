@@ -87,7 +87,7 @@ export default function Home() {
           Unsere Sandbox VR Locations
         </h1>
         <h2 className="tracking-[5px] uppercase sm:text-[54px] text-4xl font-bold sm:leading-[72px] leading-snug text-dark-1 pt-5">
-          Hier findet ihr uns
+          Hier findest du uns
         </h2>
         <div className="grid sm:grid-cols-2">
           <div className="sm:p-[30px]">
@@ -99,7 +99,7 @@ export default function Home() {
               und die Autobahnausfahrt Zürich-Altstetten (A1) hervorragend
               erreichbar. Der Bahnhof Altstetten ist in Gehdistanz und die Tram-
               und Buslinien halten in unmittelbarer Nähe. Weitere Informationen
-              finden Sie hier.
+              findest du hier.
             </p>
             <p className="pt-5 text-[15px] text-dark-1">
             Parkplätze sind am Veranstaltungsort und

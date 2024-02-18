@@ -223,7 +223,7 @@ const Footer = () => {
                 href="/corporate-events"
                 className="block text-[15px] sm:text-right text-center font-bold pt-1 text-white"
               >
-                Firmenevents
+                Firmenevent
               </Link>
               <Link
                 href="/events/children-birthday"
@@ -235,7 +235,7 @@ const Footer = () => {
                 href="/events/bachelor-party"
                 className="block text-[15px] sm:text-right text-center font-bold text-white"
               >
-                Bachelor Party
+                Junggesellenabschied
               </Link>
             </div>
           </div>

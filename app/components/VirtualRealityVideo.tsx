@@ -8,10 +8,10 @@ const VirtualRealityVideo = () => {
         Mehr als nur Virtual Reality
       </h2>
       <p className="leading-5 text-sm font-bold pt-[22px] text-white">
-        Erlebe das beste VR Erlebnis der Welt jetzt auch in Zurich! 
+        Erlebe das beste VR Erlebnis der Welt jetzt auch in Zurich!
       </p>
       <p className="py-[28.8px] sm:text-[15px] text-[13px] leading-5 text-white">
-        In unseren Zurich  und warten filmreife VR Erlebnisse auf Euch. Dank
+        In unseren Standort in Zurich  und warten filmreife VR Erlebnisse auf Euch. Dank
         Motion Capture und High-End Technik könnt ihr Euch kabellos auf dem
         Spielfeld bewegen und in Echtzeit miteinander interagieren.
       </p>

@@ -37,11 +37,11 @@ const Voucher = () => {
             </h2>
             <p className="text-white pt-[22px] leading-5 text-[15px]">
               Für unsere Sandbox VR Erlebnisse kannst du einen digitalen
-              Gutschein  kaufen und verschenken. Heißt: Du kaufst ein Guthaben,
+              Gutschein  kaufen und verschenken. Heisst: Du kaufst ein Guthaben,
               das du bei der Buchung einfach als Zahlungsmethode auswählen und
               den Gutschein Code als Bezahlung eingeben kannst. So kann sich der
               Beschenkte sein VR Erlebnis selbst aussuchen und das Erlebnis
-              selbst terminieren. 
+              selbst terminieren.
             </p>
           </div>
         </div>
@@ -58,7 +58,7 @@ const Voucher = () => {
             <div className="">
               <p className="text-white text-[15px] leading-5">
                 Ein Sandbox-VR-Erlebnis kostet je nach Gruppengrösse zwischen
-                CHF 50 und CHF 70 pro Person. Für grössere Gruppen ist der Preis
+                CHF 55 und CHF 70 pro Person. Für grössere Gruppen ist der Preis
                 pro Person günstiger als für kleine Gruppen. Um Ihnen die
                 Entscheidung zu erleichtern, welchen Gutscheinwert Sie
                 verschenken möchten, finden Sie hier eine Übersicht über die
@@ -67,11 +67,11 @@ const Voucher = () => {
               <p className="text-white text-[15px] sm:pt-12 pt-10 left-5">
                 <strong>
                   Generell empfehlen wir einen Gutscheinwert von mindestens CHF
-                  50 pro Person.
+                  55 pro Person.
                 </strong>
-                . Ein Beispiel: Wenn Sie die Sandbox VR an eine 4-köpfige
+                Ein Beispiel: Wenn Sie die Sandbox VR an eine 4-köpfige
                 Familie verschenken möchten, sollten Sie einen Gutschein im Wert
-                von CHF200 kaufen.
+                von CHF220 kaufen.
               </p>
               <p className="text-white text-[15px] pt-7 leading-5">
                 Sollte der Preis für die konkrete Buchung etwas höher oder
@@ -99,11 +99,11 @@ const Voucher = () => {
             Gutschein online kaufen
           </h2>
           <p className="pt-5 text-dark-1 leading-5 text-base font-normal">
-            Sie können den Sandbox VR-Gutschein nur online in unserem
-            Buchungssystem kaufen. Um mögliche Fehler beim Kauf von Gutscheinen
-            zu vermeiden, lesen Sie sich am besten zuerstalle Schritte in
-            unserem Leitfaden durch und klicken dann aufden Button zum Kauf der
-            Gutscheine.
+            Du kannst den Sandbox VR-Gutschein nur online in unserem Buchungssystem kaufen.
+            Um mögliche Fehler beim Kauf der Gutscheinen
+            zu vermeiden, ist es am besten, zuerst alle Schritte in
+            unserem Leitfaden durchzulesen und dann auf die Schaltflache zum Kauf der
+            Gutscheine zu klicken.
           </p>
           <div className="flex justify-center pt-10">
             <Link
@@ -122,9 +122,9 @@ const Voucher = () => {
               Nachdem du auf den Button geklickt hast, musst du den Standort
               auswählen, für den du den Sandbox VR Gutschein kaufen willst. Die
               Gutscheine sind immer nur für den Standort gültig, für den Du sie
-              gekauft hast. Gültig sind sie für 3 Jahre. Um Deinen
-              Wunschstandort auszuwählen musst du e
-              <strong>Standort auswählen </strong>
+              gekauft hast. Um Deinen
+              Wunschstandort auszuwählen musst du
+              <strong> Standort auswählen </strong>
               klicken und <strong>bestätigen!</strong>.
             </p>
           </div>
@@ -133,11 +133,11 @@ const Voucher = () => {
               Schritt 2: <span className="font-bold">Gutscheinwert</span>
             </h1>
             <p className="pt-6 text-dark-1 text-[15px] leading-5">
-              Nun können Sie den Gutschein mit dem entsprechenden Betrag
-              auswählen. Es gibt Gutscheine im Wert von 50, 100 und200 CHF. Sie
-              wissen nicht genau, wie viel Sie am besten verschenken sollen?
-              Dann werfen Sie noch einmal einen Blick auf unsere Tabelle oben.
-              Wenn ja, klicken Sie auf das Bild zum Auswählen und dann unten auf
+              Nun kannst du den Gutschein mit dem entsprechenden Betrag
+              auswählen. Es gibt Gutscheine mit einem Wert von 50, 100 und 200 CHF. Du bist
+              dir nicht sicher, wie viel du verschenken sollst?
+              Dann wirf Sie noch einmal einen Blick auf unsere Tabelle oben.
+              Wenn ja, klicke auf das Bild zum Auswählen und dann unten auf
               Weiter.
             </p>
           </div>
@@ -159,8 +159,7 @@ const Voucher = () => {
                 Adresse angeben. So bekommt der andere nichts mit von der Sache.
               </p>
               <p className="pt-6 text-dark-1 text-[15px] leading-5">
-                Wenn Du alle Daten ausgefüllt hast, klickst Du unten rechts auf
-                <strong>Checkout</strong>.
+                Wenn Du alle Daten ausgefüllt hast, klickst Du unten rechts auf Zur Kasse gehen.
               </p>
             </div>
             <div className="flex justify-center sm:pt-0 pt-8">
@@ -179,21 +178,21 @@ const Voucher = () => {
                 Schritt 4: <span className="font-bold">DIE BEZAHLUNG</span>
               </h1>
               <p className="pt-6 text-dark-1 text-[15px] leading-5">
-              Nun können Sie den Gutschein bezahlen - am schnellsten und
-einfachsten geht das mit einer Kreditkarte oder TWINT
+                Nun kannst du den Gutschein bezahlen - am schnellsten und
+                einfachsten geht das mit einer Kreditkarte oder TWINT
               </p>
               <p className="pt-6 text-dark-1 text-[15px] leading-5">
-              Wenn Sie keine Kreditkarte haben, haben Sie folgende weitere
-Möglichkeiten, einen Gutschein zu kaufen:
+                Wenn du keine Kreditkarte hast, hast du die folgende anderen
+                Möglichkeiten, einen Gutschein zu kaufen:
               </p>
               <ol className="pt-6 list-decimal pl-10">
                 <li className="text-dark-1 leading-5 text-[15px]">
-                Sie kontaktieren uns telefonisch (+41 43 311 9906) und können den
-      Gutscheinbetrag in Absprache mit uns per Überweisung bezahlen
+                  Du kannst uns telefonisch kontaktieren (+41 43 311 9906) und den
+                  Gutscheinbetrag in Absprache mit uns per Überweisung bezahlen
                 </li>
                 <li className="text-dark-1 leading-5 text-[15px]">
-                Sie kommen persönlich bei unsin Zürich vorbei und bezahlen vor 
-      Ort mit einer EC-Karte.
+                  Du kommst persönlich zu uns nach Zürich vorbei und bezahlen vor
+                  Ort mit einer EC-Karte.
                 </li>
               </ol>
             </div>

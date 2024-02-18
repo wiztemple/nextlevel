@@ -11,12 +11,12 @@ const FactsSection = () => {
           FACTS
         </h2>
         <p className="text-dark-1 leading-5 pb-[29px]">
-          Sie möchten ein VR-Experience buchen? Dann haben wir hier einige
+          Du möchtest ein VR-Experience buchen? Dann haben wir hier einige
           Informationen vorab -
         </p>
         <ul className="text-dark-1 list-disc pl-[35px]">
           <li>
-            <strong>das komplette VR Experience dauert eine Stunde!</strong>{" "}
+            <strong>das komplette VR Erfahrung dauert eine Stunde!</strong>{" "}
             (Reine Spielzeit mit Tutorial: 40 Minuten)
           </li>
           <li>
@@ -24,7 +24,7 @@ const FactsSection = () => {
           </li>
           <li>
             Die maximale Spieleranzahl pro Experience und Holodeck sind{" "}
-            <strong>6 Spieler gleichzeitig</strong>. Größere Gruppen können
+            <strong>6 Spieler gleichzeitig</strong>. Grössere Gruppen können
             parallel in mehreren Holodecks spielen.
           </li>
           <li>Wir haben vier Holodecks in Zürich</li>

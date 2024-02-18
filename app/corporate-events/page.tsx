@@ -21,7 +21,7 @@ const CorporateEvents = () => {
             Firmenevents
           </h2>
           <p className="pt-[22px] sm:text-[15px] text-sm leading-5 text-center sm:px-[160px] text-white">
-            Erfolgreiche Firmenevents sind für dein Unternehmen von großer
+            Erfolgreiche Firmenevents sind für dein Unternehmen von grosser
             Bedeutung, denn sie fördern nicht nur das Zusammengehörigkeitsgefühl
             und die Motivation deiner Mitarbeiterinnen und Mitarbeiter, sondern
             stärken auch das Image deines Unternehmens. 
@@ -90,7 +90,7 @@ unvergessliches Event!
           WEIL'S UNVERGESSLICH WIRD
         </h2>
         <p className="pt-[22px] text-white sm:text-base text-sm">
-          Ein gut geplantes und durchgeführtes Event kann das Vertrauen in Ihre
+          Ein gut geplanter und durchgeführter Event kann das Vertrauen in Ihre
           Marke und Ihr Unternehmen stärken und Sie als attraktiven Arbeitgeber
           positionieren. Investieren Sie in erfolgreiche Firmenevents und zeigen
           Sie Ihren Mitarbeitern und Kunden, dass Sie ein Unternehmen sind, dem
@@ -100,7 +100,7 @@ unvergessliches Event!
         <p className="text-white pt-12 block sm:text-base text-sm">
           Ob Weihnachtsfeier, Sommerfest, Betriebsausflug oder Teambuilding -bei
           uns sind Sie auf jeden Fall an der richtigen Adresse für ein
-          unvergessliches Event!
+          unvergesslichen Event!
         </p>
       </SecondaryHero>
       <CorporateContact />
