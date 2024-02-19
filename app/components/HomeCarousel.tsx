@@ -61,7 +61,7 @@ const HomeCarousel = () => {
           <SwiperSlide>
             <Link
               className="block w-full"
-              href="https://sandboxvr.com/experience/ambersky"
+              href="https://sandboxvr.com/experience/deadwood"
             >
               <img
                 src="/deadwoodmansion-poster.webp"
@@ -73,7 +73,7 @@ const HomeCarousel = () => {
           <SwiperSlide>
             <Link
               className="block w-full"
-              href="https://sandboxvr.com/experience/ambersky"
+              href="https://sandboxvr.com/experience/startrek"
             >
               <img
                 src="/startrek-poster.webp"
@@ -85,7 +85,7 @@ const HomeCarousel = () => {
           <SwiperSlide>
             <Link
               className="block w-full"
-              href="https://sandboxvr.com/zurich"
+              href="https://sandboxvr.com/experience/ufl"
             >
               <img
                 src="/ufl-poster.webp"
@@ -97,7 +97,7 @@ const HomeCarousel = () => {
           <SwiperSlide>
             <Link
               className="block w-full"
-              href="https://sandboxvr.com/zurich"
+              href="https://sandboxvr.com/experience/squidgame"
             >
               <img
                 src="/squidgame-poster.webp"
@@ -109,7 +109,7 @@ const HomeCarousel = () => {
           <SwiperSlide>
             <Link
               className="block w-full"
-              href="https://sandboxvr.com/zurich"
+              href="https://sandboxvr.com/experience/dragonfire"
             >
               <img
                 src="/dragonfire-poster.webp"
@@ -121,7 +121,19 @@ const HomeCarousel = () => {
           <SwiperSlide>
             <Link
               className="block w-full"
-              href="https://sandboxvr.com/zurich"
+              href="https://sandboxvr.com/experience/davyjones"
+            >
+              <img
+                src="/curse.png"
+                className="h-[420px] object-cover w-full"
+                alt="Slider Image"
+              />
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Link
+              className="block w-full"
+              href="https://sandboxvr.com/experience/deadwoodvalley"
             >
               <img
                 src="/deadwoodvalley-poster.webp"
