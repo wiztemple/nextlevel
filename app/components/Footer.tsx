@@ -12,7 +12,6 @@ const Footer = () => {
             <div className="flex sm:gap-8 gap-4 pt-3">
               <Link
                 href="https://www.instagram.com/sandboxvr_ch"
-                target="_blank"
               >
                 <svg
                   width="29"
@@ -27,7 +26,7 @@ const Footer = () => {
                   />
                 </svg>
               </Link>
-              <Link href="www.facebook.com/sandboxvrswitzerland" target="_blank">
+              <Link href="https://www.facebook.com/sandboxvrswitzerland">
                 <svg
                   width="29"
                   height="29"
@@ -114,7 +113,7 @@ const Footer = () => {
                   />
                 </svg>
               </Link> */}
-              <Link href="/https://www.linkedin.com/company/sandbox-vr-ch-at" target="_blank">
+              <Link href="https://www.linkedin.com/company/sandbox-vr-ch-at">
                 <svg
                   width="36"
                   height="35"
