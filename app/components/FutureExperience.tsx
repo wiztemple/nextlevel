@@ -23,7 +23,6 @@ const FutureExperience = () => {
       <div className="sm:pt-[94px] pt-[200px] sm:block flex justify-center">
         <Link
           href="https://sandboxvr.com/zurich/"
-          target="_blank"
           className="transition sm:text-base text-sm w-fit delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:-translate-x-1 hover:scale-110 sm:py-5 py-4 sm:px-10 px-5 leading-5 sm:tracking-[7px] rounded-md text-white bg-[#0076FF] border border-[#0076FF]"
         >
           JETZT BUCHEN
