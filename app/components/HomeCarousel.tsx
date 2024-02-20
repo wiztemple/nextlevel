@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import Link from "next/link";
 
 const HomeCarousel = () => {
@@ -22,10 +22,12 @@ const HomeCarousel = () => {
       </div>
       <div className="bg-white pt-10 slick-mode2 px-5">
         <Swiper
-          modules={[Navigation, Pagination]}
+          modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={10}
-          // slidesPerView={4}
-          // centeredSlides={true}
+          autoplay={{
+            delay: 1500,
+            disableOnInteraction: false,
+          }}
           loop={true}
           pagination={{
             clickable: true,
